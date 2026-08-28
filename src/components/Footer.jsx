@@ -7,6 +7,7 @@ export const Footer = ({ setActivePage }) => {
   const quickLinks = [
     { id: "home", label: "Home" },
     { id: "quick-order", label: "Price List & Estimate Maker" },
+    { id: "gift-boxes", label: "Gift Boxes & Diwali Combos" },
     { id: "products", label: "Sivakasi Products Catalog" },
     { id: "safety-tips", label: "Fireworks Safety Guidelines" },
     { id: "about", label: "About Muthu Mari Fireworks" },

@@ -458,7 +458,7 @@ export const QuickOrderPage = () => {
 
                 <input
                   type="tel"
-                  placeholder="Phone / WhatsApp (e.g. 994572004)"
+                  placeholder="Phone / WhatsApp (e.g. 9787010042)"
                   value={customerInfo.phone}
                   onChange={(e) => setCustomerInfo({ ...customerInfo, phone: e.target.value })}
                   style={{

@@ -4,10 +4,10 @@ export const COMPANY_INFO = {
   brandName: "Muthu Mari Fireworks",
   tagline: "Direct from Sivakasi Factory - Safe, Certified & Supreme Quality Fireworks",
   sisterBrand: "Sivakasi Direct",
-  phone: "+91 994572004",
-  phoneDisplay: "994572004",
+  phone: "+91 97870 10042",
+  phoneDisplay: "9787010042",
   alternatePhones: ["97870 10042", "90806 70853"],
-  whatsappNumber: "91994572004",
+  whatsappNumber: "919787010042",
   email: "muthumarifireworks@gmail.com",
   instagramUrl: "https://www.instagram.com/muthumari_crackers_sivakasi?igsi=dWtvMXNxaXV1ODk=",
   instagramHandle: "@muthumari_crackers_sivakasi",
@@ -20,6 +20,7 @@ export const COMPANY_INFO = {
 };
 
 export const CATEGORIES = [
+  { id: "gift-boxes", name: "Gift Boxes & Combos", icon: "Gift", desc: "Special Diwali festive hampers & family combo boxes" },
   { id: "all", name: "All Products (1 to 185)", icon: "Sparkles", desc: "Complete official price list in exact order" },
   { id: "sound-crackers", name: "Sound Crackers & Bombs", icon: "Volume2", desc: "Lakshmi, Kuruvi, Paper Bombs, Jallikattu & Bijili" },
   { id: "garlands", name: "Garland Crackers (Lar)", icon: "Layers", desc: "24 Mega, 100 to 10K Wala Box Garlands" },
@@ -39,7 +40,7 @@ export const PRODUCTS = [
     "pieces": "5 PCS / 1Pkt",
     "originalPrice": 80,
     "discountPrice": 12,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/images/3½ LAKSHMI.jpeg",
     "desc": "3½ LAKSHMI - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -49,7 +50,7 @@ export const PRODUCTS = [
     "pieces": "5 PCS / 1Pkt",
     "originalPrice": 100,
     "discountPrice": 15,
-    "image": "/images/supreme_lakshmi.jpg",
+    "image": "/images/4 inch LAKSHMI.jpeg",
     "desc": "4inch LAKSHMI - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -59,7 +60,7 @@ export const PRODUCTS = [
     "pieces": "5 PCS / 1Pkt",
     "originalPrice": 180,
     "discountPrice": 27,
-    "image": "/images/supreme_lakshmi.jpg",
+    "image": "/images/4 inch GOLD LAKSHMI.jpeg",
     "desc": "4inch GOLD LAKSHMI - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -69,7 +70,7 @@ export const PRODUCTS = [
     "pieces": "5 PCS / 1Pkt",
     "originalPrice": 260,
     "discountPrice": 39,
-    "image": "/images/hero.jpg",
+    "image": "/images/5 inch JALLIKATTU.jpeg",
     "desc": "5inch JALLIKATTU - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -79,7 +80,7 @@ export const PRODUCTS = [
     "pieces": "5 PCS / 1Pkt",
     "originalPrice": 490,
     "discountPrice": 73.5,
-    "image": "/images/supreme_lakshmi.jpg",
+    "image": "/images/6 inch KUMKI.jpeg",
     "desc": "6 inch KUMKI - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -109,7 +110,7 @@ export const PRODUCTS = [
     "pieces": "5 PCS / 1Pkt",
     "originalPrice": 70,
     "discountPrice": 10.5,
-    "image": "/images/hero.jpg",
+    "image": "/images/2¾ KURUVI.jpeg",
     "desc": "2 ¾ KURUVI - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -119,7 +120,7 @@ export const PRODUCTS = [
     "pieces": "5 PCS / 1Pkt",
     "originalPrice": 200,
     "discountPrice": 30,
-    "image": "/images/hero.jpg",
+    "image": "/images/TWOSOUNDCRACKERS.jpeg",
     "desc": "TWO SOUND CRACKERS - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -329,7 +330,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 460,
     "discountPrice": 69,
-    "image": "/images/flower-pots.jpg",
+    "image": "/images/FLOWERPOTBIG.jpeg",
     "desc": "FLOWER POT BIG - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -339,7 +340,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 620,
     "discountPrice": 93,
-    "image": "/images/flower-pots.jpg",
+    "image": "/images/FLOWERPOTSPECIAL.jpeg",
     "desc": "FLOWER POT SPECIAL - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -359,7 +360,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 1250,
     "discountPrice": 187.5,
-    "image": "/images/flower-pots.jpg",
+    "image": "/images/COLORKOTI.jpeg",
     "desc": "COLOR KOTI - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -369,7 +370,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 0,
     "discountPrice": 0,
-    "image": "/images/flower-pots.jpg",
+    "image": "/images/COLORKOTIDELUXE.jpeg",
     "desc": "COLOR KOTI DELUXE - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -379,7 +380,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 0,
     "discountPrice": 0,
-    "image": "/images/flower-pots.jpg",
+    "image": "/images/FlowerPot Super Deluxe (Jumbo).jpeg",
     "desc": "Flower Pot Super Deluxe ( Jumbo ) - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -389,7 +390,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 240,
     "discountPrice": 36,
-    "image": "/images/chakkars.jpg",
+    "image": "/images/GROUNDCHAKKARABIG10'S 1.jpeg",
     "desc": "GROUND CHAKKARA BIG 10'S - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -399,7 +400,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 350,
     "discountPrice": 52.5,
-    "image": "/images/chakkars.jpg",
+    "image": "/images/GROUNDCHAKKARAASHOKA 1.jpeg",
     "desc": "GROUND CHAKKARA ASHOKA - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -409,7 +410,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 500,
     "discountPrice": 75,
-    "image": "/images/chakkars.jpg",
+    "image": "/images/GROUND CHAKKARA SPECIAL 1.jpeg",
     "desc": "GROUND CHAKKARA SPECIAL - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -419,7 +420,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 850,
     "discountPrice": 127.5,
-    "image": "/images/chakkars.jpg",
+    "image": "/images/GROUND CHAKKARA DELUXE 10.jpeg",
     "desc": "GROUND CHAKKARA DELUXE - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -429,7 +430,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 0,
     "discountPrice": 0,
-    "image": "/images/hero.jpg",
+    "image": "/images/Spinner level.jpeg",
     "desc": "Spinner level - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -439,7 +440,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 450,
     "discountPrice": 67.5,
-    "image": "/images/hero.jpg",
+    "image": "/images/HYDRO BOMB.jpeg",
     "desc": "HYDRO BOMB - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -449,7 +450,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 500,
     "discountPrice": 75,
-    "image": "/images/hero.jpg",
+    "image": "/images/KING OF KING GREEN 1.jpeg",
     "desc": "KING OF KING GREEN - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -459,7 +460,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 650,
     "discountPrice": 97.5,
-    "image": "/images/hero.jpg",
+    "image": "/images/CLASSIC BOMB GREEN 1.jpeg",
     "desc": "CLASSIC BOMB GREEN - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -469,7 +470,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 1850,
     "discountPrice": 277.5,
-    "image": "/images/hero.jpg",
+    "image": "/images/DIGITAL BOMB 12PLY.jpeg",
     "desc": "DIGITAL BOMB 12 PLY - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -479,7 +480,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 2000,
     "discountPrice": 300,
-    "image": "/images/hero.jpg",
+    "image": "/images/KingRider.jpeg",
     "desc": "King Rider - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -489,7 +490,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 130,
     "discountPrice": 19.5,
-    "image": "/images/hero.jpg",
+    "image": "/images/1½ TWINKLING STAR (2).jpeg",
     "desc": "1½ TWINKLING STAR - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -499,7 +500,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 400,
     "discountPrice": 60,
-    "image": "/images/hero.jpg",
+    "image": "/images/4 TWINKLING STAR.jpeg",
     "desc": "4 TWINKLING STAR - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -509,7 +510,7 @@ export const PRODUCTS = [
     "pieces": "3 PCS / 1Pkt",
     "originalPrice": 1170,
     "discountPrice": 176,
-    "image": "/images/flower-pots.jpg",
+    "image": "/images/LAVA Shower 3in13inch.jpeg",
     "desc": "LAVA Shower 3in1 3inch - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -519,7 +520,7 @@ export const PRODUCTS = [
     "pieces": "1Pkt",
     "originalPrice": 1000,
     "discountPrice": 150,
-    "image": "/images/hero.jpg",
+    "image": "/images/Magic Sound 1BOX.jpeg",
     "desc": "Magic Sound 1 BOX - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -549,7 +550,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 500,
     "discountPrice": 75,
-    "image": "/images/sky-shots.jpg",
+    "image": "/images/COLOUR ROCKET.jpeg",
     "desc": "COLOUR ROCKET - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -589,7 +590,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 1000,
     "discountPrice": 150,
-    "image": "/images/sky-shots.jpg",
+    "image": "/images/WHISTLING ROCKET (10PCS).jpeg",
     "desc": "WHISTLING ROCKET (10PCS) - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -599,7 +600,7 @@ export const PRODUCTS = [
     "pieces": "1Pkt",
     "originalPrice": 1200,
     "discountPrice": 180,
-    "image": "/images/hero.jpg",
+    "image": "/images/Water melonstar 1 BOX.jpeg",
     "desc": "watermelon star 1 BOX - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -609,7 +610,7 @@ export const PRODUCTS = [
     "pieces": "3 PCS / 1Pkt",
     "originalPrice": 1750,
     "discountPrice": 262.5,
-    "image": "/images/hero.jpg",
+    "image": "/images/KULFI.jpeg",
     "desc": "KULFI - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -619,7 +620,7 @@ export const PRODUCTS = [
     "pieces": "2 PCS / 1Pkt",
     "originalPrice": 1550,
     "discountPrice": 232.5,
-    "image": "/images/hero.jpg",
+    "image": "/images/CylinderBomb.jpeg",
     "desc": "Cylinder Bomb - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -629,7 +630,7 @@ export const PRODUCTS = [
     "pieces": "5 PCS / 1Pkt",
     "originalPrice": 0,
     "discountPrice": 0,
-    "image": "/images/hero.jpg",
+    "image": "/images/Sky Colour 5Pcs (2).jpeg",
     "desc": "Sky Colour 5Pcs - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -639,7 +640,7 @@ export const PRODUCTS = [
     "pieces": "2 PCS / 1Pkt",
     "originalPrice": 1270,
     "discountPrice": 190.5,
-    "image": "/images/hero.jpg",
+    "image": "/images/Maxy Pencil.jpeg",
     "desc": "Maxy Pencil - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -649,7 +650,7 @@ export const PRODUCTS = [
     "pieces": "5 PCS / 1Pkt",
     "originalPrice": 1500,
     "discountPrice": 225,
-    "image": "/images/flower-pots.jpg",
+    "image": "/images/CUTE 5 COLOUR FOUNTAIN 3 inch 5.jpeg",
     "desc": "CUTE 5 COLOUR FOUNTAIN 3inch - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -659,7 +660,7 @@ export const PRODUCTS = [
     "pieces": "5 PCS / 1Pkt",
     "originalPrice": 1900,
     "discountPrice": 285,
-    "image": "/images/flower-pots.jpg",
+    "image": "/images/TRICOLOUR FOUNTAIN 4 INCH.jpeg",
     "desc": "TRI COLOUR FOUNTAIN 4 INCH - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -679,7 +680,7 @@ export const PRODUCTS = [
     "pieces": "5 PCS / 1Pkt",
     "originalPrice": 0,
     "discountPrice": 0,
-    "image": "/images/hero.jpg",
+    "image": "/images/SIREN CANDEL.jpeg",
     "desc": "MINI SIREN (5 PCS) - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -689,7 +690,7 @@ export const PRODUCTS = [
     "pieces": "1 PCS / 1Pkt",
     "originalPrice": 500,
     "discountPrice": 75,
-    "image": "/images/hero.jpg",
+    "image": "/images/SIREN CANDEL.jpeg",
     "desc": "SIREN CANDEL - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -709,7 +710,7 @@ export const PRODUCTS = [
     "pieces": "1 PCS / 1Pkt",
     "originalPrice": 1250,
     "discountPrice": 187.5,
-    "image": "/images/hero.jpg",
+    "image": "/images/1000 WATTS.jpeg",
     "desc": "1000 WATTS - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -749,7 +750,7 @@ export const PRODUCTS = [
     "pieces": "5 PCS / 1Pkt",
     "originalPrice": 870,
     "discountPrice": 130.5,
-    "image": "/images/chakkars.jpg",
+    "image": "/images/Whistling Wheel.jpeg",
     "desc": "Whistling Wheel - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -759,7 +760,7 @@ export const PRODUCTS = [
     "pieces": "5 PCS / 1Pkt",
     "originalPrice": 0,
     "discountPrice": 0,
-    "image": "/images/hero.jpg",
+    "image": "/images/TRI COLOUR FLASH.jpeg",
     "desc": "TRICOLOUR FLASH - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -769,7 +770,7 @@ export const PRODUCTS = [
     "pieces": "1 TIN / 1Pkt",
     "originalPrice": 1140,
     "discountPrice": 171,
-    "image": "/images/flower-pots.jpg",
+    "image": "/images/Tin Shower 8 INCH.jpeg",
     "desc": "Tin Shower 8 INCH - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -779,7 +780,7 @@ export const PRODUCTS = [
     "pieces": "1Pkt",
     "originalPrice": 2150,
     "discountPrice": 322.5,
-    "image": "/images/flower-pots.jpg",
+    "image": "/images/KungFuShower 5PCS 4 INCH 5BOX.jpeg",
     "desc": "Kung Fu Shower 5 PCS 4INCH 5 BOX - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -789,7 +790,7 @@ export const PRODUCTS = [
     "pieces": "1Pkt",
     "originalPrice": 1200,
     "discountPrice": 180,
-    "image": "/images/flower-pots.jpg",
+    "image": "/images/ROBOAT kids Shower 2¼ 5 IN1 5 BOX.jpeg",
     "desc": "ROBOAT kids Shower 2¼ 5 IN 1 5 BOX - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -799,7 +800,7 @@ export const PRODUCTS = [
     "pieces": "3 TIN / 1Pkt",
     "originalPrice": 0,
     "discountPrice": 0,
-    "image": "/images/hero.jpg",
+    "image": "/images/Party Night.jpeg",
     "desc": "Party Night - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -809,7 +810,7 @@ export const PRODUCTS = [
     "pieces": "1 TIN / 1Pkt",
     "originalPrice": 1320,
     "discountPrice": 198,
-    "image": "/images/hero.jpg",
+    "image": "/images/WATER QUEEN TIN 6 INCH.jpeg",
     "desc": "WATER QUEEN TIN6INCH - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -839,7 +840,7 @@ export const PRODUCTS = [
     "pieces": "5 PCS / 1Pkt",
     "originalPrice": 1560,
     "discountPrice": 234,
-    "image": "/images/hero.jpg",
+    "image": "/images/TOP GUN.jpeg",
     "desc": "TOP GUN - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -849,7 +850,7 @@ export const PRODUCTS = [
     "pieces": "5 PCS / 1Pkt",
     "originalPrice": 700,
     "discountPrice": 105,
-    "image": "/images/hero.jpg",
+    "image": "/images/SELFI STICK.jpeg",
     "desc": "SELFI STICK - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -879,7 +880,7 @@ export const PRODUCTS = [
     "pieces": "5 PCS / 1Pkt",
     "originalPrice": 1560,
     "discountPrice": 234,
-    "image": "/images/hero.jpg",
+    "image": "/images/LOLLIPOP STICK 5PCS.jpeg",
     "desc": "LOLLIPOP STICK 5PCS - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -889,7 +890,7 @@ export const PRODUCTS = [
     "pieces": "5 PCS / 1Pkt",
     "originalPrice": 550,
     "discountPrice": 82.5,
-    "image": "/images/sky-shots.jpg",
+    "image": "/images/7 ShotMulti COLOUR.jpeg",
     "desc": "7 Shot Multi COLOUR - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -909,7 +910,7 @@ export const PRODUCTS = [
     "pieces": "5 PCS / 1Pkt",
     "originalPrice": 600,
     "discountPrice": 90,
-    "image": "/images/flower-pots.jpg",
+    "image": "/images/5 in 1 Shower.jpeg",
     "desc": "5 in 1 Shower 2 1/4inch - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -919,7 +920,7 @@ export const PRODUCTS = [
     "pieces": "1Pkt",
     "originalPrice": 1170,
     "discountPrice": 175.5,
-    "image": "/images/hero.jpg",
+    "image": "/images/PEACOCK SMALL 1 BOX.jpeg",
     "desc": "PEACOCK SMALL 1 BOX - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -929,7 +930,7 @@ export const PRODUCTS = [
     "pieces": "1Pkt",
     "originalPrice": 0,
     "discountPrice": 0,
-    "image": "/images/hero.jpg",
+    "image": "/images/PEACOCK BIG 1BOX.jpeg",
     "desc": "PEACOCK BIG 1 BOX - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -939,7 +940,7 @@ export const PRODUCTS = [
     "pieces": "1Pkt",
     "originalPrice": 0,
     "discountPrice": 0,
-    "image": "/images/hero.jpg",
+    "image": "/images/PEACOCK BADA 1 BOX.jpeg",
     "desc": "PEACOCK BADA 1 BOX - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -949,7 +950,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 0,
     "discountPrice": 0,
-    "image": "/images/chakkars.jpg",
+    "image": "/images/WIRE CHAKKAR (2).jpeg",
     "desc": "WIRE CHAKKAR - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -969,7 +970,7 @@ export const PRODUCTS = [
     "pieces": "2 PCS / 1Pkt",
     "originalPrice": 1150,
     "discountPrice": 172.5,
-    "image": "/images/hero.jpg",
+    "image": "/images/MAGIC SHOW.jpeg",
     "desc": "MAGIC SHOW - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -979,7 +980,7 @@ export const PRODUCTS = [
     "pieces": "5 PCS / 1Pkt",
     "originalPrice": 0,
     "discountPrice": 0,
-    "image": "/images/hero.jpg",
+    "image": "/images/Sky Colour 5Pcs (2).jpeg",
     "desc": "SKY COLOUR 5PCS - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -1109,7 +1110,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 100,
     "discountPrice": 15,
-    "image": "/images/sparklers.jpg",
+    "image": "/images/10CM ELECTRIC SPARKLERS.jpeg",
     "desc": "10 CM ELECTRIC SPARKLERS - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -1119,7 +1120,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 110,
     "discountPrice": 16.5,
-    "image": "/images/sparklers.jpg",
+    "image": "/images/10CM COLOR SPARKLERS.jpeg",
     "desc": "10 CM COLOR SPARKLERS - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -1129,7 +1130,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 120,
     "discountPrice": 18,
-    "image": "/images/sparklers.jpg",
+    "image": "/images/10CM GREEN SPARKLERS.jpeg",
     "desc": "10 CM GREEN SPARKLERS - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -1139,7 +1140,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 150,
     "discountPrice": 22.5,
-    "image": "/images/sparklers.jpg",
+    "image": "/images/10CM RED SPARKLERS.jpeg",
     "desc": "10 CM RED SPARKLERS - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -1149,7 +1150,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 160,
     "discountPrice": 24,
-    "image": "/images/sparklers.jpg",
+    "image": "/images/1 2 CM ELECTRIC SPARKLERS.jpeg",
     "desc": "12 CM ELECTRIC SPARKLERS - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -1159,7 +1160,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 170,
     "discountPrice": 25.5,
-    "image": "/images/sparklers.jpg",
+    "image": "/images/12 CM COLOR SPARKLERS.jpeg",
     "desc": "12 CM COLOR SPARKLERS - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -1169,7 +1170,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 180,
     "discountPrice": 27,
-    "image": "/images/sparklers.jpg",
+    "image": "/images/12 CM GREEN SPARKLERS.jpeg",
     "desc": "12 CM GREEN SPARKLERS - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -1179,7 +1180,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 190,
     "discountPrice": 28.5,
-    "image": "/images/sparklers.jpg",
+    "image": "/images/12 CM RED SPARKLERS.jpeg",
     "desc": "12 CM RED SPARKLERS - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -1189,7 +1190,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 270,
     "discountPrice": 40.5,
-    "image": "/images/sparklers.jpg",
+    "image": "/images/15 CM ELECTRIC SPARKLERS.jpeg",
     "desc": "15 CM ELECTRIC SPARKLERS - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -1199,7 +1200,7 @@ export const PRODUCTS = [
     "pieces": "10 PCS / 1Pkt",
     "originalPrice": 290,
     "discountPrice": 43.5,
-    "image": "/images/sparklers.jpg",
+    "image": "/images/15 CM COLOR SPARKLERS.jpeg",
     "desc": "15 CM COLOR SPARKLERS - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -1229,7 +1230,7 @@ export const PRODUCTS = [
     "pieces": "5 PCS / 1Pkt",
     "originalPrice": 270,
     "discountPrice": 40.5,
-    "image": "/images/sparklers.jpg",
+    "image": "/images/30 CM ELECTRIC SPARKLERS 5.jpeg",
     "desc": "30 CM ELECTRIC SPARKLERS - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -1279,7 +1280,7 @@ export const PRODUCTS = [
     "pieces": "5 PCS / 1Pkt",
     "originalPrice": 1150,
     "discountPrice": 172.5,
-    "image": "/images/sparklers.jpg",
+    "image": "/images/50 CM COLOR SPARKLERS  (5PCS).jpeg",
     "desc": "50CM COLOR SPARKLERS (5PCS) - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -1529,7 +1530,7 @@ export const PRODUCTS = [
     "pieces": "1Pkt",
     "originalPrice": 3000,
     "discountPrice": 450,
-    "image": "/images/sky-shots.jpg",
+    "image": "/images/30 SHOT MULTICOLOR (STARVELL) 1BOX.jpeg",
     "desc": "30 SHOT MULTICOLOR (STARVELL) 1 BOX - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -1725,11 +1726,11 @@ export const PRODUCTS = [
   {
     "id": 175,
     "name": "GIFT BOX",
-    "category": "sound-crackers",
+    "category": "gift-boxes",
     "pieces": "1Pkt",
     "originalPrice": 850,
     "discountPrice": 127.5,
-    "image": "/images/hero.jpg",
+    "image": "/images/gift_box_combo_1787842665035.jpg",
     "desc": "GIFT BOX - Sivakasi authentic firecracker with 85% discount."
   },
   {
@@ -1745,12 +1746,60 @@ export const PRODUCTS = [
   {
     "id": 185,
     "name": "GIFT BOX (35 ITEM)",
-    "category": "sound-crackers",
+    "category": "gift-boxes",
     "pieces": "1Pkt",
     "originalPrice": 650,
     "discountPrice": 97.5,
-    "image": "/images/hero.jpg",
+    "image": "/images/gift_box_combo_1787842665035.jpg",
     "desc": "GIFT BOX (35 ITEM) - Sivakasi authentic firecracker with 85% discount."
+  },
+  {
+    "id": 501,
+    "name": "Economy Festival Hamper (25 Items)",
+    "tamilName": "எகானமி தீபாவளி பரிசு பெட்டி",
+    "category": "gift-boxes",
+    "pieces": "25 Items Box",
+    "originalPrice": 1600,
+    "discountPrice": 400,
+    "badge": "Budget Choice",
+    "image": "/images/gift-box.jpg",
+    "desc": "Compact festive hamper with sparklers, flowerpots, ground chakkars and sound crackers."
+  },
+  {
+    "id": 502,
+    "name": "Classic Family Grand Combo (35 Items)",
+    "tamilName": "கிளாசிக் குடும்ப பரிசு பெட்டி",
+    "category": "gift-boxes",
+    "pieces": "35 Items Box",
+    "originalPrice": 2800,
+    "discountPrice": 700,
+    "badge": "Most Popular",
+    "image": "/images/gift_box_combo_1787842665035.jpg",
+    "desc": "All-in-one family pack with 35 handpicked varieties including aerial sky shots, color pots, and sparklers."
+  },
+  {
+    "id": 503,
+    "name": "Deluxe Celebration Mega Box (45 Items)",
+    "tamilName": "டீலக்ஸ் கொண்டாட்ட மெகா பெட்டி",
+    "category": "gift-boxes",
+    "pieces": "45 Items Box",
+    "originalPrice": 4200,
+    "discountPrice": 1050,
+    "badge": "Mega Value",
+    "image": "/images/gift-box.jpg",
+    "desc": "Massive festive box with deluxe flowerpots, whistling wheels, peacock fountains, and aerial bursts."
+  },
+  {
+    "id": 504,
+    "name": "Royal Platinum VIP Hamper (60 Items)",
+    "tamilName": "ராயல் பிளாட்டினம் விஐபி பரிசு பெட்டி",
+    "category": "gift-boxes",
+    "pieces": "60 Items Box",
+    "originalPrice": 6500,
+    "discountPrice": 1625,
+    "badge": "VIP Luxury",
+    "image": "/images/gift_box_combo_1787842665035.jpg",
+    "desc": "Ultimate luxury hamper featuring 60 premium fireworks items including 30 shot multicolor cakes."
   }
 ];
 

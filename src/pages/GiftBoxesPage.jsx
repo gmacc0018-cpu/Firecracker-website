@@ -70,24 +70,26 @@ export const GiftBoxesPage = () => {
                     borderRadius: "6px",
                   }}
                 >
-                  FLAT 75% OFF
+                  {Math.round(((box.originalPrice - box.discountPrice) / box.originalPrice) * 100)}% OFF
                 </div>
 
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "14px",
-                    right: "14px",
-                    background: "#0253b3",
-                    color: "#fff",
-                    fontSize: "0.8rem",
-                    fontWeight: 800,
-                    padding: "4px 10px",
-                    borderRadius: "6px",
-                  }}
-                >
-                  {box.badge}
-                </div>
+                {box.badge && (
+                  <div
+                    style={{
+                      position: "absolute",
+                      top: "14px",
+                      right: "14px",
+                      background: "#0253b3",
+                      color: "#fff",
+                      fontSize: "0.8rem",
+                      fontWeight: 800,
+                      padding: "4px 10px",
+                      borderRadius: "6px",
+                    }}
+                  >
+                    {box.badge}
+                  </div>
+                )}
               </div>
 
               <div style={{ padding: "24px", display: "flex", flexDirection: "column", flex: 1 }}>

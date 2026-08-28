@@ -11,6 +11,7 @@ export const Navbar = ({ activePage, setActivePage }) => {
   const navLinks = [
     { id: "home", label: "Home" },
     { id: "quick-order", label: "Price List / Quick Order", badge: "85% OFF" },
+    { id: "gift-boxes", label: "Gift Boxes & Combos", badge: "Hampers" },
     { id: "products", label: "Products Catalog" },
     { id: "safety-tips", label: "Safety Guidelines" },
     { id: "about", label: "About Us" },

@@ -6,6 +6,7 @@ import { FireworksCanvas } from "./components/FireworksCanvas";
 import { HomePage } from "./pages/HomePage";
 import { QuickOrderPage } from "./pages/QuickOrderPage";
 import { ProductsPage } from "./pages/ProductsPage";
+import { GiftBoxesPage } from "./pages/GiftBoxesPage";
 import { SafetyTipsPage } from "./pages/SafetyTipsPage";
 import { AboutPage } from "./pages/AboutPage";
 import { ContactPage } from "./pages/ContactPage";
@@ -21,6 +22,7 @@ export function App() {
     const titles = {
       home: `${COMPANY_INFO.name} | Sivakasi Direct Factory Firecrackers - 85% OFF`,
       "quick-order": `Price List & Quick Order Estimation 2026 | ${COMPANY_INFO.name}`,
+      "gift-boxes": `Diwali Gift Boxes & Family Combos | ${COMPANY_INFO.name}`,
       products: `Sivakasi Products Catalog | ${COMPANY_INFO.name}`,
       "safety-tips": `Firecrackers Safety Guidelines & Green Norms | ${COMPANY_INFO.name}`,
       about: `About Us | ${COMPANY_INFO.name} & ${COMPANY_INFO.sisterBrand} Sivakasi`,
@@ -35,6 +37,8 @@ export function App() {
         return <HomePage setActivePage={setActivePage} />;
       case "quick-order":
         return <QuickOrderPage />;
+      case "gift-boxes":
+        return <GiftBoxesPage setActivePage={setActivePage} />;
       case "products":
         return <ProductsPage />;
       case "safety-tips":
