@@ -43,9 +43,9 @@
   --radius-lg: 20px;
   --radius-full: 9999px;
   
-  /* Shop Name & Logo Fonts (Exact Match to Logo Picture) */
-  --font-logo-muthumari: 'Fredoka', 'Baloo 2', 'Nunito', sans-serif;
-  --font-logo-fireworks: 'Philosopher', 'Playfair Display', serif;
+  /* Shop Name & Logo Fonts (Bauhaus 93 requested) */
+  --font-logo-muthumari: 'Bauhaus 93', 'Fredoka', 'Baloo 2', 'Nunito', sans-serif;
+  --font-logo-fireworks: 'Bauhaus 93', 'Philosopher', 'Playfair Display', serif;
   --font-heading: 'Outfit', sans-serif;
   --font-body: 'Outfit', sans-serif;
   --font-tamil: 'Noto Sans Tamil', sans-serif;
@@ -91,7 +91,7 @@ body {
   background: var(--primary-pink-dark);
 }
 
-/* Logo Typography Classes (Exact Match with Attached Logo) */
+/* Logo & Brand Typography Classes (Bauhaus 93) */
 .font-logo-title {
   font-family: var(--font-logo-muthumari);
   font-weight: 800;
@@ -102,8 +102,21 @@ body {
 .font-logo-sub {
   font-family: var(--font-logo-fireworks);
   font-weight: 700;
-  font-style: italic;
   letter-spacing: 0.5px;
+}
+
+.font-bauhaus {
+  font-family: 'Bauhaus 93', 'Fredoka', sans-serif;
+}
+
+.quick-order-row {
+  border-bottom: 1.5px solid #cbd5e1 !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.quick-order-row:hover {
+  background: #f1f5f9 !important;
+  box-shadow: inset 3px 0 0 #0253b3;
 }
 
 .logo-brand-pink {

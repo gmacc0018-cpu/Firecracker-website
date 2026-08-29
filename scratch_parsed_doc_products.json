@@ -1,0 +1,1659 @@
+{
+  "categories": [
+    {
+      "rowIdx": 1,
+      "name": "one sound crackers",
+      "raw": "one sound crackers (85% Discount)"
+    },
+    {
+      "rowIdx": 11,
+      "name": "Paper Bomb",
+      "raw": "Paper Bomb (85% Discount)"
+    },
+    {
+      "rowIdx": 16,
+      "name": "MEGA BULLET CRACKERS",
+      "raw": "MEGA BULLET CRACKERS (85% Discount)"
+    },
+    {
+      "rowIdx": 21,
+      "name": "Garland Crackers",
+      "raw": "Garland Crackers (85% Discount)"
+    },
+    {
+      "rowIdx": 32,
+      "name": "Bijli Crackers",
+      "raw": "Bijli Crackers (85% Discount)"
+    },
+    {
+      "rowIdx": 35,
+      "name": "Flower Pots",
+      "raw": "Flower Pots (85% Discount)"
+    },
+    {
+      "rowIdx": 43,
+      "name": "Ground Chakkars",
+      "raw": "Ground Chakkars (85% Discount)"
+    },
+    {
+      "rowIdx": 49,
+      "name": "Atom Bombs",
+      "raw": "Atom Bombs (85% Discount)"
+    },
+    {
+      "rowIdx": 55,
+      "name": "Twinking Star",
+      "raw": "Twinking Star (85% Discount)"
+    },
+    {
+      "rowIdx": 58,
+      "name": "Rocket Bomb",
+      "raw": "Rocket Bomb (85% Discount)"
+    },
+    {
+      "rowIdx": 65,
+      "name": "Kids Special Novelties Fountain",
+      "raw": "Kids Special Novelties Fountain (85% Discount)"
+    },
+    {
+      "rowIdx": 119,
+      "name": "Sparklers",
+      "raw": "Sparklers (85% Discount)"
+    },
+    {
+      "rowIdx": 138,
+      "name": "Fancy Sparklers",
+      "raw": "Fancy Sparklers (85% Discount)"
+    },
+    {
+      "rowIdx": 142,
+      "name": "Night Arrival Attractions",
+      "raw": "Night Arrival Attractions (85% Discount)"
+    },
+    {
+      "rowIdx": 162,
+      "name": "Multi-Shots",
+      "raw": "Multi-Shots (80% Discount)"
+    },
+    {
+      "rowIdx": 176,
+      "name": "day Shots",
+      "raw": "day Shots (85% Discount)"
+    },
+    {
+      "rowIdx": 180,
+      "name": "Festival Mega multi-Shots",
+      "raw": "Festival Mega multi-Shots (85% Discount)"
+    },
+    {
+      "rowIdx": 184,
+      "name": "CAP CRACKERS",
+      "raw": "CAP CRACKERS  (NET RATE)"
+    },
+    {
+      "rowIdx": 186,
+      "name": "COLOUR MATCHES",
+      "raw": "COLOUR MATCHES (NET RATE)"
+    },
+    {
+      "rowIdx": 189,
+      "name": "SERPENT CRACKER",
+      "raw": "SERPENT CRACKER (NET RATE)"
+    },
+    {
+      "rowIdx": 191,
+      "name": "GIFT BOXES",
+      "raw": "GIFT BOXES  (NET RATE)"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "3½ LAKSHMI",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "one sound crackers",
+      "originalPrice": 80,
+      "discountPrice": 12
+    },
+    {
+      "id": "2",
+      "name": "4inch LAKSHMI",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "one sound crackers",
+      "originalPrice": 100,
+      "discountPrice": 15
+    },
+    {
+      "id": "3",
+      "name": "4inch GOLD LAKSHMI",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "one sound crackers",
+      "originalPrice": 180,
+      "discountPrice": 27
+    },
+    {
+      "id": "4",
+      "name": "5inch JALLIKATTU",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "one sound crackers",
+      "originalPrice": 260,
+      "discountPrice": 39
+    },
+    {
+      "id": "5",
+      "name": "6 inch KUMKI",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "one sound crackers",
+      "originalPrice": 490,
+      "discountPrice": 73.5
+    },
+    {
+      "id": "6",
+      "name": "6 inch GANAPATHI",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "one sound crackers",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "7",
+      "name": "6 inch LION",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "one sound crackers",
+      "originalPrice": 230,
+      "discountPrice": 34.5
+    },
+    {
+      "id": "8",
+      "name": "2 ¾ KURUVI",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "one sound crackers",
+      "originalPrice": 70,
+      "discountPrice": 10.5
+    },
+    {
+      "id": "9",
+      "name": "TWO SOUND CRACKERS",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "one sound crackers",
+      "originalPrice": 200,
+      "discountPrice": 30
+    },
+    {
+      "id": "10",
+      "name": "PAPER COLOUR BOMB",
+      "pieces": "1 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Paper Bomb",
+      "originalPrice": 450,
+      "discountPrice": 67.5
+    },
+    {
+      "id": "11",
+      "name": "PAPER SOUND BOMB ¼KG",
+      "pieces": "1 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Paper Bomb",
+      "originalPrice": 250,
+      "discountPrice": 37.5
+    },
+    {
+      "id": "12",
+      "name": "PAPER SOUND BOMB 1/2KG",
+      "pieces": "1 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Paper Bomb",
+      "originalPrice": 500,
+      "discountPrice": 75
+    },
+    {
+      "id": "13",
+      "name": "PAPER SOUND BOMB 1KG",
+      "pieces": "1 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Paper Bomb",
+      "originalPrice": 1000,
+      "discountPrice": 150
+    },
+    {
+      "id": "14",
+      "name": "24 MEGA",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "MEGA BULLET CRACKERS",
+      "originalPrice": 250,
+      "discountPrice": 37.5
+    },
+    {
+      "id": "15",
+      "name": "28 MEGA",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "MEGA BULLET CRACKERS",
+      "originalPrice": 300,
+      "discountPrice": 45
+    },
+    {
+      "id": "16",
+      "name": "50 MEGA",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "MEGA BULLET CRACKERS",
+      "originalPrice": 620,
+      "discountPrice": 93
+    },
+    {
+      "id": "17",
+      "name": "100 MEGA",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "MEGA BULLET CRACKERS",
+      "originalPrice": 1250,
+      "discountPrice": 187.5
+    },
+    {
+      "id": "18",
+      "name": "100 1 BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Garland Crackers",
+      "originalPrice": 300,
+      "discountPrice": 45
+    },
+    {
+      "id": "19",
+      "name": "200 1 BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Garland Crackers",
+      "originalPrice": 600,
+      "discountPrice": 90
+    },
+    {
+      "id": "20",
+      "name": "1K 1 BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Garland Crackers",
+      "originalPrice": 1000,
+      "discountPrice": 150
+    },
+    {
+      "id": "21",
+      "name": "2 K 1 BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Garland Crackers",
+      "originalPrice": 2000,
+      "discountPrice": 300
+    },
+    {
+      "id": "22",
+      "name": "5K 1 BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Garland Crackers",
+      "originalPrice": 5000,
+      "discountPrice": 750
+    },
+    {
+      "id": "23",
+      "name": "10K 1 BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Garland Crackers",
+      "originalPrice": 10000,
+      "discountPrice": 1500
+    },
+    {
+      "id": "24",
+      "name": "1K SPECIAL 1 BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Garland Crackers",
+      "originalPrice": 1750,
+      "discountPrice": 262.5
+    },
+    {
+      "id": "25",
+      "name": "2 K SPECIAL 1 BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Garland Crackers",
+      "originalPrice": 3500,
+      "discountPrice": 525
+    },
+    {
+      "id": "26",
+      "name": "5K SPECIAL 1 BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Garland Crackers",
+      "originalPrice": 8750,
+      "discountPrice": 1312.5
+    },
+    {
+      "id": "27",
+      "name": "10k SPECIAL 1 BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Garland Crackers",
+      "originalPrice": 17500,
+      "discountPrice": 2625
+    },
+    {
+      "id": "28",
+      "name": "RED BIJILLI",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Bijli Crackers",
+      "originalPrice": 200,
+      "discountPrice": 30
+    },
+    {
+      "id": "29",
+      "name": "STRIPPED BIJILI",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Bijli Crackers",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "30",
+      "name": "FLOWER POT BIG",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Flower Pots",
+      "originalPrice": 460,
+      "discountPrice": 69
+    },
+    {
+      "id": "31",
+      "name": "FLOWER POT SPECIAL",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Flower Pots",
+      "originalPrice": 620,
+      "discountPrice": 93
+    },
+    {
+      "id": "32",
+      "name": "FLOWER POT ASHOKA",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Flower Pots",
+      "originalPrice": 800,
+      "discountPrice": 120
+    },
+    {
+      "id": "33",
+      "name": "COLOR KOTI",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Flower Pots",
+      "originalPrice": 1250,
+      "discountPrice": 187.5
+    },
+    {
+      "id": "34",
+      "name": "COLOR KOTI XL",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Flower Pots",
+      "originalPrice": 1500,
+      "discountPrice": 225
+    },
+    {
+      "id": "34A",
+      "name": "COLOR KOTI DELUXE",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Flower Pots",
+      "originalPrice": 2200,
+      "discountPrice": 330
+    },
+    {
+      "id": "35",
+      "name": "Flower Pot Super Deluxe ( Jumbo )",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Flower Pots",
+      "originalPrice": 3200,
+      "discountPrice": 480
+    },
+    {
+      "id": "36",
+      "name": "GROUND CHAKKARA BIG 10'S",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Ground Chakkars",
+      "originalPrice": 240,
+      "discountPrice": 36
+    },
+    {
+      "id": "37",
+      "name": "GROUND CHAKKARA ASHOKA",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Ground Chakkars",
+      "originalPrice": 350,
+      "discountPrice": 52.5
+    },
+    {
+      "id": "38",
+      "name": "GROUND CHAKKARA SPECIAL",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Ground Chakkars",
+      "originalPrice": 500,
+      "discountPrice": 75
+    },
+    {
+      "id": "39",
+      "name": "GROUND CHAKKARA DELUXE",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Ground Chakkars",
+      "originalPrice": 850,
+      "discountPrice": 127.5
+    },
+    {
+      "id": "40",
+      "name": "Spinner level",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Ground Chakkars",
+      "originalPrice": 900,
+      "discountPrice": 135
+    },
+    {
+      "id": "41",
+      "name": "HYDRO BOMB",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Atom Bombs",
+      "originalPrice": 450,
+      "discountPrice": 67.5
+    },
+    {
+      "id": "42",
+      "name": "KING OF KING GREEN",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Atom Bombs",
+      "originalPrice": 500,
+      "discountPrice": 75
+    },
+    {
+      "id": "43",
+      "name": "CLASSIC BOMB GREEN",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Atom Bombs",
+      "originalPrice": 650,
+      "discountPrice": 97.5
+    },
+    {
+      "id": "44",
+      "name": "DIGITAL BOMB 12 PLY",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Atom Bombs",
+      "originalPrice": 1850,
+      "discountPrice": 277.5
+    },
+    {
+      "id": "45",
+      "name": "King Rider",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Atom Bombs",
+      "originalPrice": 2000,
+      "discountPrice": 300
+    },
+    {
+      "id": "46",
+      "name": "1½ TWINKLING STAR",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Twinking Star",
+      "originalPrice": 130,
+      "discountPrice": 19.5
+    },
+    {
+      "id": "47",
+      "name": "4 TWINKLING STAR",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Twinking Star",
+      "originalPrice": 400,
+      "discountPrice": 60
+    },
+    {
+      "id": "48",
+      "name": "ROCKET BOMB",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Rocket Bomb",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "49",
+      "name": "COLOUR ROCKET",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Rocket Bomb",
+      "originalPrice": 500,
+      "discountPrice": 75
+    },
+    {
+      "id": "50",
+      "name": "LUNIK ROCKET",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Rocket Bomb",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "51",
+      "name": "TWO SOUND ROCKET",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Rocket Bomb",
+      "originalPrice": 350,
+      "discountPrice": 52.5
+    },
+    {
+      "id": "52",
+      "name": "MUSICAL ROCKET (5Pcs)",
+      "pieces": "5PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Rocket Bomb",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "53",
+      "name": "WHISTLING ROCKET (10PCS)",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Rocket Bomb",
+      "originalPrice": 1000,
+      "discountPrice": 150
+    },
+    {
+      "id": "54",
+      "name": "watermelon star 1 BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 1200,
+      "discountPrice": 180
+    },
+    {
+      "id": "55",
+      "name": "KULFI",
+      "pieces": "3 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 1750,
+      "discountPrice": 262.5
+    },
+    {
+      "id": "56",
+      "name": "LAVA Shower 3in1 3inch",
+      "pieces": "3 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 1170,
+      "discountPrice": 176
+    },
+    {
+      "id": "57",
+      "name": "Magic Sound 1 BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 1000,
+      "discountPrice": 150
+    },
+    {
+      "id": "58",
+      "name": "VELUM MAYILUM",
+      "pieces": "1 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 1500,
+      "discountPrice": 225
+    },
+    {
+      "id": "59",
+      "name": "Cylinder Bomb",
+      "pieces": "2 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 1550,
+      "discountPrice": 232.5
+    },
+    {
+      "id": "60",
+      "name": "Sky Colour 5Pcs",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 1300,
+      "discountPrice": 195
+    },
+    {
+      "id": "61",
+      "name": "Maxy Pencil",
+      "pieces": "2 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 1270,
+      "discountPrice": 190.5
+    },
+    {
+      "id": "62",
+      "name": "CUTE 5 COLOUR FOUNTAIN 3inch",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 1500,
+      "discountPrice": 225
+    },
+    {
+      "id": "63",
+      "name": "TRI COLOUR FOUNTAIN 4 INCH",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 1900,
+      "discountPrice": 285
+    },
+    {
+      "id": "64",
+      "name": "Crackling Fountain",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 1600,
+      "discountPrice": 240
+    },
+    {
+      "id": "65",
+      "name": "MINI SIREN (5 PCS)",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "65a",
+      "name": "SIREN CANDLE",
+      "pieces": "1 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 500,
+      "discountPrice": 75
+    },
+    {
+      "id": "66",
+      "name": "KING SIREN (3 PCS)",
+      "pieces": "3 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "67",
+      "name": "1000 WATTS",
+      "pieces": "1 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 1250,
+      "discountPrice": 187.5
+    },
+    {
+      "id": "68",
+      "name": "KITKAT BIG",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "69",
+      "name": "BUTTERFLY WINGS FIGHTERS",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "70",
+      "name": "BAMBARAM",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "71",
+      "name": "Whistling Wheel",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 870,
+      "discountPrice": 130.5
+    },
+    {
+      "id": "72",
+      "name": "TRICOLOUR PHOTO FLASH",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 700,
+      "discountPrice": 105
+    },
+    {
+      "id": "73",
+      "name": "Tin Shower 8 INCH",
+      "pieces": "1 TIN / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 1140,
+      "discountPrice": 171
+    },
+    {
+      "id": "74",
+      "name": "Kung Fu Shower 5 PCS 4INCH 5 BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 2150,
+      "discountPrice": 322.5
+    },
+    {
+      "id": "75",
+      "name": "ROBOAT kids Shower 2¼ 5 IN 1 5 BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 1200,
+      "discountPrice": 180
+    },
+    {
+      "id": "76",
+      "name": "Party Night",
+      "pieces": "3 TIN / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 1200,
+      "discountPrice": 180
+    },
+    {
+      "id": "77",
+      "name": "WATER QUEEN TIN6INCH",
+      "pieces": "1 TIN / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 1320,
+      "discountPrice": 198
+    },
+    {
+      "id": "78",
+      "name": "PHOTO FLASH",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "79",
+      "name": "HELICOPTER",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "80",
+      "name": "TOP GUN",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 1560,
+      "discountPrice": 234
+    },
+    {
+      "id": "81",
+      "name": "SELFI STICK",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 700,
+      "discountPrice": 105
+    },
+    {
+      "id": "82",
+      "name": "PLANET WHEEL",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "83",
+      "name": "4 * 4 WHEEL",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "84",
+      "name": "LOLLIPOP STICK 5PCS",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 1560,
+      "discountPrice": 234
+    },
+    {
+      "id": "85",
+      "name": "7 Shot Multi COLOUR",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 550,
+      "discountPrice": 82.5
+    },
+    {
+      "id": "86",
+      "name": "COLOUR SMOKE",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "87",
+      "name": "5 in 1 Shower 2 1/4inch",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 600,
+      "discountPrice": 90
+    },
+    {
+      "id": "88",
+      "name": "PEACOCK SMALL 1 BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 1170,
+      "discountPrice": 175.5
+    },
+    {
+      "id": "89",
+      "name": "PEACOCK BIG 1 BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 1500,
+      "discountPrice": 225
+    },
+    {
+      "id": "90",
+      "name": "PEACOCK BADA 1 BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 2500,
+      "discountPrice": 375
+    },
+    {
+      "id": "91",
+      "name": "WIRE CHAKKAR",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 920,
+      "discountPrice": 138
+    },
+    {
+      "id": "92",
+      "name": "WATER FALLS FALLS",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "93",
+      "name": "MAGIC SHOW",
+      "pieces": "2 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 1150,
+      "discountPrice": 172.5
+    },
+    {
+      "id": "95",
+      "name": "Space Comet",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "96",
+      "name": "Star Night",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "97",
+      "name": "Emerald",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "98",
+      "name": "Flower garden",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "99",
+      "name": "World wonder",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "100",
+      "name": "Crackling Flower -",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "101",
+      "name": "777",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "102",
+      "name": "x Mass Tree",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "103",
+      "name": "Galaxy",
+      "pieces": "3 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "104",
+      "name": "war in the Sky",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "105",
+      "name": "Golden Tree",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "107",
+      "name": "Serpent egg",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Kids Special Novelties Fountain",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "106",
+      "name": "10 CM ELECTRIC SPARKLERS",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Sparklers",
+      "originalPrice": 100,
+      "discountPrice": 15
+    },
+    {
+      "id": "108",
+      "name": "10 CM COLOR SPARKLERS",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Sparklers",
+      "originalPrice": 110,
+      "discountPrice": 16.5
+    },
+    {
+      "id": "109",
+      "name": "10 CM GREEN SPARKLERS",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Sparklers",
+      "originalPrice": 120,
+      "discountPrice": 18
+    },
+    {
+      "id": "110",
+      "name": "10 CM RED SPARKLERS",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Sparklers",
+      "originalPrice": 150,
+      "discountPrice": 22.5
+    },
+    {
+      "id": "111",
+      "name": "12 CM ELECTRIC SPARKLERS",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Sparklers",
+      "originalPrice": 160,
+      "discountPrice": 24
+    },
+    {
+      "id": "112",
+      "name": "12 CM COLOR SPARKLERS",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Sparklers",
+      "originalPrice": 170,
+      "discountPrice": 25.5
+    },
+    {
+      "id": "113",
+      "name": "12 CM GREEN SPARKLERS",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Sparklers",
+      "originalPrice": 180,
+      "discountPrice": 27
+    },
+    {
+      "id": "114",
+      "name": "12 CM RED SPARKLERS",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Sparklers",
+      "originalPrice": 190,
+      "discountPrice": 28.5
+    },
+    {
+      "id": "115",
+      "name": "15 CM ELECTRIC SPARKLERS",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Sparklers",
+      "originalPrice": 270,
+      "discountPrice": 40.5
+    },
+    {
+      "id": "116",
+      "name": "15 CM COLOR SPARKLERS",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Sparklers",
+      "originalPrice": 290,
+      "discountPrice": 43.5
+    },
+    {
+      "id": "117",
+      "name": "15 CM GREEN SPARKLERS",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Sparklers",
+      "originalPrice": 310,
+      "discountPrice": 46.5
+    },
+    {
+      "id": "118",
+      "name": "15 CM RED SPARKLERS",
+      "pieces": "10 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Sparklers",
+      "originalPrice": 320,
+      "discountPrice": 48
+    },
+    {
+      "id": "119",
+      "name": "30 CM ELECTRIC SPARKLERS",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Sparklers",
+      "originalPrice": 270,
+      "discountPrice": 40.5
+    },
+    {
+      "id": "120",
+      "name": "30 CM COLOUR SPARKLERS",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Sparklers",
+      "originalPrice": 290,
+      "discountPrice": 43.5
+    },
+    {
+      "id": "121",
+      "name": "30 CM GREEN SPARKLERS",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Sparklers",
+      "originalPrice": 310,
+      "discountPrice": 46.5
+    },
+    {
+      "id": "122",
+      "name": "30 CM RED SPARKLERS",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Sparklers",
+      "originalPrice": 320,
+      "discountPrice": 48
+    },
+    {
+      "id": "123",
+      "name": "50 CM ELECTRIC SPARKLERS (5  PCS )",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Sparklers",
+      "originalPrice": 1100,
+      "discountPrice": 165
+    },
+    {
+      "id": "124",
+      "name": "50CM COLOR SPARKLERS (5PCS)",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Sparklers",
+      "originalPrice": 1150,
+      "discountPrice": 172.5
+    },
+    {
+      "id": "125",
+      "name": "LOVELY HEART SPARKLING",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Fancy Sparklers",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "126",
+      "name": "CELEBRATION 4 IN 1 SPARKLING",
+      "pieces": "5 PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Fancy Sparklers",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "127",
+      "name": "SPINNING SPARKLING 1 BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Fancy Sparklers",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "128",
+      "name": "1Inch CHOTTA FANCY",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Night Arrival Attractions",
+      "originalPrice": 235,
+      "discountPrice": 35.25
+    },
+    {
+      "id": "129",
+      "name": "2inch FANCY",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Night Arrival Attractions",
+      "originalPrice": 1100,
+      "discountPrice": 165
+    },
+    {
+      "id": "130",
+      "name": "2 1/4 (3PCS) FANCY",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Night Arrival Attractions",
+      "originalPrice": 1700,
+      "discountPrice": 255
+    },
+    {
+      "id": "131",
+      "name": "3\" FANCY SINGLE",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Night Arrival Attractions",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "131A",
+      "name": "3 NAYAGARA FALLS",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Night Arrival Attractions",
+      "originalPrice": 1500,
+      "discountPrice": 225
+    },
+    {
+      "id": "132",
+      "name": "3 1/2\" FANCY SINGLE",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Night Arrival Attractions",
+      "originalPrice": 1800,
+      "discountPrice": 270
+    },
+    {
+      "id": "133",
+      "name": "3½ Sizzling single",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Night Arrival Attractions",
+      "originalPrice": 2200,
+      "discountPrice": 330
+    },
+    {
+      "id": "134",
+      "name": "3 1/2 inch FANCY  (2PCS)",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Night Arrival Attractions",
+      "originalPrice": 3850,
+      "discountPrice": 577.5
+    },
+    {
+      "id": "135",
+      "name": "31/2 \"FANCY DOUBLE BALL  (2PCS)",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Night Arrival Attractions",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "136",
+      "name": "4\" FANCY 7STEP",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Night Arrival Attractions",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "137",
+      "name": "4 \" FANCY SINGLE",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Night Arrival Attractions",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "138",
+      "name": "4inch NAYAGARA FALLS",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Night Arrival Attractions",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "139",
+      "name": "4inch FANCY (2PCS)",
+      "pieces": "2PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Night Arrival Attractions",
+      "originalPrice": 5300,
+      "discountPrice": 795
+    },
+    {
+      "id": "140",
+      "name": "4inch FANCY DOUBLE BALL",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Night Arrival Attractions",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "141",
+      "name": "5 inch Fancy 2 PCS",
+      "pieces": "2PCS / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Night Arrival Attractions",
+      "originalPrice": 6400,
+      "discountPrice": 960
+    },
+    {
+      "id": "142",
+      "name": "5 inch Double Ball",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Night Arrival Attractions",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "143",
+      "name": "6inch Single",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Night Arrival Attractions",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "144",
+      "name": "6 inch",
+      "pieces": "2 Pcs / 1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Night Arrival Attractions",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "144A",
+      "name": "PURPLE SHOT",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Night Arrival Attractions",
+      "originalPrice": 2000,
+      "discountPrice": 300
+    },
+    {
+      "id": "145",
+      "name": "12 SHOT CRACKLING",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Multi-Shots",
+      "originalPrice": 750,
+      "discountPrice": 112.5
+    },
+    {
+      "id": "146",
+      "name": "12 SHOT",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Multi-Shots",
+      "originalPrice": 1100,
+      "discountPrice": 165
+    },
+    {
+      "id": "147",
+      "name": "12 SHOT WHISTLING",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Multi-Shots",
+      "originalPrice": 2000,
+      "discountPrice": 300
+    },
+    {
+      "id": "148",
+      "name": "25 SHOT WHISTLING",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Multi-Shots",
+      "originalPrice": 5800,
+      "discountPrice": 870
+    },
+    {
+      "id": "149",
+      "name": "50 Shot Whistling 1 BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Multi-Shots",
+      "originalPrice": 11560,
+      "discountPrice": 1734
+    },
+    {
+      "id": "150",
+      "name": "30 SHOT MULTICOLOR",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Multi-Shots",
+      "originalPrice": 3000,
+      "discountPrice": 450
+    },
+    {
+      "id": "151",
+      "name": "60 SHOT MUTICOLOUR",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Multi-Shots",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "152",
+      "name": "120 SHOT MULTICOLOR",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Multi-Shots",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "153",
+      "name": "240 SHOT MULTICOLOR",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Multi-Shots",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "154",
+      "name": "30 SHOT MULTICOLOR SPL",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Multi-Shots",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "155",
+      "name": "60 SHOT MULTICOLOR SPL",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Multi-Shots",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "156",
+      "name": "120 SHOT MULTICOLOR  SPL",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Multi-Shots",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "157",
+      "name": "240 SHOT M ULTICOLOR SPL",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Multi-Shots",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "158",
+      "name": "2 inch SETOUT",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "day Shots",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "159",
+      "name": "2 1/2 inch SETOUT",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "day Shots",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "160",
+      "name": "3 inch SETOUT",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "day Shots",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "161",
+      "name": "GUJARAT FESTIVAL 150 1 BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Festival Mega multi-Shots",
+      "originalPrice": 13000,
+      "discountPrice": 1950
+    },
+    {
+      "id": "162",
+      "name": "GANG Banger 32 Shot 1 BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Festival Mega multi-Shots",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "163",
+      "name": "10X10 1 BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "Festival Mega multi-Shots",
+      "originalPrice": 25000,
+      "discountPrice": 3750
+    },
+    {
+      "id": "164",
+      "name": "ROLL CAP",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "CAP CRACKERS",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "165",
+      "name": "RIDER COLOUR MATCHES",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "COLOUR MATCHES",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "166",
+      "name": "LOLLIPOP MATCHES",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "COLOUR MATCHES",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "167",
+      "name": "ANACONDA BIG SIZE",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "SERPENT CRACKER",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "175",
+      "name": "GIFT BOX",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "GIFT BOXES",
+      "originalPrice": 0,
+      "discountPrice": 0
+    },
+    {
+      "id": "185",
+      "name": "GIFT BOX (35 ITEM)",
+      "pieces": "1Pkt",
+      "packing": "1Pkt",
+      "categorySection": "GIFT BOXES",
+      "originalPrice": 0,
+      "discountPrice": 0
+    }
+  ]
+}
