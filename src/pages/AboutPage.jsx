@@ -16,7 +16,7 @@ export const AboutPage = ({ setActivePage }) => {
               Muthu Mari
             </span>
             <span className="font-logo-sub logo-brand-gold" style={{ fontSize: "clamp(2rem, 4vw, 2.9rem)", fontWeight: 700 }}>
-              Fireworks
+              Crackers
             </span>
           </div>
           <h2 style={{ fontSize: "1.2rem", fontWeight: 700, color: "#64748b", marginBottom: "8px" }}>
@@ -63,7 +63,7 @@ export const AboutPage = ({ setActivePage }) => {
           <div style={{ borderRadius: "20px", overflow: "hidden", boxShadow: "0 10px 30px rgba(0,0,0,0.1)", border: "1px solid #e2e8f0" }}>
             <img
               src="/images/sparklers.jpg"
-              alt="Muthumari Fireworks Celebration"
+              alt="Muthumari Crackers Celebration"
               style={{ width: "100%", height: "auto", display: "block" }}
             />
           </div>
@@ -73,7 +73,7 @@ export const AboutPage = ({ setActivePage }) => {
         <div style={{ marginBottom: "60px" }}>
           <div style={{ textAlign: "center", marginBottom: "36px" }}>
             <h2 style={{ fontSize: "2rem", fontWeight: 800, color: "#0f172a" }}>
-              Why Choose Muthu Mari Fireworks?
+              Why Choose Muthu Mari Crackers?
             </h2>
           </div>
 

@@ -46,7 +46,7 @@ export const ContactPage = () => {
                   Muthu Mari
                 </span>
                 <span className="font-logo-sub logo-brand-gold" style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.5rem)", fontWeight: 700 }}>
-                  Fireworks
+                  Crackers
                 </span>
               </div>
               <div style={{ fontSize: "0.85rem", color: "#64748b", fontWeight: 700, letterSpacing: "1px" }}>

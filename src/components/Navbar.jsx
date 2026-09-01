@@ -180,7 +180,7 @@ export const Navbar = ({ activePage, setActivePage }) => {
                     fontWeight: 700,
                   }}
                 >
-                  Fireworks
+                  Crackers
                 </span>
               </div>
               <div style={{ fontSize: "0.72rem", color: "#64748b", fontWeight: 600, letterSpacing: "0.5px" }}>

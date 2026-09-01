@@ -113,7 +113,7 @@ export const Footer = ({ setActivePage }) => {
                     Muthu Mari
                   </span>
                   <span className="font-logo-sub logo-brand-gold" style={{ fontSize: "1.3rem", fontWeight: 700 }}>
-                    Fireworks
+                    Crackers
                   </span>
                 </div>
                 <div style={{ fontSize: "0.75rem", color: "#64748b", fontWeight: 600 }}>

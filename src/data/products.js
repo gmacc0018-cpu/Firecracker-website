@@ -1,7 +1,7 @@
 // Exact Price List Catalog from MUTHUMARI CRACKERS Official Price List Document
 export const COMPANY_INFO = {
   name: "Muthumari Agencies",
-  brandName: "Muthumari Crackers",
+  brandName: "MuthuMari Crackers",
   tagline: "Direct from Sivakasi Factory - Safe, Certified & Supreme Quality Fireworks",
   sisterBrand: "Sivakasi Direct",
   phone: "+91 99945 72004",
@@ -188,6 +188,7 @@ export const PRODUCTS = [
     "discountPrice": 12,
     "discountPercent": 85,
     "image": "/images/3½ LAKSHMI.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "3½ LAKSHMI (5 PCS) - Direct from Sivakasi factory (1Pkt) with flat 85% OFF."
@@ -204,6 +205,7 @@ export const PRODUCTS = [
     "discountPrice": 15,
     "discountPercent": 85,
     "image": "/images/4 inch LAKSHMI.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "4\"LAKSHMI (5 PCS) - Direct from Sivakasi factory (1Pkt) with flat 85% OFF."
@@ -220,6 +222,7 @@ export const PRODUCTS = [
     "discountPrice": 27,
     "discountPercent": 85,
     "image": "/images/4 inch GOLD LAKSHMI.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "4\" GOLD LAKSHMI (5 PCS) - Direct from Sivakasi factory (1Pkt) with flat 85% OFF."
@@ -236,6 +239,7 @@ export const PRODUCTS = [
     "discountPrice": 39,
     "discountPercent": 85,
     "image": "/images/5 inch JALLIKATTU.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "5\" JALLIKATTU (5 PCS) - Direct from Sivakasi factory (1Pkt) with flat 85% OFF."
@@ -252,6 +256,7 @@ export const PRODUCTS = [
     "discountPrice": 73.5,
     "discountPercent": 85,
     "image": "/images/6 inch KUMKI.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "6\" KUMKI (5 PCS) - Direct from Sivakasi factory (1Pkt) with flat 85% OFF."
@@ -267,7 +272,8 @@ export const PRODUCTS = [
     "originalPrice": 580,
     "discountPrice": 87,
     "discountPercent": 85,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "6\"GANAPATHI (5 PCS) - Direct from Sivakasi factory (1Pkt) with flat 85% OFF."
@@ -283,7 +289,8 @@ export const PRODUCTS = [
     "originalPrice": 230,
     "discountPrice": 34.5,
     "discountPercent": 85,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "6\"LION (5 PCS) - Direct from Sivakasi factory (1Pkt) with flat 85% OFF."
@@ -300,6 +307,7 @@ export const PRODUCTS = [
     "discountPrice": 10.5,
     "discountPercent": 85,
     "image": "/images/2¾ KURUVI.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "2 ¾\" KURUVI (5 PCS) - Direct from Sivakasi factory (1Pkt) with flat 85% OFF."
@@ -316,6 +324,7 @@ export const PRODUCTS = [
     "discountPrice": 30,
     "discountPercent": 85,
     "image": "/images/TWOSOUNDCRACKERS.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "TWO SOUND CRACKERS (5 PCS) - Direct from Sivakasi factory (1Pkt) with flat 85% OFF."
@@ -331,7 +340,8 @@ export const PRODUCTS = [
     "originalPrice": 500,
     "discountPrice": 75,
     "discountPercent": 85,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "PAPER COLOUR BOMB - Direct from Sivakasi factory (1Pkt) with flat 85% OFF."
@@ -347,7 +357,8 @@ export const PRODUCTS = [
     "originalPrice": 250,
     "discountPrice": 37.5,
     "discountPercent": 85,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "PAPER SOUND BOMB ¼KG - Direct from Sivakasi factory (1Pkt) with flat 85% OFF."
@@ -363,7 +374,8 @@ export const PRODUCTS = [
     "originalPrice": 500,
     "discountPrice": 75,
     "discountPercent": 85,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "PAPER SOUND BOMB 1/2KG - Direct from Sivakasi factory (1Pkt) with flat 85% OFF."
@@ -379,7 +391,8 @@ export const PRODUCTS = [
     "originalPrice": 1000,
     "discountPrice": 150,
     "discountPercent": 85,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "PAPER SOUND BOMB 1KG - Direct from Sivakasi factory (1Pkt) with flat 85% OFF."
@@ -395,7 +408,8 @@ export const PRODUCTS = [
     "originalPrice": 250,
     "discountPrice": 37.5,
     "discountPercent": 85,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "24 MEGA - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -411,7 +425,8 @@ export const PRODUCTS = [
     "originalPrice": 300,
     "discountPrice": 45,
     "discountPercent": 85,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "28 MEGA - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -427,7 +442,8 @@ export const PRODUCTS = [
     "originalPrice": 620,
     "discountPrice": 93,
     "discountPercent": 85,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "50 MEGA - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -443,7 +459,8 @@ export const PRODUCTS = [
     "originalPrice": 1250,
     "discountPrice": 187.5,
     "discountPercent": 85,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "100 MEGA - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -459,7 +476,8 @@ export const PRODUCTS = [
     "originalPrice": 300,
     "discountPrice": 45,
     "discountPercent": 85,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "100 - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -475,7 +493,8 @@ export const PRODUCTS = [
     "originalPrice": 600,
     "discountPrice": 90,
     "discountPercent": 85,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "200 - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -491,7 +510,8 @@ export const PRODUCTS = [
     "originalPrice": 1000,
     "discountPrice": 150,
     "discountPercent": 85,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "1K - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -507,7 +527,8 @@ export const PRODUCTS = [
     "originalPrice": 2000,
     "discountPrice": 300,
     "discountPercent": 85,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "2 K - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -523,7 +544,8 @@ export const PRODUCTS = [
     "originalPrice": 5000,
     "discountPrice": 750,
     "discountPercent": 85,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "5K - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -539,7 +561,8 @@ export const PRODUCTS = [
     "originalPrice": 10000,
     "discountPrice": 1500,
     "discountPercent": 85,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "10K - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -555,7 +578,8 @@ export const PRODUCTS = [
     "originalPrice": 1750,
     "discountPrice": 262.5,
     "discountPercent": 85,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "1K SPECIAL - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -571,7 +595,8 @@ export const PRODUCTS = [
     "originalPrice": 3500,
     "discountPrice": 525,
     "discountPercent": 85,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "2 K SPECIAL - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -587,7 +612,8 @@ export const PRODUCTS = [
     "originalPrice": 8750,
     "discountPrice": 1312.5,
     "discountPercent": 85,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "5 K SPECIAL - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -603,7 +629,8 @@ export const PRODUCTS = [
     "originalPrice": 17500,
     "discountPrice": 2625,
     "discountPercent": 85,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "10 KSPECIAL - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -619,7 +646,8 @@ export const PRODUCTS = [
     "originalPrice": 200,
     "discountPrice": 30,
     "discountPercent": 85,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "RED BIJILLI - Direct from Sivakasi factory (1Pkt) with flat 85% OFF."
@@ -635,7 +663,8 @@ export const PRODUCTS = [
     "originalPrice": 230,
     "discountPrice": 35,
     "discountPercent": 85,
-    "image": "/images/lakshmi_crackers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "STRIPPED BUILLI - Direct from Sivakasi factory (1Pkt) with flat 85% OFF."
@@ -652,6 +681,7 @@ export const PRODUCTS = [
     "discountPrice": 69,
     "discountPercent": 85,
     "image": "/images/FLOWERPOTBIG.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "FLOWER POT BIG (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -668,6 +698,7 @@ export const PRODUCTS = [
     "discountPrice": 93,
     "discountPercent": 85,
     "image": "/images/FLOWERPOTSPECIAL.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "FLOWER POT SPECIAL (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -683,7 +714,8 @@ export const PRODUCTS = [
     "originalPrice": 800,
     "discountPrice": 120,
     "discountPercent": 85,
-    "image": "/images/GROUNDCHAKKARAASHOKA 1.jpeg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "FLOWER POT ASHOKA (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -700,6 +732,7 @@ export const PRODUCTS = [
     "discountPrice": 187.5,
     "discountPercent": 85,
     "image": "/images/COLORKOTI.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "COLOR KOTI (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -715,7 +748,8 @@ export const PRODUCTS = [
     "originalPrice": 1500,
     "discountPrice": 225,
     "discountPercent": 85,
-    "image": "/images/flower-pots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "COLOR KOTI XL (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -732,6 +766,7 @@ export const PRODUCTS = [
     "discountPrice": 330,
     "discountPercent": 85,
     "image": "/images/COLORKOTIDELUXE.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "COLOR KOTI DELUXE (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -748,6 +783,7 @@ export const PRODUCTS = [
     "discountPrice": 480,
     "discountPercent": 85,
     "image": "/images/FlowerPot Super Deluxe (Jumbo).jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "FLOWER POTS SUPER DELUXE (JUMBO) (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -764,6 +800,7 @@ export const PRODUCTS = [
     "discountPrice": 36,
     "discountPercent": 85,
     "image": "/images/GROUNDCHAKKARABIG10'S 1.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "GROUND CHAKKARA BIG (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -780,6 +817,7 @@ export const PRODUCTS = [
     "discountPrice": 52.5,
     "discountPercent": 85,
     "image": "/images/GROUNDCHAKKARAASHOKA 1.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "GROUND CHAKKARA ASHOKA (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -796,6 +834,7 @@ export const PRODUCTS = [
     "discountPrice": 75,
     "discountPercent": 85,
     "image": "/images/GROUND CHAKKARA SPECIAL 1.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "GROUND CHAKKARA SPECIAL (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -812,6 +851,7 @@ export const PRODUCTS = [
     "discountPrice": 127.5,
     "discountPercent": 85,
     "image": "/images/GROUND CHAKKARA DELUXE 10.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "GROUND CHAKKARA DELUXE (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -828,6 +868,7 @@ export const PRODUCTS = [
     "discountPrice": 135,
     "discountPercent": 85,
     "image": "/images/Spinner level.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "SPINNER LEVEL (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -844,6 +885,7 @@ export const PRODUCTS = [
     "discountPrice": 67.5,
     "discountPercent": 85,
     "image": "/images/HYDRO BOMB.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "HYDRO BOMB (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -860,6 +902,7 @@ export const PRODUCTS = [
     "discountPrice": 75,
     "discountPercent": 85,
     "image": "/images/KING OF KING GREEN 1.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "KING OF KING GREEN (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -876,6 +919,7 @@ export const PRODUCTS = [
     "discountPrice": 97.5,
     "discountPercent": 85,
     "image": "/images/CLASSIC BOMB GREEN 1.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "CLASSIC BOMB GREEN (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -892,6 +936,7 @@ export const PRODUCTS = [
     "discountPrice": 277.5,
     "discountPercent": 85,
     "image": "/images/DIGITAL BOMB 12PLY 1.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "DIGITAL BOMB 12 PLY (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -908,6 +953,7 @@ export const PRODUCTS = [
     "discountPrice": 300,
     "discountPercent": 85,
     "image": "/images/KingRider.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "High",
     "desc": "KING RIDER (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -924,6 +970,7 @@ export const PRODUCTS = [
     "discountPrice": 19.5,
     "discountPercent": 85,
     "image": "/images/1½ TWINKLING STAR (2).jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "1½ TWINKLING STAR (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -940,6 +987,7 @@ export const PRODUCTS = [
     "discountPrice": 60,
     "discountPercent": 85,
     "image": "/images/4 TWINKLING STAR.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "4 TWINKLING STAR (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -955,7 +1003,8 @@ export const PRODUCTS = [
     "originalPrice": 320,
     "discountPrice": 48,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "ROCKET BOMB (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -972,6 +1021,7 @@ export const PRODUCTS = [
     "discountPrice": 75,
     "discountPercent": 85,
     "image": "/images/COLOUR ROCKET.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "COLOUR ROCKET (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -987,7 +1037,8 @@ export const PRODUCTS = [
     "originalPrice": 600,
     "discountPrice": 90,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "LUNIK ROCKET (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -1003,7 +1054,8 @@ export const PRODUCTS = [
     "originalPrice": 1000,
     "discountPrice": 150,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "TWO SOUND ROCKET (10 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -1019,7 +1071,8 @@ export const PRODUCTS = [
     "originalPrice": 1200,
     "discountPrice": 180,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "MUSICAL ROCKET (5 PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -1036,6 +1089,7 @@ export const PRODUCTS = [
     "discountPrice": 150,
     "discountPercent": 85,
     "image": "/images/WHISTLING ROCKET (10PCS).jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "WHISTLING ROCKET (10PCS) - Direct from Sivakasi factory (1BOX) with flat 85% OFF."
@@ -1052,6 +1106,7 @@ export const PRODUCTS = [
     "discountPrice": 180,
     "discountPercent": 85,
     "image": "/images/Water melonstar 1 BOX.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "WATERMELON STAR (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1068,6 +1123,7 @@ export const PRODUCTS = [
     "discountPrice": 262.5,
     "discountPercent": 85,
     "image": "/images/KULFI.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "KULFI (3 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1084,6 +1140,7 @@ export const PRODUCTS = [
     "discountPrice": 60,
     "discountPercent": 85,
     "image": "/images/LAVA Shower 3in13inch.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "LAVA SHOWER (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1100,6 +1157,7 @@ export const PRODUCTS = [
     "discountPrice": 150,
     "discountPercent": 85,
     "image": "/images/Magic Sound 1BOX.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "MAGIC SOUND (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1115,7 +1173,8 @@ export const PRODUCTS = [
     "originalPrice": 1500,
     "discountPrice": 225,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "VELUM MAYILUM (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1132,6 +1191,7 @@ export const PRODUCTS = [
     "discountPrice": 232.5,
     "discountPercent": 85,
     "image": "/images/CylinderBomb.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "CYLINDER BOMB (2 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1148,6 +1208,7 @@ export const PRODUCTS = [
     "discountPrice": 195,
     "discountPercent": 85,
     "image": "/images/Sky Colour 5Pcs (2).jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "SKY COLOUR (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1164,6 +1225,7 @@ export const PRODUCTS = [
     "discountPrice": 190.5,
     "discountPercent": 85,
     "image": "/images/Maxy Pencil.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "MAXY PENCIL (2 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1180,6 +1242,7 @@ export const PRODUCTS = [
     "discountPrice": 225,
     "discountPercent": 85,
     "image": "/images/CUTE 5 COLOUR FOUNTAIN 3 inch 5.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "CUTE 5 COLOUR FOUNTAIN 3inch (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1196,6 +1259,7 @@ export const PRODUCTS = [
     "discountPrice": 285,
     "discountPercent": 85,
     "image": "/images/TRICOLOUR FOUNTAIN 4 INCH.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "TRI COLOUR FOUNTAIN 4 INCH (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1211,7 +1275,8 @@ export const PRODUCTS = [
     "originalPrice": 1600,
     "discountPrice": 240,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "CRACKLING FOUNTAIN (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1227,7 +1292,8 @@ export const PRODUCTS = [
     "originalPrice": 900,
     "discountPrice": 135,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "MINI SIREN (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1244,6 +1310,7 @@ export const PRODUCTS = [
     "discountPrice": 75,
     "discountPercent": 85,
     "image": "/images/SIREN CANDEL.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "SIREN CANDLE (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1259,7 +1326,8 @@ export const PRODUCTS = [
     "originalPrice": 1200,
     "discountPrice": 180,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "KING SIREN (3 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1276,6 +1344,7 @@ export const PRODUCTS = [
     "discountPrice": 187.5,
     "discountPercent": 85,
     "image": "/images/1000 WATTS.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "1000 WATTS (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1291,7 +1360,8 @@ export const PRODUCTS = [
     "originalPrice": 240,
     "discountPrice": 36,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "KITKAT BIG - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1307,7 +1377,8 @@ export const PRODUCTS = [
     "originalPrice": 500,
     "discountPrice": 75,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "BUTTERFLY WINGS FIGHTERS - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1323,7 +1394,8 @@ export const PRODUCTS = [
     "originalPrice": 670,
     "discountPrice": 100,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "BAMBARAM (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1340,6 +1412,7 @@ export const PRODUCTS = [
     "discountPrice": 130.5,
     "discountPercent": 85,
     "image": "/images/Whistling Wheel.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "WHISTLING WHEEL (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1356,6 +1429,7 @@ export const PRODUCTS = [
     "discountPrice": 105,
     "discountPercent": 85,
     "image": "/images/TRI COLOUR FLASH.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "TRICOLOUR PHOTOFLASH (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1372,6 +1446,7 @@ export const PRODUCTS = [
     "discountPrice": 171,
     "discountPercent": 85,
     "image": "/images/Tin Shower 8 INCH.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "TIN MAX (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1388,6 +1463,7 @@ export const PRODUCTS = [
     "discountPrice": 65,
     "discountPercent": 85,
     "image": "/images/KungFuShower 5PCS 4 INCH 5BOX.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "KUNG FU PANDA (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1404,6 +1480,7 @@ export const PRODUCTS = [
     "discountPrice": 45,
     "discountPercent": 85,
     "image": "/images/ROBOAT kids Shower 2¼ 5 IN1 5 BOX.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "ROBO KIDS SHOWER (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1420,6 +1497,7 @@ export const PRODUCTS = [
     "discountPrice": 180,
     "discountPercent": 85,
     "image": "/images/Party Night.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "PARTY NIGHT (3 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1436,6 +1514,7 @@ export const PRODUCTS = [
     "discountPrice": 198,
     "discountPercent": 85,
     "image": "/images/WATER QUEEN TIN 6 INCH.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "WATER QUEEN (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1451,7 +1530,8 @@ export const PRODUCTS = [
     "originalPrice": 450,
     "discountPrice": 68,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "PHOTO FLASH - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1467,7 +1547,8 @@ export const PRODUCTS = [
     "originalPrice": 600,
     "discountPrice": 90,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "HELICOPTER (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1484,6 +1565,7 @@ export const PRODUCTS = [
     "discountPrice": 234,
     "discountPercent": 85,
     "image": "/images/TOP GUN.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "TOP GUN (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1500,6 +1582,7 @@ export const PRODUCTS = [
     "discountPrice": 105,
     "discountPercent": 85,
     "image": "/images/SELFI STICK.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "SELFIE STICK (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1515,7 +1598,8 @@ export const PRODUCTS = [
     "originalPrice": 0,
     "discountPrice": 0,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "PLANET WHEEL - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1531,7 +1615,8 @@ export const PRODUCTS = [
     "originalPrice": 0,
     "discountPrice": 0,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "4 * 4 WHEEL (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1548,6 +1633,7 @@ export const PRODUCTS = [
     "discountPrice": 234,
     "discountPercent": 85,
     "image": "/images/LOLLIPOP STICK 5PCS.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "LOLLIPOP STICK (5PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1564,6 +1650,7 @@ export const PRODUCTS = [
     "discountPrice": 82.5,
     "discountPercent": 85,
     "image": "/images/7 ShotMulti COLOUR.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "7 SHOT MULTICOLOUR (5PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1579,7 +1666,8 @@ export const PRODUCTS = [
     "originalPrice": 800,
     "discountPrice": 120,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "COLOUR SMOKE (3 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1595,7 +1683,8 @@ export const PRODUCTS = [
     "originalPrice": 600,
     "discountPrice": 90,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "DISCO SHOWER (5PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1612,6 +1701,7 @@ export const PRODUCTS = [
     "discountPrice": 175.5,
     "discountPercent": 85,
     "image": "/images/PEACOCK SMALL 1 BOX.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "PEACOCK SMALL (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1628,6 +1718,7 @@ export const PRODUCTS = [
     "discountPrice": 225,
     "discountPercent": 85,
     "image": "/images/PEACOCK BIG 1BOX.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "PEACOCK BIG (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1644,6 +1735,7 @@ export const PRODUCTS = [
     "discountPrice": 375,
     "discountPercent": 85,
     "image": "/images/PEACOCK BADA 1 BOX.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "PEACOCK BADA (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1660,6 +1752,7 @@ export const PRODUCTS = [
     "discountPrice": 141,
     "discountPercent": 85,
     "image": "/images/WIRE CHAKKAR (2).jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "WIRE CHAKKAR (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1675,7 +1768,8 @@ export const PRODUCTS = [
     "originalPrice": 900,
     "discountPrice": 135,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "WATER FALLS - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1692,6 +1786,7 @@ export const PRODUCTS = [
     "discountPrice": 172.5,
     "discountPercent": 85,
     "image": "/images/MAGIC SHOW.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "MAGIC SHOW (2 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1707,7 +1802,8 @@ export const PRODUCTS = [
     "originalPrice": 0,
     "discountPrice": 0,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "SPACE COMET - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1723,7 +1819,8 @@ export const PRODUCTS = [
     "originalPrice": 0,
     "discountPrice": 0,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "STAR NIGHT - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1739,7 +1836,8 @@ export const PRODUCTS = [
     "originalPrice": 367,
     "discountPrice": 55,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "EMERALD (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1755,7 +1853,8 @@ export const PRODUCTS = [
     "originalPrice": 1400,
     "discountPrice": 210,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "FLOWER GARDEN (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1771,7 +1870,8 @@ export const PRODUCTS = [
     "originalPrice": 1400,
     "discountPrice": 210,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "WORLD WONDER (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1787,7 +1887,8 @@ export const PRODUCTS = [
     "originalPrice": 1400,
     "discountPrice": 210,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "CRACKLING FLOWER (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1803,7 +1904,8 @@ export const PRODUCTS = [
     "originalPrice": 1400,
     "discountPrice": 210,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "777 (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1819,7 +1921,8 @@ export const PRODUCTS = [
     "originalPrice": 1400,
     "discountPrice": 210,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "X MAS TREE (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1835,7 +1938,8 @@ export const PRODUCTS = [
     "originalPrice": 1000,
     "discountPrice": 150,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "GALAXY (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1851,7 +1955,8 @@ export const PRODUCTS = [
     "originalPrice": 1500,
     "discountPrice": 225,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "WAR IN THE SKY (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1867,7 +1972,8 @@ export const PRODUCTS = [
     "originalPrice": 1400,
     "discountPrice": 210,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "GOLDEN TREE (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1883,7 +1989,8 @@ export const PRODUCTS = [
     "originalPrice": 250,
     "discountPrice": 38,
     "discountPercent": 85,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "SERPENT EGG - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1900,6 +2007,7 @@ export const PRODUCTS = [
     "discountPrice": 16.5,
     "discountPercent": 85,
     "image": "/images/10CM ELECTRIC SPARKLERS.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "10 CM ELECTRIC SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1916,6 +2024,7 @@ export const PRODUCTS = [
     "discountPrice": 18.75,
     "discountPercent": 85,
     "image": "/images/10CM COLOR SPARKLERS.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "10 CM COLOR SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1932,6 +2041,7 @@ export const PRODUCTS = [
     "discountPrice": 19.5,
     "discountPercent": 85,
     "image": "/images/10CM GREEN SPARKLERS.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "10 CM GREEN SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1948,6 +2058,7 @@ export const PRODUCTS = [
     "discountPrice": 21,
     "discountPercent": 85,
     "image": "/images/10CM RED SPARKLERS.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "10 CM RED SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1964,6 +2075,7 @@ export const PRODUCTS = [
     "discountPrice": 24.75,
     "discountPercent": 85,
     "image": "/images/1 2 CM ELECTRIC SPARKLERS.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "12 CM ELECTRIC SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1980,6 +2092,7 @@ export const PRODUCTS = [
     "discountPrice": 27,
     "discountPercent": 85,
     "image": "/images/12 CM COLOR SPARKLERS.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "12 CM COLOR SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -1996,6 +2109,7 @@ export const PRODUCTS = [
     "discountPrice": 29.25,
     "discountPercent": 85,
     "image": "/images/12 CM GREEN SPARKLERS.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "12 CM GREEN SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2012,6 +2126,7 @@ export const PRODUCTS = [
     "discountPrice": 31.5,
     "discountPercent": 85,
     "image": "/images/12 CM RED SPARKLERS.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "12 CM RED SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2028,6 +2143,7 @@ export const PRODUCTS = [
     "discountPrice": 37.5,
     "discountPercent": 85,
     "image": "/images/15 CM ELECTRIC SPARKLERS.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "15 CM ELECTRIC SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2044,6 +2160,7 @@ export const PRODUCTS = [
     "discountPrice": 40.5,
     "discountPercent": 85,
     "image": "/images/15 CM COLOR SPARKLERS.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "15 CM COLOR SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2059,7 +2176,8 @@ export const PRODUCTS = [
     "originalPrice": 280,
     "discountPrice": 42,
     "discountPercent": 85,
-    "image": "/images/sparklers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "15 CM GREEN SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2075,7 +2193,8 @@ export const PRODUCTS = [
     "originalPrice": 300,
     "discountPrice": 45,
     "discountPercent": 85,
-    "image": "/images/sparklers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "15 CM RED SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2092,6 +2211,7 @@ export const PRODUCTS = [
     "discountPrice": 37.5,
     "discountPercent": 85,
     "image": "/images/30 CM ELECTRIC SPARKLERS 5.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "30 CM ELECTRIC SPARKLERS (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2107,7 +2227,8 @@ export const PRODUCTS = [
     "originalPrice": 270,
     "discountPrice": 40.5,
     "discountPercent": 85,
-    "image": "/images/sparklers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "30 CM COLOUR SPARKLERS (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2123,7 +2244,8 @@ export const PRODUCTS = [
     "originalPrice": 280,
     "discountPrice": 42,
     "discountPercent": 85,
-    "image": "/images/sparklers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "30 CM GREEN SPARKLERS (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2139,7 +2261,8 @@ export const PRODUCTS = [
     "originalPrice": 300,
     "discountPrice": 45,
     "discountPercent": 85,
-    "image": "/images/sparklers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "30 CM RED SPARKLERS (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2155,7 +2278,8 @@ export const PRODUCTS = [
     "originalPrice": 1100,
     "discountPrice": 165,
     "discountPercent": 85,
-    "image": "/images/sparklers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "50 CM ELECTRIC SPARKLERS (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2172,6 +2296,7 @@ export const PRODUCTS = [
     "discountPrice": 172.5,
     "discountPercent": 85,
     "image": "/images/50 CM COLOR SPARKLERS  (5PCS).jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "50CM COLOR SPARKLERS (5PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2187,7 +2312,8 @@ export const PRODUCTS = [
     "originalPrice": 0,
     "discountPrice": 0,
     "discountPercent": 85,
-    "image": "/images/sparklers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "LOVELY HEART SPARKLING (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2203,7 +2329,8 @@ export const PRODUCTS = [
     "originalPrice": 0,
     "discountPrice": 0,
     "discountPercent": 85,
-    "image": "/images/sparklers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "CELEBRATION 4 IN 1 SPARKLING (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2219,7 +2346,8 @@ export const PRODUCTS = [
     "originalPrice": 1500,
     "discountPrice": 225,
     "discountPercent": 85,
-    "image": "/images/sparklers.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "SPINNING SPARKLING (1 BOX) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2235,7 +2363,8 @@ export const PRODUCTS = [
     "originalPrice": 235,
     "discountPrice": 35.25,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "1 inch CHOTTA FANCY - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2251,7 +2380,8 @@ export const PRODUCTS = [
     "originalPrice": 1100,
     "discountPrice": 165,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "2 inch FANCY - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2267,7 +2397,8 @@ export const PRODUCTS = [
     "originalPrice": 1700,
     "discountPrice": 255,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "2 1/4 FANCY (3 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2283,7 +2414,8 @@ export const PRODUCTS = [
     "originalPrice": 1400,
     "discountPrice": 210,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "3\" FANCY SINGLE (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2299,7 +2431,8 @@ export const PRODUCTS = [
     "originalPrice": 1500,
     "discountPrice": 225,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "3 NAYAGARA FALLS (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2315,7 +2448,8 @@ export const PRODUCTS = [
     "originalPrice": 1800,
     "discountPrice": 270,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "3 1/2\" FANCY SINGLE (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2331,7 +2465,8 @@ export const PRODUCTS = [
     "originalPrice": 2200,
     "discountPrice": 330,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "3½ SIZZLING SINGLE (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2347,7 +2482,8 @@ export const PRODUCTS = [
     "originalPrice": 3850,
     "discountPrice": 577.5,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "3 1/2 inch FANCY (2PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2363,7 +2499,8 @@ export const PRODUCTS = [
     "originalPrice": 2900,
     "discountPrice": 435,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "31/2 \"FANCY DOUBLE BALL (2PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2379,7 +2516,8 @@ export const PRODUCTS = [
     "originalPrice": 0,
     "discountPrice": 0,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "4\" FANCY 7STEP (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2395,7 +2533,8 @@ export const PRODUCTS = [
     "originalPrice": 2650,
     "discountPrice": 398,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "4 \" FANCY SINGLE - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2411,7 +2550,8 @@ export const PRODUCTS = [
     "originalPrice": 0,
     "discountPrice": 0,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "4 inch NAYAGARA FALLS - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2427,7 +2567,8 @@ export const PRODUCTS = [
     "originalPrice": 5300,
     "discountPrice": 795,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "4 inch FANCY (2PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2443,7 +2584,8 @@ export const PRODUCTS = [
     "originalPrice": 0,
     "discountPrice": 0,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "4 inch FANCY DOUBLE BALL - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2459,7 +2601,8 @@ export const PRODUCTS = [
     "originalPrice": 6400,
     "discountPrice": 960,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "5 inchFANCY (2 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2475,7 +2618,8 @@ export const PRODUCTS = [
     "originalPrice": 3200,
     "discountPrice": 480,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "5 inch SINGLE - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2491,7 +2635,8 @@ export const PRODUCTS = [
     "originalPrice": 3785,
     "discountPrice": 567,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "6 inch SINGLE - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2507,7 +2652,8 @@ export const PRODUCTS = [
     "originalPrice": 7570,
     "discountPrice": 1135,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "6 inch (2 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2523,7 +2669,8 @@ export const PRODUCTS = [
     "originalPrice": 2000,
     "discountPrice": 300,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "PURPLE SHOT - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2539,7 +2686,8 @@ export const PRODUCTS = [
     "originalPrice": 750,
     "discountPrice": 112.5,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "12 SHOT CRACKLING - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2555,7 +2703,8 @@ export const PRODUCTS = [
     "originalPrice": 1100,
     "discountPrice": 165,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "12 SHOT MULTICOLOUR - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2571,7 +2720,8 @@ export const PRODUCTS = [
     "originalPrice": 2000,
     "discountPrice": 300,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "12 SHOT WHISTLING - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2587,7 +2737,8 @@ export const PRODUCTS = [
     "originalPrice": 5800,
     "discountPrice": 870,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "25 SHOT WHISTLING - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2603,7 +2754,8 @@ export const PRODUCTS = [
     "originalPrice": 11560,
     "discountPrice": 1734,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "50 SHOT WHISTLING - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2620,6 +2772,7 @@ export const PRODUCTS = [
     "discountPrice": 450,
     "discountPercent": 85,
     "image": "/images/30 SHOT MULTICOLOR (STARVELL) 1BOX.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "30 SHOT MUTICOLOUR - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2635,7 +2788,8 @@ export const PRODUCTS = [
     "originalPrice": 6000,
     "discountPrice": 900,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "60 SHOT MUTICOLOUR - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2651,7 +2805,8 @@ export const PRODUCTS = [
     "originalPrice": 12000,
     "discountPrice": 1800,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "120 SHOT MULTICOLOR - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2667,7 +2822,8 @@ export const PRODUCTS = [
     "originalPrice": 24000,
     "discountPrice": 3600,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "240 SHOT MULTICOLOR - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2684,6 +2840,7 @@ export const PRODUCTS = [
     "discountPrice": 525,
     "discountPercent": 85,
     "image": "/images/30 SHOT MULTICOLOR (STARVELL) 1BOX.jpeg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "30 SHOT MULTICOLOR SPL - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2699,7 +2856,8 @@ export const PRODUCTS = [
     "originalPrice": 7000,
     "discountPrice": 1050,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "60 SHOT MULTICOLOR SPL - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2715,7 +2873,8 @@ export const PRODUCTS = [
     "originalPrice": 14000,
     "discountPrice": 2100,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "120 SHOT MULTICOLOR SPL - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2731,7 +2890,8 @@ export const PRODUCTS = [
     "originalPrice": 28000,
     "discountPrice": 4200,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "240 SHOT MULTICOLOR SPL - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2747,7 +2907,8 @@ export const PRODUCTS = [
     "originalPrice": 0,
     "discountPrice": 0,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "2 inch SETOUT - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2763,7 +2924,8 @@ export const PRODUCTS = [
     "originalPrice": 0,
     "discountPrice": 0,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "2 1/2 inch SETOUT - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2779,7 +2941,8 @@ export const PRODUCTS = [
     "originalPrice": 0,
     "discountPrice": 0,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "3 inch SETOUT - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2796,6 +2959,7 @@ export const PRODUCTS = [
     "discountPrice": 1950,
     "discountPercent": 85,
     "image": "/images/gujarat_festival_150_shots.jpg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "GUJARAT FESTIVAL 150 - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2811,7 +2975,8 @@ export const PRODUCTS = [
     "originalPrice": 20000,
     "discountPrice": 3000,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "GANG BANGERS 32 SHOT - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2827,7 +2992,8 @@ export const PRODUCTS = [
     "originalPrice": 25000,
     "discountPrice": 3750,
     "discountPercent": 85,
-    "image": "/images/sky-shots.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "10X10 - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
@@ -2843,7 +3009,8 @@ export const PRODUCTS = [
     "originalPrice": 0,
     "discountPrice": 0,
     "discountPercent": 0,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "ROLL CAP - Direct from Sivakasi factory (1Pkt) with flat NET RATE."
@@ -2859,7 +3026,8 @@ export const PRODUCTS = [
     "originalPrice": 0,
     "discountPrice": 0,
     "discountPercent": 0,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "RIDER COLOUR MATCHES - Direct from Sivakasi factory (1Pkt) with flat NET RATE."
@@ -2875,7 +3043,8 @@ export const PRODUCTS = [
     "originalPrice": 0,
     "discountPrice": 0,
     "discountPercent": 0,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "LOLLIPOP MATCHES - Direct from Sivakasi factory (1Pkt) with flat NET RATE."
@@ -2891,7 +3060,8 @@ export const PRODUCTS = [
     "originalPrice": 0,
     "discountPrice": 0,
     "discountPercent": 0,
-    "image": "/images/hero.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "ANACONDA BIG SIZE - Direct from Sivakasi factory (1Pkt) with flat NET RATE."
@@ -2907,7 +3077,8 @@ export const PRODUCTS = [
     "originalPrice": 0,
     "discountPrice": 0,
     "discountPercent": 0,
-    "image": "/images/gift_box_combo_1787842665035.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "GIFT BOX - Direct from Sivakasi factory ((1 BOX)) with flat NET RATE."
@@ -2923,7 +3094,8 @@ export const PRODUCTS = [
     "originalPrice": 0,
     "discountPrice": 0,
     "discountPercent": 0,
-    "image": "/images/gift_box_combo_1787842665035.jpg",
+    "image": "/logo.webp",
+    "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
     "desc": "GIFT BOX (35 ITEM) - Direct from Sivakasi factory ((1 BOX)) with flat NET RATE."
@@ -2955,7 +3127,7 @@ export const TESTIMONIALS = [
     name: "Karthikeyan Ramasamy",
     city: "Chennai, TN",
     rating: 5,
-    text: "Ordered our company and family Diwali crackers from Muthumari Crackers. The 85% factory discount saved us ₹22,000 and the packing arrived safely via parcel with zero damage. 10/10 quality!",
+    text: "Ordered our company and family Diwali crackers from MuthuMari Crackers. The 85% factory discount saved us ₹22,000 and the packing arrived safely via parcel with zero damage. 10/10 quality!",
   },
   {
     name: "Suresh Babu",

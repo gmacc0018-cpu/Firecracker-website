@@ -71,7 +71,7 @@ export const HomePage = ({ setActivePage }) => {
                     Muthu Mari
                   </span>
                   <span className="font-logo-sub logo-brand-gold" style={{ fontSize: "clamp(2.4rem, 5vw, 4rem)" }}>
-                    Fireworks
+                    Crackers
                   </span>
                 </div>
               </h1>
@@ -188,7 +188,7 @@ export const HomePage = ({ setActivePage }) => {
                     Muthu Mari
                   </span>
                   <span className="font-logo-sub logo-brand-gold" style={{ fontSize: "1.65rem", fontWeight: 700 }}>
-                    Fireworks
+                    Crackers
                   </span>
                 </div>
 
