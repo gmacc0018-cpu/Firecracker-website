@@ -10,7 +10,7 @@ export const Footer = ({ setActivePage }) => {
     { id: "gift-boxes", label: "Gift Boxes & Diwali Combos" },
     { id: "products", label: "Sivakasi Products Catalog" },
     { id: "safety-tips", label: "Fireworks Safety Guidelines" },
-    { id: "about", label: "About Muthu Mari Fireworks" },
+    { id: "about", label: "About Muthu Mari Crackers" },
     { id: "contact", label: "Contact & Google Location" },
   ];
 

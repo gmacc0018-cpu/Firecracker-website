@@ -72,7 +72,7 @@ export function App() {
 
         {/* Floating WhatsApp Quick Action Button */}
         <a
-          href={`https://wa.me/${COMPANY_INFO.whatsappNumber}?text=Hi%2C%20I%20want%20to%20know%20more%20about%20Muthu%20Mari%20Fireworks%20price%20list.`}
+          href={`https://wa.me/${COMPANY_INFO.whatsappNumber}?text=Hi%2C%20I%20want%20to%20know%20more%20about%20Muthu%20Mari%20Crackers%20price%20list.`}
           target="_blank"
           rel="noreferrer"
           style={{

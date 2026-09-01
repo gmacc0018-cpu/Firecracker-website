@@ -75,11 +75,11 @@ export const ProductsPage = () => {
               Muthu Mari
             </span>
             <span className="font-logo-sub logo-brand-gold" style={{ fontSize: "clamp(2rem, 4vw, 2.9rem)", fontWeight: 700 }}>
-              Fireworks Catalog
+              Crackers Catalog
             </span>
           </div>
           <p style={{ color: "#475569", maxWidth: "680px", margin: "8px auto 0", fontSize: "0.95rem" }}>
-            Explore high quality green fireworks manufactured by {COMPANY_INFO.name} in Sivakasi in exact price list order with flat 85% direct factory discount. Click on any item for image popout and quick order.
+            Explore high quality green crackers manufactured by {COMPANY_INFO.name} in Sivakasi in exact price list order with flat 85% direct factory discount. Click on any item for image popout and quick order.
           </p>
         </div>
 

@@ -26,7 +26,7 @@ export function generateOrderPDF(orderItems, customerInfo, totals) {
   doc.setTextColor(255, 255, 255);
   doc.setFontSize(22);
   doc.setFont("helvetica", "bold");
-  doc.text("MUTHU MARI FIREWORKS", 14, 18);
+  doc.text("MUTHU MARI CRACKERS", 14, 18);
 
   doc.setFontSize(9);
   doc.setFont("helvetica", "normal");
@@ -151,15 +151,15 @@ export function generateOrderPDF(orderItems, customerInfo, totals) {
   doc.text(`To confirm this order, share this PDF or send on WhatsApp: ${COMPANY_INFO.phone}`, 14, noteY + 14);
 
   // Save document
-  doc.save(`MuthuMari_Fireworks_Estimate_${estimateNo}.pdf`);
+  doc.save(`MuthuMari_Crackers_Estimate_${estimateNo}.pdf`);
 }
 
 /**
  * Builds formatted WhatsApp message for direct 1-tap ordering
  */
 export function buildWhatsAppOrderUrl(orderItems, customerInfo, totals) {
-  let text = `🎆 *NEW FIRECRACKERS ESTIMATE / ORDER INQUIRY (85% OFF)* 🎆\n`;
-  text += `*Brand:* Muthu Mari Fireworks (${COMPANY_INFO.name} - Sivakasi)\n\n`;
+  let text = `🎆 *NEW CRACKERS ESTIMATE / ORDER INQUIRY (85% OFF)* 🎆\n`;
+  text += `*Brand:* Muthu Mari Crackers (${COMPANY_INFO.name} - Sivakasi)\n\n`;
 
   if (customerInfo && customerInfo.name) {
     text += `👤 *Customer:* ${customerInfo.name}\n`;

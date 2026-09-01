@@ -112,7 +112,7 @@ export const QuickOrderPage = () => {
                 Muthu Mari
               </span>
               <span className="font-logo-sub logo-brand-gold" style={{ fontSize: "clamp(1.8rem, 4vw, 2.7rem)", fontWeight: 700 }}>
-                Fireworks
+                Crackers
               </span>
             </div>
           </div>
