@@ -31,6 +31,49 @@ export const QuickOrderPage = () => {
     });
   }, [selectedCategory, searchTerm]);
 
+  // Group filtered products by category order for single continuous list with separator headings
+  const groupedProducts = useMemo(() => {
+    const groups = [];
+    let currentCategory = null;
+    let currentItems = [];
+
+    filteredProducts.forEach((product) => {
+      if (product.categoryName !== currentCategory) {
+        if (currentItems.length > 0) {
+          groups.push({
+            categoryName: currentCategory,
+            categoryDesc: currentItems[0].categoryDesc,
+            items: currentItems,
+          });
+        }
+        currentCategory = product.categoryName;
+        currentItems = [product];
+      } else {
+        currentItems.push(product);
+      }
+    });
+
+    if (currentItems.length > 0) {
+      groups.push({
+        categoryName: currentCategory,
+        categoryDesc: currentItems[0].categoryDesc,
+        items: currentItems,
+      });
+    }
+
+    return groups;
+  }, [filteredProducts]);
+
+  const handleCategoryClick = (catId) => {
+    setSelectedCategory(catId);
+    if (catId !== "all") {
+      const element = document.getElementById(`cat-heading-${catId}`);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
+  };
+
   const handleDownloadPDF = () => {
     if (cartItems.length === 0) {
       alert("Please add at least 1 item to your estimate to download the PDF.");
@@ -77,7 +120,7 @@ export const QuickOrderPage = () => {
             Quick Order & Estimate Maker ({COMPANY_INFO.name})
           </h2>
           <p style={{ color: "#475569", maxWidth: "700px", margin: "8px auto 0", fontSize: "0.95rem" }}>
-            Select your desired quantity for each firecracker below. Real-time calculation with factory direct <strong style={{ color: "#d91b5c" }}>85% discount</strong>. Click on any product thumbnail or name to view high-resolution photo popout.
+            Select your desired quantity for each firecracker below in exact price list sequence. Real-time calculation with factory direct <strong style={{ color: "#d91b5c" }}>85% discount</strong>. Click on any product thumbnail or name to view high-resolution photo popout.
           </p>
         </div>
 
@@ -203,7 +246,7 @@ export const QuickOrderPage = () => {
               return (
                 <button
                   key={cat.id}
-                  onClick={() => setSelectedCategory(cat.id)}
+                  onClick={() => handleCategoryClick(cat.id)}
                   style={{
                     background: isSelected ? "linear-gradient(135deg, #0253b3, #d91b5c)" : "#ffffff",
                     color: isSelected ? "#fff" : "#475569",
@@ -224,7 +267,7 @@ export const QuickOrderPage = () => {
           </div>
         </div>
 
-        {/* Responsive Price Table / Order Form */}
+        {/* Responsive Price Table / Single Continuous List with Category Headings */}
         <div
           className="glass-panel"
           style={{
@@ -237,8 +280,6 @@ export const QuickOrderPage = () => {
           {/* Table Header for Desktop */}
           <div
             style={{
-              display: "grid",
-              gridTemplateColumns: "70px 1fr 110px 120px 130px 120px",
               padding: "14px 20px",
               background: "#f1f5f9",
               borderBottom: "1px solid #e2e8f0",
@@ -248,176 +289,198 @@ export const QuickOrderPage = () => {
               textTransform: "uppercase",
               letterSpacing: "0.5px",
             }}
-            className="hidden-mobile"
+            className="hidden-mobile quick-order-grid-header"
           >
-            <div>Code</div>
-            <div>Product Description (Click Image to Pop Out)</div>
-            <div style={{ textAlign: "right" }}>MRP</div>
-            <div style={{ textAlign: "right", color: "#d91b5c" }}>85% OFF</div>
-            <div style={{ textAlign: "center" }}>Order Qty</div>
-            <div style={{ textAlign: "right" }}>Total (₹)</div>
+            <div>CODE</div>
+            <div>PARTICULARS (CLICK IMAGE TO POP OUT)</div>
+            <div style={{ textAlign: "center" }}>PACKING</div>
+            <div style={{ textAlign: "right" }}>SALE PRICE</div>
+            <div style={{ textAlign: "right", color: "#d91b5c" }}>FINAL RATE</div>
+            <div style={{ textAlign: "center" }}>ORDER QTY</div>
+            <div style={{ textAlign: "right" }}>TOTAL (₹)</div>
           </div>
 
-          {/* Product Rows */}
+          {/* Grouped Single Continuous List with Inbetween Category Headings */}
           <div style={{ display: "flex", flexDirection: "column" }}>
-            {filteredProducts.map((product, idx) => {
-              const qty = cart[product.id] || 0;
-              const rowTotal = product.discountPrice * qty;
-
-              return (
-                <div
-                  key={product.id}
-                  style={{
-                    display: "grid",
-                    gridTemplateColumns: "70px 1fr 110px 120px 130px 120px",
-                    padding: "14px 20px",
-                    alignItems: "center",
-                    borderBottom: "1px solid #f1f5f9",
-                    background: qty > 0 ? "#eff6ff" : idx % 2 === 0 ? "#ffffff" : "#fcfcfd",
-                    transition: "background 0.2s",
-                  }}
-                  className="quick-order-row"
-                >
-                  {/* Product Code */}
-                  <div style={{ fontSize: "0.82rem", fontWeight: 700, color: "#64748b" }}>
-                    #{product.id}
-                  </div>
-
-                  {/* Description with Clickable Image Popout */}
-                  <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-                    <div
-                      style={{ position: "relative", cursor: "pointer" }}
-                      onClick={() => setPreviewProduct(product)}
-                      title="Click to zoom / pop out image"
-                    >
-                      <img
-                        src={product.image}
-                        alt={product.name}
-                        style={{
-                          width: "48px",
-                          height: "48px",
-                          borderRadius: "8px",
-                          objectFit: "cover",
-                          flexShrink: 0,
-                          border: "1px solid #cbd5e1",
-                          boxShadow: "0 2px 6px rgba(0,0,0,0.06)",
-                          transition: "transform 0.2s ease",
-                        }}
-                        onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.1)")}
-                        onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
-                      />
-                      <div
-                        style={{
-                          position: "absolute",
-                          bottom: 0,
-                          right: 0,
-                          background: "rgba(2, 83, 179, 0.85)",
-                          color: "#fff",
-                          padding: "2px",
-                          borderRadius: "4px 0 8px 0",
-                          display: "flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                        }}
-                      >
-                        <Eye size={10} />
+            {groupedProducts.length === 0 ? (
+              <div style={{ padding: "40px", textAlign: "center", color: "#64748b" }}>
+                No firecrackers found matching your search. Try a different keyword.
+              </div>
+            ) : (
+              groupedProducts.map((group) => {
+                const catObj = CATEGORIES.find((c) => c.name === group.categoryName) || { id: group.categoryName };
+                return (
+                  <div key={group.categoryName} id={`cat-heading-${catObj.id}`}>
+                    {/* Category Separator Header */}
+                    <div className="category-separator-row">
+                      <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                        <Sparkles size={16} />
+                        <span>{group.categoryDesc || group.categoryName}</span>
                       </div>
+                      <span className="category-separator-badge">
+                        {group.items.length} {group.items.length === 1 ? "Item" : "Items"}
+                      </span>
                     </div>
 
-                    <div>
-                      <div
-                        style={{ fontWeight: 700, fontSize: "0.95rem", color: "#0f172a", cursor: "pointer" }}
-                        onClick={() => setPreviewProduct(product)}
-                      >
-                        {product.name}
-                      </div>
-                      <div style={{ fontSize: "0.8rem", color: "#64748b" }}>
-                        {product.tamilName} • <span style={{ color: "#0253b3", fontWeight: 600 }}>{product.pieces}</span>
-                        {product.badge && (
-                          <span style={{ marginLeft: "8px", background: "#fef3c7", color: "#b45309", padding: "1px 6px", borderRadius: "4px", fontSize: "0.7rem", fontWeight: 700 }}>
-                            {product.badge}
-                          </span>
-                        )}
-                      </div>
-                    </div>
+                    {/* Product Rows under this Category */}
+                    {group.items.map((product, idx) => {
+                      const qty = cart[product.id] || 0;
+                      const rowTotal = product.discountPrice * qty;
+
+                      return (
+                        <div
+                          key={product.id}
+                          style={{
+                            background: qty > 0 ? "#eff6ff" : idx % 2 === 0 ? "#ffffff" : "#fcfcfd",
+                            borderBottom: "1px solid #f1f5f9",
+                            transition: "background 0.2s",
+                          }}
+                          className="quick-order-row quick-order-grid-row"
+                        >
+                          {/* Product Code */}
+                          <div style={{ fontSize: "0.9rem", fontWeight: 800, color: "#0253b3" }}>
+                            {product.id}
+                          </div>
+
+                          {/* Description with Clickable Image Popout */}
+                          <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+                            <div
+                              style={{ position: "relative", cursor: "pointer" }}
+                              onClick={() => setPreviewProduct(product)}
+                              title="Click to zoom / pop out image"
+                            >
+                              <img
+                                src={product.image}
+                                alt={product.name}
+                                style={{
+                                  width: "48px",
+                                  height: "48px",
+                                  borderRadius: "8px",
+                                  objectFit: "cover",
+                                  flexShrink: 0,
+                                  border: "1px solid #cbd5e1",
+                                  boxShadow: "0 2px 6px rgba(0,0,0,0.06)",
+                                  transition: "transform 0.2s ease",
+                                }}
+                                onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.1)")}
+                                onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
+                              />
+                              <div
+                                style={{
+                                  position: "absolute",
+                                  bottom: 0,
+                                  right: 0,
+                                  background: "rgba(2, 83, 179, 0.85)",
+                                  color: "#fff",
+                                  padding: "2px",
+                                  borderRadius: "4px 0 8px 0",
+                                  display: "flex",
+                                  alignItems: "center",
+                                  justifyContent: "center",
+                                }}
+                              >
+                                <Eye size={10} />
+                              </div>
+                            </div>
+
+                            <div>
+                              <div
+                                style={{ fontWeight: 700, fontSize: "0.95rem", color: "#0f172a", cursor: "pointer" }}
+                                onClick={() => setPreviewProduct(product)}
+                              >
+                                {product.name}
+                              </div>
+                              <div style={{ fontSize: "0.8rem", color: "#64748b" }}>
+                                {product.tamilName}
+                              </div>
+                            </div>
+                          </div>
+
+                          {/* Packing */}
+                          <div style={{ textAlign: "center", fontSize: "0.85rem", fontWeight: 600, color: "#475569" }}>
+                            {product.pieces}
+                          </div>
+
+                          {/* Sale Price (MRP) */}
+                          <div style={{ textAlign: "right", fontSize: "0.88rem", color: "#94a3b8", textDecoration: product.originalPrice > 0 ? "line-through" : "none" }}>
+                            {product.originalPrice > 0 ? `₹${product.originalPrice}` : "-"}
+                          </div>
+
+                          {/* Final Rate */}
+                          <div style={{ textAlign: "right", fontSize: "1.08rem", fontWeight: 800, color: "#d91b5c" }}>
+                            {product.discountPrice > 0 ? `₹${product.discountPrice}` : <span style={{ color: "#b45309", fontSize: "0.82rem" }}>Net Rate</span>}
+                          </div>
+
+                          {/* Qty Selector */}
+                          <div style={{ display: "flex", justifyContent: "center" }}>
+                            <div
+                              style={{
+                                display: "flex",
+                                alignItems: "center",
+                                background: "#ffffff",
+                                border: "1px solid #cbd5e1",
+                                borderRadius: "8px",
+                                overflow: "hidden",
+                                boxShadow: "0 1px 3px rgba(0,0,0,0.05)",
+                              }}
+                            >
+                              <button
+                                onClick={() => updateQuantity(product.id, qty - 1)}
+                                style={{
+                                  background: "none",
+                                  border: "none",
+                                  color: "#334155",
+                                  padding: "6px 8px",
+                                  cursor: "pointer",
+                                }}
+                              >
+                                <Minus size={14} />
+                              </button>
+
+                              <input
+                                type="number"
+                                min="0"
+                                value={qty === 0 ? "" : qty}
+                                placeholder="0"
+                                onChange={(e) => updateQuantity(product.id, e.target.value)}
+                                style={{
+                                  width: "44px",
+                                  background: "transparent",
+                                  border: "none",
+                                  textAlign: "center",
+                                  color: "#0f172a",
+                                  fontWeight: 700,
+                                  fontSize: "0.95rem",
+                                  outline: "none",
+                                }}
+                              />
+
+                              <button
+                                onClick={() => updateQuantity(product.id, qty + 1)}
+                                style={{
+                                  background: "none",
+                                  border: "none",
+                                  color: "#334155",
+                                  padding: "6px 8px",
+                                  cursor: "pointer",
+                                }}
+                              >
+                                <Plus size={14} />
+                              </button>
+                            </div>
+                          </div>
+
+                          {/* Row Total */}
+                          <div style={{ textAlign: "right", fontWeight: 800, fontSize: "1rem", color: rowTotal > 0 ? "#16a34a" : "#94a3b8" }}>
+                            ₹{rowTotal.toLocaleString("en-IN")}
+                          </div>
+                        </div>
+                      );
+                    })}
                   </div>
-
-                  {/* MRP */}
-                  <div style={{ textAlign: "right", fontSize: "0.88rem", color: "#94a3b8", textDecoration: "line-through" }}>
-                    ₹{product.originalPrice}
-                  </div>
-
-                  {/* 85% Discount Price */}
-                  <div style={{ textAlign: "right", fontSize: "1.08rem", fontWeight: 800, color: "#d91b5c" }}>
-                    ₹{product.discountPrice}
-                  </div>
-
-                  {/* Qty Selector */}
-                  <div style={{ display: "flex", justifyContent: "center" }}>
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        background: "#ffffff",
-                        border: "1px solid #cbd5e1",
-                        borderRadius: "8px",
-                        overflow: "hidden",
-                        boxShadow: "0 1px 3px rgba(0,0,0,0.05)",
-                      }}
-                    >
-                      <button
-                        onClick={() => updateQuantity(product.id, qty - 1)}
-                        style={{
-                          background: "none",
-                          border: "none",
-                          color: "#334155",
-                          padding: "6px 8px",
-                          cursor: "pointer",
-                        }}
-                      >
-                        <Minus size={14} />
-                      </button>
-
-                      <input
-                        type="number"
-                        min="0"
-                        value={qty === 0 ? "" : qty}
-                        placeholder="0"
-                        onChange={(e) => updateQuantity(product.id, e.target.value)}
-                        style={{
-                          width: "44px",
-                          background: "transparent",
-                          border: "none",
-                          textAlign: "center",
-                          color: "#0f172a",
-                          fontWeight: 700,
-                          fontSize: "0.95rem",
-                          outline: "none",
-                        }}
-                      />
-
-                      <button
-                        onClick={() => updateQuantity(product.id, qty + 1)}
-                        style={{
-                          background: "none",
-                          border: "none",
-                          color: "#334155",
-                          padding: "6px 8px",
-                          cursor: "pointer",
-                        }}
-                      >
-                        <Plus size={14} />
-                      </button>
-                    </div>
-                  </div>
-
-                  {/* Row Total */}
-                  <div style={{ textAlign: "right", fontWeight: 800, fontSize: "1rem", color: rowTotal > 0 ? "#16a34a" : "#94a3b8" }}>
-                    ₹{rowTotal.toLocaleString("en-IN")}
-                  </div>
-                </div>
-              );
-            })}
+                );
+              })
+            )}
           </div>
         </div>
 
@@ -451,14 +514,14 @@ export const QuickOrderPage = () => {
                     border: "1px solid #cbd5e1",
                     borderRadius: "10px",
                     padding: "10px 14px",
+                    fontSize: "0.92rem",
                     color: "#0f172a",
-                    fontSize: "0.9rem",
                   }}
                 />
 
                 <input
                   type="tel"
-                  placeholder="Phone / WhatsApp (e.g. 9787010042)"
+                  placeholder="WhatsApp Mobile Number (e.g. 9876543210)"
                   value={customerInfo.phone}
                   onChange={(e) => setCustomerInfo({ ...customerInfo, phone: e.target.value })}
                   style={{
@@ -466,14 +529,14 @@ export const QuickOrderPage = () => {
                     border: "1px solid #cbd5e1",
                     borderRadius: "10px",
                     padding: "10px 14px",
+                    fontSize: "0.92rem",
                     color: "#0f172a",
-                    fontSize: "0.9rem",
                   }}
                 />
 
                 <input
                   type="text"
-                  placeholder="Destination City / Town (e.g. Chennai, Bangalore, Coimbatore)"
+                  placeholder="Town / City / District (e.g. Madurai, Coimbatore, Chennai)"
                   value={customerInfo.city}
                   onChange={(e) => setCustomerInfo({ ...customerInfo, city: e.target.value })}
                   style={{
@@ -481,84 +544,58 @@ export const QuickOrderPage = () => {
                     border: "1px solid #cbd5e1",
                     borderRadius: "10px",
                     padding: "10px 14px",
+                    fontSize: "0.92rem",
                     color: "#0f172a",
-                    fontSize: "0.9rem",
                   }}
                 />
               </div>
             </div>
 
-            {/* Total Calculation Card */}
-            <div
-              style={{
-                background: "#f8fafc",
-                border: "1px solid #e2e8f0",
-                borderRadius: "16px",
-                padding: "24px",
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "space-between",
-              }}
-            >
-              <div>
-                <h4 style={{ fontSize: "1.1rem", fontWeight: 700, color: "#0f172a", marginBottom: "16px" }}>
-                  Estimate Summary ({totals.totalItems} Items)
-                </h4>
-
-                <div style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "0.92rem", color: "#475569" }}>
-                  <div style={{ display: "flex", justifyContent: "space-between" }}>
-                    <span>Total MRP:</span>
-                    <span style={{ textDecoration: "line-through" }}>₹{totals.totalOriginal.toLocaleString("en-IN")}</span>
-                  </div>
-                  <div style={{ display: "flex", justifyContent: "space-between", color: "#16a34a", fontWeight: 700 }}>
-                    <span>85% Direct Factory Discount:</span>
-                    <span>- ₹{totals.totalSavings.toLocaleString("en-IN")}</span>
-                  </div>
-                  <div style={{ display: "flex", justifyContent: "space-between" }}>
-                    <span>Packing & Safety Crate:</span>
-                    <span>₹{totals.packingCharges}</span>
-                  </div>
-                  <div
-                    style={{
-                      display: "flex",
-                      justifyContent: "space-between",
-                      fontSize: "1.25rem",
-                      fontWeight: 900,
-                      color: "#0253b3",
-                      borderTop: "1px solid #e2e8f0",
-                      paddingTop: "10px",
-                      marginTop: "4px",
-                    }}
-                  >
-                    <span>Net Payable:</span>
-                    <span>₹{totals.finalTotal.toLocaleString("en-IN")}</span>
-                  </div>
+            <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+              <div
+                style={{
+                  background: "#eff6ff",
+                  border: "1px solid #bfdbfe",
+                  borderRadius: "14px",
+                  padding: "18px",
+                  marginBottom: "20px",
+                }}
+              >
+                <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "8px" }}>
+                  <AlertCircle size={18} color="#0253b3" />
+                  <span style={{ fontWeight: 700, color: "#1e3a8a", fontSize: "0.9rem" }}>Direct Factory Dispatch Notice</span>
                 </div>
+                <ul style={{ fontSize: "0.82rem", color: "#1e40af", paddingLeft: "18px", lineHeight: "1.6" }}>
+                  <li>Minimum order requirement: <strong>₹{COMPANY_INFO.minOrderValue.toLocaleString("en-IN")}</strong> for transport booking.</li>
+                  <li>Packing & waterproof cardboard box charges: <strong>₹{COMPANY_INFO.packingCharges}</strong>.</li>
+                  <li>Parcel service dispatch directly from Sivakasi to all major towns across Tamil Nadu, Karnataka, Andhra & Telangana.</li>
+                </ul>
               </div>
 
-              <div style={{ display: "flex", gap: "12px", marginTop: "20px", flexWrap: "wrap" }}>
+              <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
                 <button
                   onClick={handleWhatsAppOrder}
                   className="btn-whatsapp"
-                  style={{ flex: 1, padding: "12px", fontSize: "0.95rem" }}
+                  style={{ flex: 1, padding: "14px 20px" }}
                 >
                   <MessageSquare size={18} />
-                  <span>Send Order via WhatsApp</span>
+                  <span>Send Estimate to WhatsApp</span>
                 </button>
+
                 <button
                   onClick={handleDownloadPDF}
                   className="btn-secondary"
-                  style={{ padding: "12px 18px", fontSize: "0.95rem" }}
+                  style={{ flex: 1, padding: "14px 20px" }}
                 >
                   <Download size={18} color="#0253b3" />
-                  <span>PDF Estimate</span>
+                  <span>Download PDF Estimate</span>
                 </button>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Product Image Popout Modal */}
+        {/* Product Photo Popup / Zoom Modal */}
         {previewProduct && (
           <div
             style={{
@@ -569,7 +606,7 @@ export const QuickOrderPage = () => {
               height: "100%",
               background: "rgba(15, 23, 42, 0.75)",
               backdropFilter: "blur(6px)",
-              zIndex: 120,
+              zIndex: 140,
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -580,82 +617,91 @@ export const QuickOrderPage = () => {
             <div
               className="modal-popin"
               style={{
-                width: "100%",
-                maxWidth: "540px",
-                borderRadius: "20px",
-                overflow: "hidden",
                 background: "#ffffff",
-                position: "relative",
-                boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.35)",
+                borderRadius: "20px",
+                maxWidth: "460px",
+                width: "100%",
+                overflow: "hidden",
+                boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
+                border: "1px solid #cbd5e1",
               }}
               onClick={(e) => e.stopPropagation()}
             >
-              {/* Close button */}
-              <button
-                onClick={() => setPreviewProduct(null)}
-                style={{
-                  position: "absolute",
-                  top: "14px",
-                  right: "14px",
-                  background: "rgba(15, 23, 42, 0.7)",
-                  border: "none",
-                  color: "#fff",
-                  padding: "8px",
-                  borderRadius: "50%",
-                  cursor: "pointer",
-                  zIndex: 2,
-                }}
-              >
-                <X size={20} />
-              </button>
-
-              {/* Large Product Image */}
-              <div style={{ width: "100%", height: "300px", background: "#f8fafc", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
+              <div style={{ position: "relative", height: "320px", background: "#f8fafc" }}>
                 <img
                   src={previewProduct.image}
                   alt={previewProduct.name}
                   style={{ width: "100%", height: "100%", objectFit: "contain" }}
                 />
+                <button
+                  onClick={() => setPreviewProduct(null)}
+                  style={{
+                    position: "absolute",
+                    top: "12px",
+                    right: "12px",
+                    background: "rgba(15, 23, 42, 0.7)",
+                    color: "#fff",
+                    border: "none",
+                    borderRadius: "50%",
+                    width: "32px",
+                    height: "32px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    cursor: "pointer",
+                  }}
+                >
+                  <X size={18} />
+                </button>
+                <div
+                  style={{
+                    position: "absolute",
+                    bottom: "12px",
+                    left: "12px",
+                    background: "linear-gradient(135deg, #d91b5c, #ea580c)",
+                    color: "#fff",
+                    padding: "4px 10px",
+                    borderRadius: "6px",
+                    fontWeight: 800,
+                    fontSize: "0.8rem",
+                  }}
+                >
+                  85% FACTORY DISCOUNT
+                </div>
               </div>
 
-              {/* Product Info inside modal */}
-              <div style={{ padding: "22px" }}>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
-                  <span className="festive-badge">
-                    Product #{previewProduct.id} • Flat 85% OFF
+              <div style={{ padding: "20px" }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: "4px" }}>
+                  <span style={{ fontSize: "0.75rem", color: "#0253b3", fontWeight: 700, textTransform: "uppercase" }}>
+                    Code #{previewProduct.id} • {previewProduct.categoryName}
                   </span>
-                  <span style={{ fontSize: "0.85rem", color: "#64748b", fontWeight: 700 }}>
-                    {previewProduct.pieces}
+                  <span style={{ fontSize: "0.82rem", fontWeight: 700, color: "#475569" }}>
+                    Pack: {previewProduct.pieces}
                   </span>
                 </div>
 
-                <h3 style={{ fontSize: "1.3rem", fontWeight: 800, color: "#0f172a", marginBottom: "4px" }}>
+                <h3 style={{ fontSize: "1.25rem", fontWeight: 800, color: "#0f172a", marginBottom: "4px" }}>
                   {previewProduct.name}
                 </h3>
-                <div style={{ fontSize: "0.95rem", color: "#0253b3", fontWeight: 700, marginBottom: "12px" }}>
+                <div style={{ fontSize: "0.9rem", color: "#64748b", marginBottom: "16px" }}>
                   {previewProduct.tamilName}
                 </div>
 
-                <p style={{ color: "#475569", fontSize: "0.9rem", lineHeight: "1.6", marginBottom: "18px" }}>
-                  {previewProduct.desc}
-                </p>
-
-                {/* Price and Quantity Modifier in Modal */}
                 <div
                   style={{
                     display: "flex",
                     justifyContent: "space-between",
                     alignItems: "center",
-                    paddingTop: "16px",
+                    paddingTop: "14px",
                     borderTop: "1px solid #e2e8f0",
                   }}
                 >
                   <div>
-                    <div style={{ fontSize: "0.82rem", color: "#94a3b8", textDecoration: "line-through" }}>
-                      MRP: ₹{previewProduct.originalPrice}
+                    <div style={{ fontSize: "0.82rem", color: "#94a3b8", textDecoration: previewProduct.originalPrice > 0 ? "line-through" : "none" }}>
+                      {previewProduct.originalPrice > 0 ? `MRP: ₹${previewProduct.originalPrice}` : "-"}
                     </div>
                     <div style={{ fontSize: "1.5rem", fontWeight: 900, color: "#d91b5c" }}>
-                      ₹{previewProduct.discountPrice}
+                      {previewProduct.discountPrice > 0 ? `₹${previewProduct.discountPrice}` : "Net Rate"}
                     </div>
                   </div>
 
@@ -720,16 +766,6 @@ export const QuickOrderPage = () => {
           </div>
         )}
       </div>
-
-      {/* Style for responsive rows */}
-      <style>{`
-        @media (max-width: 768px) {
-          .quick-order-row {
-            grid-template-columns: 1fr !important;
-            gap: 10px;
-          }
-        }
-      `}</style>
     </div>
   );
 };

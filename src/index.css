@@ -363,9 +363,59 @@ body {
   padding: 0 20px;
 }
 
+/* Quick Order Table Desktop Grid */
+.quick-order-grid-header,
+.quick-order-grid-row {
+  display: grid;
+  grid-template-columns: 70px 1fr 110px 120px 130px 120px;
+  padding: 14px 20px;
+  align-items: center;
+}
+
+/* Category Separator Header in Quick Order and Catalog */
+.category-separator-row {
+  background: linear-gradient(135deg, #0253b3 0%, #1e40af 60%, #d91b5c 100%);
+  color: #ffffff;
+  padding: 12px 20px;
+  font-weight: 800;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  box-shadow: 0 2px 8px rgba(2, 83, 179, 0.2);
+}
+
+.category-separator-badge {
+  background: rgba(255, 255, 255, 0.22);
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
 /* Mobile Responsiveness Helper */
 @media (max-width: 768px) {
   .site-container {
     padding: 0 14px;
+  }
+  .hidden-mobile {
+    display: none !important;
+  }
+  .quick-order-grid-row {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    padding: 16px;
+  }
+  .category-separator-row {
+    padding: 10px 14px;
+    font-size: 0.85rem;
   }
 }
