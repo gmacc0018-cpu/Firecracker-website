@@ -9,6 +9,7 @@ export const Footer = ({ setActivePage }) => {
     { id: "quick-order", label: "Price List & Estimate Maker" },
     { id: "gift-boxes", label: "Gift Boxes & Diwali Combos" },
     { id: "products", label: "Sivakasi Products Catalog" },
+    { id: "gallery", label: "Photos & Video Gallery" },
     { id: "safety-tips", label: "Fireworks Safety Guidelines" },
     { id: "about", label: "About Muthu Mari Crackers" },
     { id: "contact", label: "Contact & Google Location" },

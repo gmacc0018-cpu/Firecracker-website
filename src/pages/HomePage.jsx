@@ -1,5 +1,5 @@
 import React from "react";
-import { Sparkles, ArrowRight, ShieldCheck, Flame, Truck, Percent, Star, ChevronRight, Phone, MapPin } from "lucide-react";
+import { Sparkles, ArrowRight, ShieldCheck, Flame, Truck, Percent, Star, ChevronRight, Phone, MapPin, Camera, Video, Play } from "lucide-react";
 import { InstagramIcon } from "../components/InstagramIcon";
 import { COMPANY_INFO, CATEGORIES, PRODUCTS, TESTIMONIALS } from "../data/products";
 import { useCart } from "../context/CartContext";
@@ -405,6 +405,156 @@ export const HomePage = ({ setActivePage }) => {
                       Add to Estimate
                     </button>
                   </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Visual Photos & Videos Gallery Section Teaser */}
+      <section style={{ padding: "70px 0", background: "linear-gradient(135deg, #0a1128 0%, #1c1938 100%)", color: "#fff", position: "relative", overflow: "hidden" }}>
+        <div className="site-container">
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: "20px", marginBottom: "36px" }}>
+            <div>
+              <div
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "6px",
+                  background: "rgba(253, 224, 71, 0.15)",
+                  color: "#fde047",
+                  padding: "4px 14px",
+                  borderRadius: "20px",
+                  fontSize: "0.82rem",
+                  fontWeight: 700,
+                  marginBottom: "10px",
+                }}
+              >
+                <Camera size={14} />
+                <span>Visual Gallery & Sky Shows</span>
+              </div>
+              <h2 style={{ fontSize: "2.2rem", fontWeight: 800, color: "#fff" }}>
+                Photos & Video Highlights
+              </h2>
+              <p style={{ color: "#ffd1dc", fontSize: "0.95rem", marginTop: "4px" }}>
+                Watch our real Sivakasi night fireworks, green crackers tests & factory packing
+              </p>
+            </div>
+
+            <button
+              onClick={() => {
+                setActivePage("gallery");
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              }}
+              style={{
+                background: "#f59e0b",
+                color: "#0f172a",
+                border: "none",
+                padding: "12px 24px",
+                borderRadius: "30px",
+                fontWeight: 700,
+                fontSize: "0.95rem",
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "8px",
+                cursor: "pointer",
+                boxShadow: "0 6px 20px rgba(245, 158, 11, 0.35)",
+              }}
+            >
+              <span>Explore Full Gallery / Add Media</span>
+              <ArrowRight size={16} />
+            </button>
+          </div>
+
+          {/* 4 Preview Cards */}
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+              gap: "20px",
+            }}
+          >
+            {[
+              {
+                title: "150 Shots Gujarat Festival",
+                sub: "Spectacular Multicolor Aerial Show",
+                img: "/images/gujarat_festival_150_shots.jpg",
+                tag: "Aerial Cake",
+              },
+              {
+                title: "120 Shot Multicolor Display",
+                sub: "Synchronized Grand Fireworks",
+                img: "/images/120 SHOT MULTICOLOR.jpeg",
+                tag: "Multi Shots",
+              },
+              {
+                title: "Sparkler Factory Production",
+                sub: "100% Smoke-free Electric Sparklers",
+                img: "/images/sparkler_celebration_1787842685632.jpg",
+                tag: "Factory Fresh",
+              },
+              {
+                title: "Diwali Family Gift Boxes",
+                sub: "35+ Assorted Certified Crackers",
+                img: "/images/gift_box_combo_1787842665035.jpg",
+                tag: "Gift Hampers",
+              },
+            ].map((card, i) => (
+              <div
+                key={i}
+                onClick={() => {
+                  setActivePage("gallery");
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
+                style={{
+                  background: "rgba(255,255,255,0.06)",
+                  border: "1px solid rgba(255,255,255,0.12)",
+                  borderRadius: "16px",
+                  overflow: "hidden",
+                  cursor: "pointer",
+                  transition: "transform 0.3s ease, border-color 0.3s ease",
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.transform = "translateY(-6px)";
+                  e.currentTarget.style.borderColor = "#f59e0b";
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = "translateY(0)";
+                  e.currentTarget.style.borderColor = "rgba(255,255,255,0.12)";
+                }}
+              >
+                <div style={{ height: "180px", position: "relative", overflow: "hidden" }}>
+                  <img
+                    src={card.img}
+                    alt={card.title}
+                    style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                    onError={(e) => {
+                      e.target.src = "/images/diwali_fireworks_hero_1787842643127.jpg";
+                    }}
+                  />
+                  <div
+                    style={{
+                      position: "absolute",
+                      top: "10px",
+                      left: "10px",
+                      background: "rgba(0,0,0,0.7)",
+                      color: "#fde047",
+                      fontSize: "0.72rem",
+                      fontWeight: 700,
+                      padding: "3px 8px",
+                      borderRadius: "12px",
+                    }}
+                  >
+                    {card.tag}
+                  </div>
+                </div>
+
+                <div style={{ padding: "16px" }}>
+                  <h4 style={{ fontSize: "1.05rem", fontWeight: 700, color: "#fff", marginBottom: "4px" }}>
+                    {card.title}
+                  </h4>
+                  <p style={{ fontSize: "0.82rem", color: "rgba(255,255,255,0.7)" }}>{card.sub}</p>
                 </div>
               </div>
             ))}

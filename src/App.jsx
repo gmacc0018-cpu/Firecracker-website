@@ -8,6 +8,7 @@ import { QuickOrderPage } from "./pages/QuickOrderPage";
 import { ProductsPage } from "./pages/ProductsPage";
 import { GiftBoxesPage } from "./pages/GiftBoxesPage";
 import { SafetyTipsPage } from "./pages/SafetyTipsPage";
+import { GalleryPage } from "./pages/GalleryPage";
 import { AboutPage } from "./pages/AboutPage";
 import { ContactPage } from "./pages/ContactPage";
 import { CartProvider } from "./context/CartContext";
@@ -24,6 +25,7 @@ export function App() {
       "quick-order": `Price List & Quick Order Estimation 2026 | ${COMPANY_INFO.name}`,
       "gift-boxes": `Diwali Gift Boxes & Family Combos | ${COMPANY_INFO.name}`,
       products: `Sivakasi Products Catalog | ${COMPANY_INFO.name}`,
+      gallery: `Photos & Videos Gallery | ${COMPANY_INFO.name}`,
       "safety-tips": `Firecrackers Safety Guidelines & Green Norms | ${COMPANY_INFO.name}`,
       about: `About Us | ${COMPANY_INFO.name} & ${COMPANY_INFO.sisterBrand} Sivakasi`,
       contact: `Contact Us & Factory Location | ${COMPANY_INFO.name}`,
@@ -41,6 +43,8 @@ export function App() {
         return <GiftBoxesPage setActivePage={setActivePage} />;
       case "products":
         return <ProductsPage />;
+      case "gallery":
+        return <GalleryPage />;
       case "safety-tips":
         return <SafetyTipsPage />;
       case "about":
