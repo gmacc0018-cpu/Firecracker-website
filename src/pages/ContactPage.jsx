@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { Phone, Mail, MapPin, MessageSquare, Clock, Send, CheckCircle2, ExternalLink, Navigation } from "lucide-react";
 import { InstagramIcon } from "../components/InstagramIcon";
+import { WhatsAppIcon } from "../components/WhatsAppIcon";
 import { COMPANY_INFO } from "../data/products";
+import { openWhatsApp } from "../utils/orderHelper";
 
 export const ContactPage = () => {
   const [formState, setFormState] = useState({
@@ -21,9 +23,9 @@ export const ContactPage = () => {
 
     // Compose inquiry text for WhatsApp
     const msg = `*NEW CONTACT INQUIRY*\nName: ${formState.name}\nPhone: ${formState.phone}\nCity: ${formState.city || "N/A"}\nMessage: ${formState.message || "I want more details about your fireworks price list."}`;
-    const url = `https://wa.me/${COMPANY_INFO.whatsappNumber}?text=${encodeURIComponent(msg)}`;
+    const url = `https://api.whatsapp.com/send?phone=${COMPANY_INFO.whatsappNumber}&text=${encodeURIComponent(msg)}`;
     setSubmitted(true);
-    window.open(url, "_blank");
+    openWhatsApp(url);
   };
 
   return (
@@ -93,7 +95,7 @@ export const ContactPage = () => {
             {/* WhatsApp Card */}
             <div className="glass-panel" style={{ padding: "24px", borderRadius: "16px", display: "flex", gap: "16px" }}>
               <div style={{ background: "rgba(37, 211, 102, 0.1)", padding: "14px", borderRadius: "12px", color: "#25D366", height: "fit-content" }}>
-                <MessageSquare size={24} />
+                <WhatsAppIcon size={24} color="#25D366" />
               </div>
               <div>
                 <h3 style={{ fontSize: "1.1rem", fontWeight: 700, color: "#0f172a", marginBottom: "4px" }}>
@@ -103,13 +105,14 @@ export const ContactPage = () => {
                   Send "PL" to receive current price list & instant quote
                 </p>
                 <a
-                  href={`https://wa.me/${COMPANY_INFO.whatsappNumber}?text=PL`}
+                  href={`https://api.whatsapp.com/send?phone=${COMPANY_INFO.whatsappNumber}&text=PL`}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="btn-whatsapp"
-                  style={{ padding: "8px 16px", fontSize: "0.85rem" }}
+                  style={{ padding: "8px 16px", fontSize: "0.85rem", display: "inline-flex", alignItems: "center", gap: "6px" }}
                 >
-                  Chat on WhatsApp ({COMPANY_INFO.phoneDisplay})
+                  <WhatsAppIcon size={16} />
+                  <span>Chat on WhatsApp ({COMPANY_INFO.phoneDisplay})</span>
                 </a>
               </div>
             </div>
@@ -313,11 +316,11 @@ export const ContactPage = () => {
 
               <button
                 type="submit"
-                className="btn-primary"
-                style={{ width: "100%", padding: "14px", fontSize: "1rem", marginTop: "8px" }}
+                className="btn-whatsapp"
+                style={{ width: "100%", padding: "14px", fontSize: "1rem", marginTop: "8px", display: "flex", alignItems: "center", justifyContent: "center", gap: "8px" }}
               >
-                <Send size={18} />
-                <span>Send WhatsApp Inquiry</span>
+                <WhatsAppIcon size={18} />
+                <span>Place Inquiry via WhatsApp</span>
               </button>
             </form>
           </div>

@@ -19,6 +19,7 @@ import {
 } from "lucide-react";
 import { GALLERY_CATEGORIES, INITIAL_GALLERY_ITEMS } from "../data/gallery";
 import { COMPANY_INFO } from "../data/products";
+import { WhatsAppIcon } from "../components/WhatsAppIcon";
 import { InstagramIcon } from "../components/InstagramIcon";
 
 export const GalleryPage = () => {
@@ -1124,9 +1125,9 @@ export const GalleryPage = () => {
 
                 <div style={{ display: "flex", gap: "10px" }}>
                   <a
-                    href={`https://wa.me/${COMPANY_INFO.whatsappNumber}?text=Hi%2C%20I%20saw%20${encodeURIComponent(activeMediaModal.title)}%20on%20your%20website%20gallery%20and%20want%20to%20order.`}
+                    href={`https://api.whatsapp.com/send?phone=${COMPANY_INFO.whatsappNumber}&text=${encodeURIComponent(`Hi, I saw ${activeMediaModal.title} on your website gallery and want to order.`)}`}
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     style={{
                       background: "#25d366",
                       color: "#fff",
@@ -1140,7 +1141,8 @@ export const GalleryPage = () => {
                       gap: "6px",
                     }}
                   >
-                    <span>Inquire on WhatsApp</span>
+                    <WhatsAppIcon size={16} />
+                    <span>Place Order (WhatsApp)</span>
                   </a>
                 </div>
               </div>

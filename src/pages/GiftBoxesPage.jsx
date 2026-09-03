@@ -1,5 +1,6 @@
 import React from "react";
-import { Gift, ShieldCheck, Sparkles, Check, ShoppingBag, Truck, Star, Phone, MessageSquare } from "lucide-react";
+import { Gift, ShieldCheck, Sparkles, Check, ShoppingBag, Truck, Star, Phone } from "lucide-react";
+import { WhatsAppIcon } from "../components/WhatsAppIcon";
 import { PRODUCTS, COMPANY_INFO } from "../data/products";
 import { useCart } from "../context/CartContext";
 
@@ -178,14 +179,14 @@ export const GiftBoxesPage = () => {
             Need 50 to 1,000+ customized gift boxes for your company employees, client gifting, or community celebrations? We offer customized branding and special bulk discounts directly from {COMPANY_INFO.name}.
           </p>
           <a
-            href={`https://wa.me/${COMPANY_INFO.whatsappNumber}?text=Hi%2C%20I%20am%20interested%20in%20Bulk%20Corporate%20Diwali%20Gift%20Boxes%20from%20Muthumari%20Agencies.`}
+            href={`https://api.whatsapp.com/send?phone=${COMPANY_INFO.whatsappNumber}&text=${encodeURIComponent("Hi Muthumari Crackers, I am interested in Bulk Corporate Diwali Gift Boxes from Muthumari Agencies.")}`}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="btn-whatsapp"
-            style={{ padding: "12px 28px" }}
+            style={{ padding: "12px 28px", display: "inline-flex", alignItems: "center", gap: "8px" }}
           >
-            <MessageSquare size={18} />
-            <span>Inquire for Corporate Bulk Orders</span>
+            <WhatsAppIcon size={18} />
+            <span>Place Order / Corporate Bulk Inquiries</span>
           </a>
         </div>
       </div>
