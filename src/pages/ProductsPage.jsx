@@ -235,7 +235,14 @@ export const ProductsPage = () => {
                             <img
                               src={product.image}
                               alt={product.name}
-                              style={{ width: "100%", height: "100%", objectFit: "cover", transition: "transform 0.3s ease" }}
+                              style={{
+                                width: "100%",
+                                height: "100%",
+                                objectFit: product.isLogo || product.image === "/logo.webp" ? "contain" : "cover",
+                                padding: product.isLogo || product.image === "/logo.webp" ? "18px" : "0",
+                                background: product.isLogo || product.image === "/logo.webp" ? "#fff9f0" : "#f8fafc",
+                                transition: "transform 0.3s ease"
+                              }}
                               onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.05)")}
                               onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
                             />
