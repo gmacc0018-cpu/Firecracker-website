@@ -73,8 +73,8 @@ export const CartProvider = ({ children }) => {
   const totalOriginal = cartItems.reduce((sum, item) => sum + item.originalPrice * item.quantity, 0);
   const totalDiscounted = cartItems.reduce((sum, item) => sum + item.discountPrice * item.quantity, 0);
   const totalSavings = totalOriginal - totalDiscounted;
-  const packingCharges = totalDiscounted > 0 ? COMPANY_INFO.packingCharges : 0;
-  const finalTotal = totalDiscounted + packingCharges;
+  const packingCharges = 0;
+  const finalTotal = totalDiscounted;
   const isMinOrderMet = totalDiscounted >= COMPANY_INFO.minOrderValue;
 
   const totals = {

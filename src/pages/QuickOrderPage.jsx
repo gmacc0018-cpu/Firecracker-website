@@ -612,15 +612,15 @@ export const QuickOrderPage = () => {
           onClick={() => setIsDrawerOpen(true)}
         >
           <span>
-            {totals.totalItems} items . ₹ {totals.finalTotal.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+            {totals.totalItems} items • ₹{totals.finalTotal.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
           </span>
           <span style={{ color: "#000000", fontWeight: 900 }}>|</span>
           <div className="mouli-floating-cart-badge">
             {totals.totalItems}
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: "4px" }}>
-            <ShoppingBag size={16} />
-            <span>View Cart</span>
+            <ShoppingBag size={14} />
+            <span>Cart</span>
           </div>
         </div>
 
@@ -707,7 +707,7 @@ export const QuickOrderPage = () => {
                 </div>
                 <ul style={{ fontSize: "0.82rem", color: "#1e40af", paddingLeft: "18px", lineHeight: "1.6" }}>
                   <li>Minimum order requirement: <strong>₹{COMPANY_INFO.minOrderValue.toLocaleString("en-IN")}</strong> for transport booking.</li>
-                  <li>Packing & waterproof cardboard box charges: <strong>₹{COMPANY_INFO.packingCharges}</strong>.</li>
+                  <li>Packing & waterproof cardboard box: <strong>FREE (No Extra Charges)</strong>.</li>
                   <li>Parcel service dispatch directly from Sivakasi to all major towns across Tamil Nadu, Karnataka, Andhra & Telangana.</li>
                 </ul>
               </div>

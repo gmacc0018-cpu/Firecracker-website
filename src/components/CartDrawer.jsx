@@ -271,9 +271,9 @@ export const CartDrawer = () => {
                 <span>85% Festive Discount Savings:</span>
                 <span>- ₹{totals.totalSavings.toLocaleString("en-IN")}</span>
               </div>
-              <div style={{ display: "flex", justifyContent: "space-between" }}>
+              <div style={{ display: "flex", justifyContent: "space-between", color: "#16a34a", fontWeight: 600 }}>
                 <span>Packing & Safety Crate:</span>
-                <span>₹{totals.packingCharges}</span>
+                <span>FREE (₹0)</span>
               </div>
               <div
                 style={{

@@ -12,7 +12,7 @@ import { GalleryPage } from "./pages/GalleryPage";
 import { AboutPage } from "./pages/AboutPage";
 import { ContactPage } from "./pages/ContactPage";
 import { CartProvider } from "./context/CartContext";
-import { MessageSquare, Phone } from "lucide-react";
+import { FloatingCartButton } from "./components/FloatingCartButton";
 import { COMPANY_INFO } from "./data/products";
 
 export function App() {
@@ -74,35 +74,8 @@ export function App() {
         {/* Slide-out Cart & Estimate Drawer */}
         <CartDrawer />
 
-        {/* Floating WhatsApp Quick Action Button */}
-        <a
-          href={`https://wa.me/${COMPANY_INFO.whatsappNumber}?text=Hi%2C%20I%20want%20to%20know%20more%20about%20Muthu%20Mari%20Crackers%20price%20list.`}
-          target="_blank"
-          rel="noreferrer"
-          style={{
-            position: "fixed",
-            bottom: "24px",
-            right: "24px",
-            background: "linear-gradient(135deg, #25D366, #128C7E)",
-            color: "#fff",
-            borderRadius: "50%",
-            width: "56px",
-            height: "56px",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            boxShadow: "0 8px 25px rgba(37, 211, 102, 0.5)",
-            zIndex: 45,
-            border: "2px solid #fff",
-            textDecoration: "none",
-            transition: "transform 0.2s ease",
-          }}
-          onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.1)")}
-          onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
-          title="Direct WhatsApp Inquiry"
-        >
-          <MessageSquare size={28} />
-        </a>
+        {/* Floating Shopping Moving Cart Action Button */}
+        <FloatingCartButton />
       </div>
     </CartProvider>
   );

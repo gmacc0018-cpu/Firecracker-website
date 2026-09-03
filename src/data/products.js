@@ -15,7 +15,7 @@ export const COMPANY_INFO = {
   address: "3/243A, Thiruthangal Main Road, Sengamala Nachiar Puram, Thiruthangal, Tamil Nadu 626124, India",
   defaultDiscount: 85, // 85% OFF Factory Direct
   minOrderValue: 2500, // Minimum order ₹2500 for dispatch
-  packingCharges: 150, // Standard safe packing & box fee
+  packingCharges: 0, // No packing charges - 100% Free
   festiveBanner: "🎉 FESTIVE MEGA SALE: FLAT 85% OFF ON DIRECT SIVAKASI ORDERS! BOOK NOW FOR DIWALI 2026!",
 };
 

@@ -121,9 +121,8 @@ export function generateOrderPDF(orderItems, customerInfo, totals) {
   doc.text(`85% Factory Savings:`, summaryX, finalY + 14);
   doc.text(`- Rs. ${totals.totalSavings.toLocaleString("en-IN")}`, 185, finalY + 14, { align: "right" });
 
-  doc.setTextColor(220, 38, 38);
   doc.text(`Packing & Safety Box:`, summaryX, finalY + 20);
-  doc.text(`Rs. ${totals.packingCharges}`, 185, finalY + 20, { align: "right" });
+  doc.text(`FREE (Rs. 0)`, 185, finalY + 20, { align: "right" });
 
   doc.setDrawColor(245, 158, 11);
   doc.line(summaryX, finalY + 22, 190, finalY + 22);
@@ -179,7 +178,7 @@ export function buildWhatsAppOrderUrl(orderItems, customerInfo, totals) {
   text += `• Total MRP: ~₹${totals.totalOriginal.toLocaleString("en-IN")}~\n`;
   text += `• *85% Discounted Value: ₹${totals.totalDiscounted.toLocaleString("en-IN")}*\n`;
   text += `• Festive Savings (85%): ₹${totals.totalSavings.toLocaleString("en-IN")}\n`;
-  text += `• Packing & Safety Box: ₹${totals.packingCharges}\n`;
+  text += `• Packing & Safety Box: FREE (₹0)\n`;
   text += `------------------------------------\n`;
   text += `🔥 *FINAL ESTIMATE AMOUNT: ₹${totals.finalTotal.toLocaleString("en-IN")}*\n\n`;
   text += `Please confirm product availability, delivery parcel transport charges, and dispatch date. Thank you!`;
