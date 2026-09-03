@@ -26,54 +26,38 @@ export const Navbar = ({ activePage, setActivePage }) => {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full" style={{ position: "sticky", top: 0, zIndex: 50 }}>
+    <header className="sticky top-0 z-50 w-full" style={{ position: "sticky", top: 0, zIndex: 50, maxWidth: "100vw", overflowX: "hidden" }}>
       {/* Top Promotional Bar */}
       <div
         style={{
           background: "linear-gradient(90deg, #0253b3 0%, #d91b5c 50%, #ea580c 100%)",
           color: "#fff",
-          fontSize: "0.82rem",
+          fontSize: "0.8rem",
           fontWeight: 600,
-          padding: "7px 16px",
+          padding: "5px 12px",
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          flexWrap: "wrap",
           gap: "8px",
           boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
+          maxWidth: "100vw",
+          boxSizing: "border-box",
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", gap: "6px", margin: "0 auto" }}>
-          <Sparkles size={15} color="#fde047" className="animate-spark" />
-          <span>{COMPANY_INFO.festiveBanner}</span>
+        <div style={{ display: "flex", alignItems: "center", gap: "6px", minWidth: 0, overflow: "hidden" }}>
+          <Sparkles size={14} color="#fde047" className="animate-spark" style={{ flexShrink: 0 }} />
+          <span style={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", fontSize: "0.76rem" }}>
+            {COMPANY_INFO.festiveBanner}
+          </span>
         </div>
 
-        <div style={{ display: "flex", alignItems: "center", gap: "16px", marginLeft: "auto" }}>
+        <div style={{ display: "flex", alignItems: "center", gap: "8px", flexShrink: 0 }}>
           {/* Instagram link */}
           <a
             href={COMPANY_INFO.instagramUrl}
             target="_blank"
             rel="noreferrer"
-            style={{
-              color: "#fff",
-              textDecoration: "none",
-              display: "flex",
-              alignItems: "center",
-              gap: "5px",
-              fontWeight: 700,
-              fontSize: "0.8rem",
-            }}
-            title="Follow us on Instagram"
-          >
-            <InstagramIcon size={14} color="#ffd1dc" />
-            <span className="hidden-mobile">Instagram</span>
-          </a>
-
-          {/* Map link */}
-          <a
-            href={COMPANY_INFO.googleMapsUrl}
-            target="_blank"
-            rel="noreferrer"
+            className="hidden-mobile"
             style={{
               color: "#fff",
               textDecoration: "none",
@@ -81,12 +65,33 @@ export const Navbar = ({ activePage, setActivePage }) => {
               alignItems: "center",
               gap: "4px",
               fontWeight: 700,
-              fontSize: "0.8rem",
+              fontSize: "0.78rem",
+            }}
+            title="Follow us on Instagram"
+          >
+            <InstagramIcon size={14} color="#ffd1dc" />
+            <span>Instagram</span>
+          </a>
+
+          {/* Map link */}
+          <a
+            href={COMPANY_INFO.googleMapsUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="hidden-mobile"
+            style={{
+              color: "#fff",
+              textDecoration: "none",
+              display: "flex",
+              alignItems: "center",
+              gap: "4px",
+              fontWeight: 700,
+              fontSize: "0.78rem",
             }}
             title="View Factory Location on Google Maps"
           >
             <MapPin size={14} color="#ffd700" />
-            <span className="hidden-mobile">Location</span>
+            <span>Location</span>
           </a>
 
           {/* Phone call link */}
@@ -99,12 +104,14 @@ export const Navbar = ({ activePage, setActivePage }) => {
               alignItems: "center",
               gap: "4px",
               fontWeight: 700,
-              background: "rgba(255, 255, 255, 0.18)",
-              padding: "2px 10px",
+              background: "rgba(255, 255, 255, 0.2)",
+              padding: "2px 8px",
               borderRadius: "9999px",
+              fontSize: "0.75rem",
+              whiteSpace: "nowrap",
             }}
           >
-            <Phone size={13} color="#fde047" />
+            <Phone size={12} color="#fde047" />
             <span>Call: {COMPANY_INFO.phoneDisplay}</span>
           </a>
         </div>
@@ -117,6 +124,9 @@ export const Navbar = ({ activePage, setActivePage }) => {
           backdropFilter: "blur(16px)",
           borderBottom: "1px solid #e2e8f0",
           boxShadow: "0 4px 20px rgba(0,0,0,0.06)",
+          width: "100%",
+          maxWidth: "100vw",
+          boxSizing: "border-box",
         }}
       >
         <div
@@ -125,25 +135,28 @@ export const Navbar = ({ activePage, setActivePage }) => {
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
-            paddingTop: "10px",
-            paddingBottom: "10px",
+            paddingTop: "8px",
+            paddingBottom: "8px",
+            gap: "8px",
+            width: "100%",
+            boxSizing: "border-box",
           }}
         >
           {/* Brand Logo with exact font match */}
           <div
             onClick={() => handleNavClick("home")}
-            style={{ cursor: "pointer", display: "flex", alignItems: "center", gap: "12px" }}
+            style={{ cursor: "pointer", display: "flex", alignItems: "center", gap: "8px", minWidth: 0, flexShrink: 1 }}
           >
             <div
               style={{
-                width: "48px",
-                height: "48px",
+                width: "40px",
+                height: "40px",
                 borderRadius: "50%",
                 background: "#ffffff",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                boxShadow: "0 2px 10px rgba(2, 83, 179, 0.15)",
+                boxShadow: "0 2px 8px rgba(2, 83, 179, 0.15)",
                 border: "2px solid #0253b3",
                 overflow: "hidden",
                 flexShrink: 0,
@@ -156,19 +169,20 @@ export const Navbar = ({ activePage, setActivePage }) => {
               />
             </div>
 
-            <div>
+            <div style={{ minWidth: 0 }}>
               <div
                 style={{
                   display: "flex",
                   alignItems: "baseline",
-                  gap: "6px",
+                  gap: "4px",
                   lineHeight: "1.1",
+                  flexWrap: "wrap",
                 }}
               >
                 <span
                   className="font-logo-title logo-brand-pink"
                   style={{
-                    fontSize: "1.65rem",
+                    fontSize: "clamp(1.15rem, 3.5vw, 1.65rem)",
                     fontWeight: 900,
                   }}
                 >
@@ -177,15 +191,15 @@ export const Navbar = ({ activePage, setActivePage }) => {
                 <span
                   className="font-logo-sub logo-brand-gold"
                   style={{
-                    fontSize: "1.35rem",
+                    fontSize: "clamp(1rem, 3vw, 1.35rem)",
                     fontWeight: 700,
                   }}
                 >
                   Crackers
                 </span>
               </div>
-              <div style={{ fontSize: "0.72rem", color: "#64748b", fontWeight: 600, letterSpacing: "0.5px" }}>
-                MUTHUMARI AGENCIES • SIVAKASI DIRECT
+              <div style={{ fontSize: "0.62rem", color: "#64748b", fontWeight: 600, letterSpacing: "0.3px", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
+                MUTHUMARI AGENCIES • SIVAKASI
               </div>
             </div>
           </div>
@@ -195,7 +209,7 @@ export const Navbar = ({ activePage, setActivePage }) => {
             style={{
               display: "flex",
               alignItems: "center",
-              gap: "8px",
+              gap: "6px",
             }}
             className="hidden-mobile"
           >
@@ -210,14 +224,15 @@ export const Navbar = ({ activePage, setActivePage }) => {
                     color: isActive ? "#0253b3" : "#334155",
                     border: isActive ? "1px solid #bfdbfe" : "1px solid transparent",
                     borderRadius: "9999px",
-                    padding: "8px 16px",
-                    fontSize: "0.92rem",
+                    padding: "7px 14px",
+                    fontSize: "0.88rem",
                     fontWeight: isActive ? 700 : 600,
                     cursor: "pointer",
                     transition: "all 0.2s ease",
                     display: "flex",
                     alignItems: "center",
-                    gap: "6px",
+                    gap: "5px",
+                    whiteSpace: "nowrap",
                   }}
                   onMouseEnter={(e) => {
                     if (!isActive) {
@@ -238,8 +253,8 @@ export const Navbar = ({ activePage, setActivePage }) => {
                       style={{
                         background: "linear-gradient(135deg, #d91b5c, #ea580c)",
                         color: "#fff",
-                        fontSize: "0.68rem",
-                        padding: "2px 7px",
+                        fontSize: "0.65rem",
+                        padding: "1px 6px",
                         borderRadius: "9999px",
                         fontWeight: 800,
                       }}
@@ -253,7 +268,7 @@ export const Navbar = ({ activePage, setActivePage }) => {
           </div>
 
           {/* Action Buttons: Cart Estimate & Mobile Toggle */}
-          <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "6px", flexShrink: 0 }}>
             {/* Estimate / Cart Trigger Button */}
             <button
               onClick={() => setIsDrawerOpen(true)}
@@ -262,20 +277,22 @@ export const Navbar = ({ activePage, setActivePage }) => {
                 color: "#fff",
                 border: "none",
                 borderRadius: "9999px",
-                padding: "8px 18px",
+                padding: "6px 12px",
                 fontWeight: 700,
-                fontSize: "0.9rem",
+                fontSize: "0.82rem",
                 display: "flex",
                 alignItems: "center",
-                gap: "8px",
+                gap: "5px",
                 cursor: "pointer",
-                boxShadow: "0 4px 15px rgba(2, 83, 179, 0.25)",
+                boxShadow: "0 3px 10px rgba(2, 83, 179, 0.2)",
                 transition: "all 0.2s ease",
+                whiteSpace: "nowrap",
+                flexShrink: 0,
               }}
             >
-              <ShoppingBag size={18} />
+              <ShoppingBag size={15} />
               <span className="hidden-mobile">Estimate:</span>
-              <span style={{ color: "#fff", fontWeight: 800 }}>
+              <span style={{ color: "#fff", fontWeight: 800, fontSize: "0.82rem" }}>
                 ₹{totals.totalDiscounted.toLocaleString("en-IN")}
               </span>
               {totals.totalItems > 0 && (
@@ -284,8 +301,8 @@ export const Navbar = ({ activePage, setActivePage }) => {
                     background: "#ffd700",
                     color: "#0f172a",
                     borderRadius: "9999px",
-                    padding: "2px 7px",
-                    fontSize: "0.75rem",
+                    padding: "1px 6px",
+                    fontSize: "0.7rem",
                     fontWeight: 900,
                   }}
                 >
@@ -298,17 +315,23 @@ export const Navbar = ({ activePage, setActivePage }) => {
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="show-mobile-btn"
+              aria-label="Open navigation menu"
               style={{
                 background: "#f1f5f9",
-                border: "1px solid #cbd5e1",
+                border: "1.5px solid #cbd5e1",
                 color: "#0f172a",
-                padding: "8px",
+                width: "36px",
+                height: "36px",
+                padding: "0",
                 borderRadius: "8px",
                 cursor: "pointer",
                 display: "none",
+                alignItems: "center",
+                justifyContent: "center",
+                flexShrink: 0,
               }}
             >
-              {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+              {mobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
             </button>
           </div>
         </div>
@@ -319,11 +342,13 @@ export const Navbar = ({ activePage, setActivePage }) => {
             style={{
               background: "#ffffff",
               borderTop: "1px solid #e2e8f0",
-              padding: "16px 20px 24px",
+              padding: "12px 14px 20px",
               display: "flex",
               flexDirection: "column",
-              gap: "8px",
+              gap: "6px",
               boxShadow: "0 10px 25px rgba(0,0,0,0.1)",
+              maxWidth: "100vw",
+              boxSizing: "border-box",
             }}
           >
             {navLinks.map((link) => (
@@ -334,9 +359,9 @@ export const Navbar = ({ activePage, setActivePage }) => {
                   background: activePage === link.id ? "#eff6ff" : "#f8fafc",
                   color: activePage === link.id ? "#0253b3" : "#1e293b",
                   border: activePage === link.id ? "1px solid #bfdbfe" : "1px solid #e2e8f0",
-                  padding: "12px 16px",
-                  borderRadius: "10px",
-                  fontSize: "1rem",
+                  padding: "10px 14px",
+                  borderRadius: "8px",
+                  fontSize: "0.92rem",
                   fontWeight: 600,
                   textAlign: "left",
                   display: "flex",
@@ -351,9 +376,10 @@ export const Navbar = ({ activePage, setActivePage }) => {
                     style={{
                       background: "linear-gradient(135deg, #d91b5c, #ea580c)",
                       color: "#fff",
-                      fontSize: "0.7rem",
-                      padding: "2px 8px",
+                      fontSize: "0.68rem",
+                      padding: "2px 7px",
                       borderRadius: "9999px",
+                      fontWeight: 700,
                     }}
                   >
                     {link.badge}
@@ -362,34 +388,34 @@ export const Navbar = ({ activePage, setActivePage }) => {
               </button>
             ))}
 
-            <div style={{ marginTop: "12px", paddingTop: "12px", borderTop: "1px solid #e2e8f0", display: "flex", flexDirection: "column", gap: "10px" }}>
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "10px" }}>
+            <div style={{ marginTop: "10px", paddingTop: "10px", borderTop: "1px solid #e2e8f0", display: "flex", flexDirection: "column", gap: "8px" }}>
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "8px" }}>
                 <a
                   href={COMPANY_INFO.instagramUrl}
                   target="_blank"
                   rel="noreferrer"
                   className="btn-instagram"
-                  style={{ textAlign: "center", padding: "10px", fontSize: "0.85rem" }}
+                  style={{ textAlign: "center", padding: "8px", fontSize: "0.8rem" }}
                 >
-                  <InstagramIcon size={16} /> Instagram
+                  <InstagramIcon size={14} /> Instagram
                 </a>
                 <a
                   href={COMPANY_INFO.googleMapsUrl}
                   target="_blank"
                   rel="noreferrer"
                   className="btn-map"
-                  style={{ textAlign: "center", padding: "10px", fontSize: "0.85rem" }}
+                  style={{ textAlign: "center", padding: "8px", fontSize: "0.8rem" }}
                 >
-                  <MapPin size={16} /> Google Map
+                  <MapPin size={14} /> Google Map
                 </a>
               </div>
 
               <a
                 href={`tel:${COMPANY_INFO.phone}`}
                 className="btn-primary"
-                style={{ width: "100%", textAlign: "center", padding: "12px" }}
+                style={{ width: "100%", textAlign: "center", padding: "10px", fontSize: "0.88rem" }}
               >
-                <Phone size={16} /> Call Direct: {COMPANY_INFO.phoneDisplay}
+                <Phone size={14} /> Call Direct: {COMPANY_INFO.phoneDisplay}
               </a>
             </div>
           </div>

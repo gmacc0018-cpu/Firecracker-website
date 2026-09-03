@@ -95,11 +95,11 @@ export const QuickOrderPage = () => {
   };
 
   return (
-    <div style={{ padding: "40px 0 80px", position: "relative", zIndex: 1 }}>
+    <div className="quick-order-page-wrapper">
       <div className="site-container">
         {/* Header Title */}
-        <div style={{ textAlign: "center", marginBottom: "36px" }}>
-          <div className="festive-badge" style={{ marginBottom: "12px" }}>
+        <div style={{ textAlign: "center", marginBottom: "20px" }}>
+          <div className="festive-badge" style={{ marginBottom: "8px" }}>
             Direct Factory Price List 2026 • Flat 85% Discount
           </div>
           <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "12px", marginBottom: "8px" }}>
@@ -215,28 +215,28 @@ export const QuickOrderPage = () => {
           }}
         >
           {/* Search Box */}
-          <div style={{ position: "relative", width: "100%", maxWidth: "360px" }}>
-            <Search
-              size={18}
-              color="#64748b"
-              style={{ position: "absolute", left: "14px", top: "50%", transform: "translateY(-50%)" }}
-            />
+          <div style={{ position: "relative", width: "100%", maxWidth: "380px" }}>
             <input
               type="text"
-              placeholder="Search firecrackers (English / தமிழ்)..."
+              placeholder="Search an item (English / தமிழ்)..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               style={{
                 width: "100%",
                 background: "#ffffff",
-                border: "1px solid #cbd5e1",
+                border: "1.5px solid #cbd5e1",
                 borderRadius: "9999px",
-                padding: "10px 16px 10px 42px",
+                padding: "10px 42px 10px 18px",
                 color: "#0f172a",
                 fontSize: "0.92rem",
                 outline: "none",
                 boxShadow: "0 2px 5px rgba(0,0,0,0.03)",
               }}
+            />
+            <Search
+              size={18}
+              color="#0253b3"
+              style={{ position: "absolute", right: "16px", top: "50%", transform: "translateY(-50%)", pointerEvents: "none" }}
             />
           </div>
 
@@ -268,14 +268,15 @@ export const QuickOrderPage = () => {
           </div>
         </div>
 
-        {/* Responsive Price Table / Single Continuous List with Category Headings */}
+        {/* Desktop Table View */}
         <div
-          className="glass-panel"
+          className="glass-panel hidden-mobile"
           style={{
             borderRadius: "16px",
             overflow: "hidden",
             border: "1px solid #e2e8f0",
             background: "#ffffff",
+            marginBottom: "24px",
           }}
         >
           {/* Table Header for Desktop */}
@@ -290,7 +291,7 @@ export const QuickOrderPage = () => {
               textTransform: "uppercase",
               letterSpacing: "0.5px",
             }}
-            className="hidden-mobile quick-order-grid-header"
+            className="quick-order-grid-header"
           >
             <div>CODE</div>
             <div>PARTICULARS (CLICK IMAGE TO POP OUT)</div>
@@ -301,7 +302,7 @@ export const QuickOrderPage = () => {
             <div style={{ textAlign: "right" }}>TOTAL (₹)</div>
           </div>
 
-          {/* Grouped Single Continuous List with Inbetween Category Headings */}
+          {/* Grouped Single Continuous List for Desktop */}
           <div style={{ display: "flex", flexDirection: "column" }}>
             {groupedProducts.length === 0 ? (
               <div style={{ padding: "40px", textAlign: "center", color: "#64748b" }}>
@@ -311,7 +312,7 @@ export const QuickOrderPage = () => {
               groupedProducts.map((group) => {
                 const catObj = CATEGORIES.find((c) => c.name === group.categoryName) || { id: group.categoryName };
                 return (
-                  <div key={group.categoryName} id={`cat-heading-${catObj.id}`}>
+                  <div key={`desktop-${group.categoryName}`} id={`cat-heading-${catObj.id}`}>
                     {/* Category Separator Header */}
                     <div className="category-separator-row">
                       <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
@@ -482,6 +483,144 @@ export const QuickOrderPage = () => {
                 );
               })
             )}
+          </div>
+        </div>
+
+        {/* Mobile View - Mouli-Inspired Card Interface */}
+        <div className="hidden-desktop" style={{ marginBottom: "32px" }}>
+          {groupedProducts.length === 0 ? (
+            <div style={{ padding: "40px", textAlign: "center", color: "#64748b", background: "#fff", borderRadius: "12px", border: "1px solid #e2e8f0" }}>
+              No firecrackers found matching your search. Try a different keyword.
+            </div>
+          ) : (
+            groupedProducts.map((group) => {
+              const catObj = CATEGORIES.find((c) => c.name === group.categoryName) || { id: group.categoryName };
+              return (
+                <div key={`mobile-${group.categoryName}`} id={`cat-heading-${catObj.id}`} style={{ marginBottom: "20px" }}>
+                  {/* Mouli-Style Yellow Banner Header */}
+                  <div className="mouli-category-banner">
+                    {group.categoryDesc || `${group.categoryName} (85% DISCOUNT)`}
+                  </div>
+
+                  {/* Cards List */}
+                  {group.items.map((product) => {
+                    const qty = cart[product.id] || 0;
+                    const rowTotal = product.discountPrice * qty;
+
+                    return (
+                      <div key={`m-card-${product.id}`} className="mouli-product-card">
+                        {/* Top-Left Yellow Serial Badge */}
+                        <div className="mouli-serial-badge">
+                          {product.id}
+                        </div>
+
+                        {/* Top Product Title */}
+                        <div className="mouli-title-box">
+                          <h4
+                            className="mouli-product-title"
+                            onClick={() => setPreviewProduct(product)}
+                          >
+                            {product.name}
+                          </h4>
+                          {product.tamilName && (
+                            <div className="mouli-product-tamil">
+                              {product.tamilName}
+                            </div>
+                          )}
+                        </div>
+
+                        {/* Middle Content Row: Image, Price Stack, Qty Box */}
+                        <div className="mouli-content-row">
+                          {/* Image */}
+                          <div
+                            className="mouli-image-wrapper"
+                            onClick={() => setPreviewProduct(product)}
+                            title="Click to view full photo"
+                          >
+                            <img
+                              src={product.image}
+                              alt={product.name}
+                              loading="lazy"
+                            />
+                          </div>
+
+                          {/* Price Stack: MRP / Unit & Final Rate */}
+                          <div className="mouli-price-stack">
+                            {product.originalPrice > 0 ? (
+                              <div className="mouli-mrp-price">
+                                ₹ {product.originalPrice} / {product.pieces}
+                              </div>
+                            ) : (
+                              <div className="mouli-mrp-price" style={{ visibility: "hidden" }}>-</div>
+                            )}
+                            <div className="mouli-final-price">
+                              {product.discountPrice > 0 ? `₹ ${product.discountPrice} / ${product.pieces}` : "Net Rate"}
+                            </div>
+                          </div>
+
+                          {/* Quantity Counter Control */}
+                          <div className="mouli-qty-control">
+                            <button
+                              className="mouli-qty-btn"
+                              onClick={() => updateQuantity(product.id, qty - 1)}
+                              aria-label="Decrease quantity"
+                            >
+                              <Minus size={14} />
+                            </button>
+
+                            <input
+                              type="number"
+                              min="0"
+                              placeholder="Qty"
+                              value={qty === 0 ? "" : qty}
+                              onChange={(e) => updateQuantity(product.id, e.target.value)}
+                              className="mouli-qty-input"
+                            />
+
+                            <button
+                              className="mouli-qty-btn"
+                              onClick={() => updateQuantity(product.id, qty + 1)}
+                              aria-label="Increase quantity"
+                            >
+                              <Plus size={14} />
+                            </button>
+                          </div>
+                        </div>
+
+                        {/* Bottom-Right Subtotal Badge */}
+                        <div
+                          className="mouli-subtotal-badge"
+                          style={{
+                            background: qty > 0 ? "#eff6ff" : "#f8fafc",
+                            color: qty > 0 ? "#0253b3" : "#000000",
+                          }}
+                        >
+                          ₹ {rowTotal.toLocaleString("en-IN")}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              );
+            })
+          )}
+        </div>
+
+        {/* Mobile Floating Bottom Yellow Cart Bar */}
+        <div
+          className="mouli-floating-cart-bar hidden-desktop"
+          onClick={() => setIsDrawerOpen(true)}
+        >
+          <span>
+            {totals.totalItems} items . ₹ {totals.finalTotal.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+          </span>
+          <span style={{ color: "#000000", fontWeight: 900 }}>|</span>
+          <div className="mouli-floating-cart-badge">
+            {totals.totalItems}
+          </div>
+          <div style={{ display: "flex", alignItems: "center", gap: "4px" }}>
+            <ShoppingBag size={16} />
+            <span>View Cart</span>
           </div>
         </div>
 
