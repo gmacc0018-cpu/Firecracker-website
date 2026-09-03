@@ -1,6 +1,7 @@
 import React from "react";
 import { Sparkles, Phone, Mail, MapPin, ShieldCheck, Heart, ArrowRight, ExternalLink } from "lucide-react";
 import { InstagramIcon } from "./InstagramIcon";
+import { WhatsAppIcon } from "./WhatsAppIcon";
 import { COMPANY_INFO } from "../data/products";
 
 export const Footer = ({ setActivePage }) => {
@@ -270,13 +271,14 @@ export const Footer = ({ setActivePage }) => {
 
               <div style={{ marginTop: "6px" }}>
                 <a
-                  href={`https://wa.me/${COMPANY_INFO.whatsappNumber}`}
+                  href={`https://api.whatsapp.com/send?phone=${COMPANY_INFO.whatsappNumber}&text=${encodeURIComponent("Hi Muthumari Crackers, I would like to inquire about crackers price list and order dispatch.")}`}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="btn-whatsapp"
-                  style={{ width: "100%", fontSize: "0.88rem" }}
+                  style={{ width: "100%", fontSize: "0.88rem", display: "flex", alignItems: "center", justifyContent: "center", gap: "8px" }}
                 >
-                  WhatsApp Direct Inquiry
+                  <WhatsAppIcon size={18} />
+                  <span>Place Order / WhatsApp Inquiry</span>
                 </a>
               </div>
             </div>

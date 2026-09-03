@@ -1,8 +1,9 @@
 import React from "react";
-import { X, Trash2, Download, MessageSquare, AlertCircle, ShoppingBag, Plus, Minus, CheckCircle } from "lucide-react";
+import { X, Trash2, Download, AlertCircle, ShoppingBag, Plus, Minus, CheckCircle } from "lucide-react";
+import { WhatsAppIcon } from "./WhatsAppIcon";
 import { useCart } from "../context/CartContext";
 import { COMPANY_INFO } from "../data/products";
-import { generateOrderPDF, buildWhatsAppOrderUrl } from "../utils/orderHelper";
+import { generateOrderPDF, buildWhatsAppOrderUrl, openWhatsApp } from "../utils/orderHelper";
 import confetti from "canvas-confetti";
 
 export const CartDrawer = () => {
@@ -29,7 +30,7 @@ export const CartDrawer = () => {
     if (cartItems.length === 0) return;
     confetti({ particleCount: 80, spread: 80, origin: { y: 0.5 } });
     const url = buildWhatsAppOrderUrl(cartItems, customerInfo, totals);
-    window.open(url, "_blank");
+    openWhatsApp(url);
   };
 
   return (
@@ -296,10 +297,10 @@ export const CartDrawer = () => {
               <button
                 onClick={handleWhatsAppOrder}
                 className="btn-whatsapp"
-                style={{ width: "100%", padding: "12px", fontSize: "0.95rem" }}
+                style={{ width: "100%", padding: "12px", fontSize: "0.95rem", display: "flex", alignItems: "center", justifyContent: "center", gap: "8px" }}
               >
-                <MessageSquare size={18} />
-                <span>Send Estimate via WhatsApp</span>
+                <WhatsAppIcon size={20} />
+                <span>Place Order (WhatsApp)</span>
               </button>
 
               <div style={{ display: "grid", gridTemplateColumns: "1fr auto", gap: "10px" }}>

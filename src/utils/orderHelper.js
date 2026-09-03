@@ -158,7 +158,7 @@ export function generateOrderPDF(orderItems, customerInfo, totals) {
  * Builds formatted WhatsApp message for direct 1-tap ordering
  */
 export function buildWhatsAppOrderUrl(orderItems, customerInfo, totals) {
-  let text = `🎆 *NEW CRACKERS ESTIMATE / ORDER INQUIRY (85% OFF)* 🎆\n`;
+  let text = `🎆 *NEW CRACKERS ORDER / ESTIMATE (85% OFF)* 🎆\n`;
   text += `*Brand:* Muthu Mari Crackers (${COMPANY_INFO.name} - Sivakasi)\n\n`;
 
   if (customerInfo && customerInfo.name) {
@@ -184,5 +184,19 @@ export function buildWhatsAppOrderUrl(orderItems, customerInfo, totals) {
   text += `🔥 *FINAL ESTIMATE AMOUNT: ₹${totals.finalTotal.toLocaleString("en-IN")}*\n\n`;
   text += `Please confirm product availability, delivery parcel transport charges, and dispatch date. Thank you!`;
 
-  return `https://wa.me/${COMPANY_INFO.whatsappNumber}?text=${encodeURIComponent(text)}`;
+  return `https://api.whatsapp.com/send?phone=${COMPANY_INFO.whatsappNumber}&text=${encodeURIComponent(text)}`;
 }
+
+/**
+ * Universal WhatsApp opener that works reliably on both Desktop (Windows/Mac/Linux) and Mobile devices
+ */
+export function openWhatsApp(url) {
+  if (!url) return;
+  // Use window.open with standard noreferrer
+  const newWin = window.open(url, "_blank", "noopener,noreferrer");
+  if (!newWin || newWin.closed || typeof newWin.closed === "undefined") {
+    // If popup blocker intervened, fallback to direct location
+    window.location.href = url;
+  }
+}
+

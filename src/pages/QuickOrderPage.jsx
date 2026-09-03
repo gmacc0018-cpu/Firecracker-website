@@ -1,8 +1,9 @@
 import React, { useState, useMemo } from "react";
-import { Search, Download, MessageSquare, Flame, Sparkles, Filter, Check, ShoppingBag, Plus, Minus, AlertCircle, Phone, MapPin, Eye, X } from "lucide-react";
+import { Search, Download, Flame, Sparkles, Filter, Check, ShoppingBag, Plus, Minus, AlertCircle, Phone, MapPin, Eye, X } from "lucide-react";
+import { WhatsAppIcon } from "../components/WhatsAppIcon";
 import { PRODUCTS, CATEGORIES, COMPANY_INFO } from "../data/products";
 import { useCart } from "../context/CartContext";
-import { generateOrderPDF, buildWhatsAppOrderUrl } from "../utils/orderHelper";
+import { generateOrderPDF, buildWhatsAppOrderUrl, openWhatsApp } from "../utils/orderHelper";
 import confetti from "canvas-confetti";
 
 export const QuickOrderPage = () => {
@@ -90,7 +91,7 @@ export const QuickOrderPage = () => {
     }
     confetti({ particleCount: 80, spread: 80, origin: { y: 0.5 } });
     const url = buildWhatsAppOrderUrl(cartItems, customerInfo, totals);
-    window.open(url, "_blank");
+    openWhatsApp(url);
   };
 
   return (
@@ -185,10 +186,10 @@ export const QuickOrderPage = () => {
             <button
               onClick={handleWhatsAppOrder}
               className="btn-whatsapp"
-              style={{ padding: "10px 18px", fontSize: "0.88rem" }}
+              style={{ padding: "10px 18px", fontSize: "0.88rem", display: "flex", alignItems: "center", gap: "6px" }}
             >
-              <MessageSquare size={16} />
-              <span>WhatsApp Estimate</span>
+              <WhatsAppIcon size={16} />
+              <span>Place Order (WhatsApp)</span>
             </button>
 
             <button
@@ -576,10 +577,10 @@ export const QuickOrderPage = () => {
                 <button
                   onClick={handleWhatsAppOrder}
                   className="btn-whatsapp"
-                  style={{ flex: 1, padding: "14px 20px" }}
+                  style={{ flex: 1, padding: "14px 20px", display: "flex", alignItems: "center", justifyContent: "center", gap: "8px" }}
                 >
-                  <MessageSquare size={18} />
-                  <span>Send Estimate to WhatsApp</span>
+                  <WhatsAppIcon size={20} />
+                  <span>Place Order (WhatsApp)</span>
                 </button>
 
                 <button

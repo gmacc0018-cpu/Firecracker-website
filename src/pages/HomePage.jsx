@@ -1,6 +1,7 @@
 import React from "react";
 import { Sparkles, ArrowRight, ShieldCheck, Flame, Truck, Percent, Star, ChevronRight, Phone, MapPin, Camera, Video, Play } from "lucide-react";
 import { InstagramIcon } from "../components/InstagramIcon";
+import { WhatsAppIcon } from "../components/WhatsAppIcon";
 import { COMPANY_INFO, CATEGORIES, PRODUCTS, TESTIMONIALS } from "../data/products";
 import { useCart } from "../context/CartContext";
 import confetti from "canvas-confetti";
@@ -113,13 +114,14 @@ export const HomePage = ({ setActivePage }) => {
                 </button>
 
                 <a
-                  href={`https://wa.me/${COMPANY_INFO.whatsappNumber}`}
+                  href={`https://api.whatsapp.com/send?phone=${COMPANY_INFO.whatsappNumber}&text=${encodeURIComponent("Hi Muthumari Crackers, I would like to place an order / get quotation.")}`}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="btn-whatsapp"
-                  style={{ fontSize: "1.05rem", padding: "14px 24px" }}
+                  style={{ fontSize: "1.05rem", padding: "14px 24px", display: "flex", alignItems: "center", gap: "8px" }}
                 >
-                  <span>WhatsApp Quote</span>
+                  <WhatsAppIcon size={20} />
+                  <span>Place Order / WhatsApp</span>
                 </a>
               </div>
 
