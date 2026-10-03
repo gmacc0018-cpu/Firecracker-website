@@ -22,7 +22,7 @@ export const COMPANY_INFO = {
 export const CATEGORIES = [
   {
     "id": "all",
-    "name": "All Products (172 Items)",
+    "name": "All Products (189 Items)",
     "icon": "Sparkles",
     "desc": "Complete official price list in exact order"
   },
@@ -101,7 +101,7 @@ export const CATEGORIES = [
     "name": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS",
     "icon": "Sparkles",
     "desc": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS ( 85% DISCOUNT)",
-    "itemCount": 53
+    "itemCount": 65
   },
   {
     "id": "sparklers",
@@ -115,14 +115,14 @@ export const CATEGORIES = [
     "name": "FANCY SPARKLERS",
     "icon": "Sparkles",
     "desc": "FANCY SPARKLERS (85% DISCOUNT)",
-    "itemCount": 3
+    "itemCount": 5
   },
   {
     "id": "night-arrival-attractions",
     "name": "NIGHT ARRIVAL ATTRACTIONS",
     "icon": "Sparkles",
     "desc": "NIGHT ARRIVAL ATTRACTIONS (85% DISCOUNT)",
-    "itemCount": 19
+    "itemCount": 18
   },
   {
     "id": "multi-shots",
@@ -157,7 +157,7 @@ export const CATEGORIES = [
     "name": "COLOUR MATCHES",
     "icon": "Sparkles",
     "desc": "COLOUR MATCHES (NET RATE)",
-    "itemCount": 2
+    "itemCount": 3
   },
   {
     "id": "serpent-cracker",
@@ -171,7 +171,7 @@ export const CATEGORIES = [
     "name": "GIFT BOXES",
     "icon": "Sparkles",
     "desc": "GIFT BOXES (NET RATE)",
-    "itemCount": 2
+    "itemCount": 5
   }
 ];
 
@@ -847,8 +847,8 @@ export const PRODUCTS = [
     "categoryName": "CHAKKAR CRACKERS",
     "categoryDesc": "CHAKKAR CRACKERS ( 85% DISCOUNT)",
     "pieces": "1BOX",
-    "originalPrice": 850,
-    "discountPrice": 127.5,
+    "originalPrice": 1000,
+    "discountPrice": 150,
     "discountPercent": 85,
     "image": "/images/GROUND CHAKKARA DELUXE 10.jpeg",
     "isLogo": false,
@@ -1374,8 +1374,8 @@ export const PRODUCTS = [
     "categoryName": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS",
     "categoryDesc": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS ( 85% DISCOUNT)",
     "pieces": "(1 BOX)",
-    "originalPrice": 500,
-    "discountPrice": 75,
+    "originalPrice": 733.33,
+    "discountPrice": 110,
     "discountPercent": 85,
     "image": "/logo.webp",
     "isLogo": true,
@@ -1606,23 +1606,6 @@ export const PRODUCTS = [
   },
   {
     "id": 85,
-    "name": "4 * 4 WHEEL (5 PCS)",
-    "tamilName": "சிவகாசி பட்டாசு",
-    "category": "kids-special-novelties-fountain-crackers",
-    "categoryName": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS",
-    "categoryDesc": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS ( 85% DISCOUNT)",
-    "pieces": "(1 BOX)",
-    "originalPrice": 0,
-    "discountPrice": 0,
-    "discountPercent": 85,
-    "image": "/images/44 WHEEL.jpeg",
-    "isLogo": false,
-    "rating": 4.9,
-    "soundLevel": "Medium",
-    "desc": "4 * 4 WHEEL (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
-  },
-  {
-    "id": 86,
     "name": "LOLLIPOP STICK (5PCS)",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "kids-special-novelties-fountain-crackers",
@@ -1639,7 +1622,7 @@ export const PRODUCTS = [
     "desc": "LOLLIPOP STICK (5PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 87,
+    "id": 86,
     "name": "7 SHOT MULTICOLOUR (5PCS)",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "kids-special-novelties-fountain-crackers",
@@ -1656,7 +1639,7 @@ export const PRODUCTS = [
     "desc": "7 SHOT MULTICOLOUR (5PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 88,
+    "id": 87,
     "name": "COLOUR SMOKE (3 PCS)",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "kids-special-novelties-fountain-crackers",
@@ -1673,7 +1656,7 @@ export const PRODUCTS = [
     "desc": "COLOUR SMOKE (3 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 89,
+    "id": 88,
     "name": "DISCO SHOWER (5PCS)",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "kids-special-novelties-fountain-crackers",
@@ -1690,7 +1673,7 @@ export const PRODUCTS = [
     "desc": "DISCO SHOWER (5PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 90,
+    "id": 89,
     "name": "PEACOCK SMALL (1 PCS)",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "kids-special-novelties-fountain-crackers",
@@ -1707,7 +1690,7 @@ export const PRODUCTS = [
     "desc": "PEACOCK SMALL (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 91,
+    "id": 90,
     "name": "PEACOCK BIG (1 PCS)",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "kids-special-novelties-fountain-crackers",
@@ -1724,7 +1707,7 @@ export const PRODUCTS = [
     "desc": "PEACOCK BIG (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 92,
+    "id": 91,
     "name": "PEACOCK BADA (1 PCS)",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "kids-special-novelties-fountain-crackers",
@@ -1741,7 +1724,7 @@ export const PRODUCTS = [
     "desc": "PEACOCK BADA (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 93,
+    "id": 92,
     "name": "WIRE CHAKKAR (10 PCS)",
     "tamilName": "தரைச்சக்கரம்",
     "category": "kids-special-novelties-fountain-crackers",
@@ -1758,7 +1741,7 @@ export const PRODUCTS = [
     "desc": "WIRE CHAKKAR (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 94,
+    "id": 93,
     "name": "WATER FALLS",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "kids-special-novelties-fountain-crackers",
@@ -1775,7 +1758,7 @@ export const PRODUCTS = [
     "desc": "WATER FALLS - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 95,
+    "id": 94,
     "name": "MAGIC SHOW (2 PCS)",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "kids-special-novelties-fountain-crackers",
@@ -1792,7 +1775,7 @@ export const PRODUCTS = [
     "desc": "MAGIC SHOW (2 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 96,
+    "id": 95,
     "name": "SPACE COMET",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "kids-special-novelties-fountain-crackers",
@@ -1809,7 +1792,7 @@ export const PRODUCTS = [
     "desc": "SPACE COMET - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 97,
+    "id": 96,
     "name": "STAR NIGHT",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "kids-special-novelties-fountain-crackers",
@@ -1826,7 +1809,7 @@ export const PRODUCTS = [
     "desc": "STAR NIGHT - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 98,
+    "id": 97,
     "name": "EMERALD (10 PCS)",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "kids-special-novelties-fountain-crackers",
@@ -1843,7 +1826,7 @@ export const PRODUCTS = [
     "desc": "EMERALD (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 99,
+    "id": 98,
     "name": "FLOWER GARDEN (5 PCS)",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "kids-special-novelties-fountain-crackers",
@@ -1860,7 +1843,7 @@ export const PRODUCTS = [
     "desc": "FLOWER GARDEN (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 100,
+    "id": 99,
     "name": "WORLD WONDER (5 PCS)",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "kids-special-novelties-fountain-crackers",
@@ -1877,7 +1860,7 @@ export const PRODUCTS = [
     "desc": "WORLD WONDER (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 101,
+    "id": 100,
     "name": "CRACKLING FLOWER (5 PCS)",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "kids-special-novelties-fountain-crackers",
@@ -1894,24 +1877,7 @@ export const PRODUCTS = [
     "desc": "CRACKLING FLOWER (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 102,
-    "name": "777 (5 PCS)",
-    "tamilName": "சிவகாசி பட்டாசு",
-    "category": "kids-special-novelties-fountain-crackers",
-    "categoryName": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS",
-    "categoryDesc": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS ( 85% DISCOUNT)",
-    "pieces": "(1 BOX)",
-    "originalPrice": 1400,
-    "discountPrice": 210,
-    "discountPercent": 85,
-    "image": "/images/BALLE BALLE.jpeg",
-    "isLogo": false,
-    "rating": 4.9,
-    "soundLevel": "Medium",
-    "desc": "777 (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
-  },
-  {
-    "id": 103,
+    "id": 101,
     "name": "X MAS TREE (5 PCS)",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "kids-special-novelties-fountain-crackers",
@@ -1928,7 +1894,7 @@ export const PRODUCTS = [
     "desc": "X MAS TREE (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 104,
+    "id": 102,
     "name": "GALAXY (5 PCS)",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "kids-special-novelties-fountain-crackers",
@@ -1945,7 +1911,7 @@ export const PRODUCTS = [
     "desc": "GALAXY (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 105,
+    "id": 103,
     "name": "WAR IN THE SKY (5 PCS)",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "kids-special-novelties-fountain-crackers",
@@ -1962,7 +1928,7 @@ export const PRODUCTS = [
     "desc": "WAR IN THE SKY (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 106,
+    "id": 104,
     "name": "GOLDEN TREE (5 PCS)",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "kids-special-novelties-fountain-crackers",
@@ -1979,7 +1945,7 @@ export const PRODUCTS = [
     "desc": "GOLDEN TREE (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 107,
+    "id": 105,
     "name": "SERPENT EGG",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "kids-special-novelties-fountain-crackers",
@@ -1996,7 +1962,245 @@ export const PRODUCTS = [
     "desc": "SERPENT EGG - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 108,
+    "name": "JET RIDER",
+    "tamilName": "ஜெட் ரைடர்",
+    "category": "kids-special-novelties-fountain-crackers",
+    "categoryName": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS",
+    "categoryDesc": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS ( 85% DISCOUNT)",
+    "pieces": "(1 BOX)",
+    "originalPrice": 800,
+    "discountPrice": 120,
+    "discountPercent": 85,
+    "image": "/images/JET RIDER.jpeg",
+    "isLogo": false,
+    "rating": 4.9,
+    "soundLevel": "Medium",
+    "desc": "JET RIDER - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF.",
+    "id": 106
+  },
+  {
+    "name": "BALLE BALLE",
+    "tamilName": "பல்லே பல்லே",
+    "category": "kids-special-novelties-fountain-crackers",
+    "categoryName": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS",
+    "categoryDesc": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS ( 85% DISCOUNT)",
+    "pieces": "(1 BOX)",
+    "originalPrice": 1000,
+    "discountPrice": 150,
+    "discountPercent": 85,
+    "image": "/images/BALLE BALLE.jpeg",
+    "isLogo": false,
+    "rating": 4.9,
+    "soundLevel": "Medium",
+    "desc": "BALLE BALLE - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF.",
+    "id": 107
+  },
+  {
+    "name": "SLASHLING STARS",
+    "tamilName": "ஸ்லாஷிங் ஸ்டார்ஸ்",
+    "category": "kids-special-novelties-fountain-crackers",
+    "categoryName": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS",
+    "categoryDesc": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS ( 85% DISCOUNT)",
+    "pieces": "(1 BOX)",
+    "originalPrice": 753.33,
+    "discountPrice": 113,
+    "discountPercent": 85,
+    "image": "/images/SLASHING STAR.jpeg",
+    "isLogo": false,
+    "rating": 4.9,
+    "soundLevel": "Medium",
+    "desc": "SLASHLING STARS - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF.",
+    "id": 108
+  },
+  {
+    "name": "GOLDEN DROPS",
+    "tamilName": "கோல்டன் டிராப்ஸ்",
+    "category": "kids-special-novelties-fountain-crackers",
+    "categoryName": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS",
+    "categoryDesc": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS ( 85% DISCOUNT)",
+    "pieces": "(1 BOX)",
+    "originalPrice": 675,
+    "discountPrice": 101.25,
+    "discountPercent": 85,
+    "image": "/logo.webp",
+    "isLogo": true,
+    "rating": 4.9,
+    "soundLevel": "Medium",
+    "desc": "GOLDEN DROPS - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF.",
+    "id": 109
+  },
+  {
+    "name": "ONCE MORE",
+    "tamilName": "ஒன்ஸ் மோர்",
+    "category": "kids-special-novelties-fountain-crackers",
+    "categoryName": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS",
+    "categoryDesc": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS ( 85% DISCOUNT)",
+    "pieces": "(1 BOX)",
+    "originalPrice": 1350,
+    "discountPrice": 202.5,
+    "discountPercent": 85,
+    "image": "/logo.webp",
+    "isLogo": true,
+    "rating": 4.9,
+    "soundLevel": "Medium",
+    "desc": "ONCE MORE - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF.",
+    "id": 110
+  },
+  {
+    "name": "ORION FOUNTAIN",
+    "tamilName": "ஓரியன் பவுண்டன்",
+    "category": "kids-special-novelties-fountain-crackers",
+    "categoryName": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS",
+    "categoryDesc": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS ( 85% DISCOUNT)",
+    "pieces": "(1 BOX)",
+    "originalPrice": 1000,
+    "discountPrice": 150,
+    "discountPercent": 85,
+    "image": "/logo.webp",
+    "isLogo": true,
+    "rating": 4.9,
+    "soundLevel": "Medium",
+    "desc": "ORION FOUNTAIN - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF.",
+    "id": 111
+  },
+  {
+    "name": "BAT & BALL",
+    "tamilName": "பேட் & பால்",
+    "category": "kids-special-novelties-fountain-crackers",
+    "categoryName": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS",
+    "categoryDesc": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS ( 85% DISCOUNT)",
+    "pieces": "(1 BOX)",
+    "originalPrice": 1500,
+    "discountPrice": 225,
+    "discountPercent": 85,
+    "image": "/logo.webp",
+    "isLogo": true,
+    "rating": 4.9,
+    "soundLevel": "Medium",
+    "desc": "BAT & BALL - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF.",
+    "id": 112
+  },
+  {
+    "name": "PIZZA",
+    "tamilName": "பீட்சா",
+    "category": "kids-special-novelties-fountain-crackers",
+    "categoryName": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS",
+    "categoryDesc": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS ( 85% DISCOUNT)",
+    "pieces": "(1 BOX)",
+    "originalPrice": 3000,
+    "discountPrice": 450,
+    "discountPercent": 85,
+    "image": "/logo.webp",
+    "isLogo": true,
+    "rating": 4.9,
+    "soundLevel": "Medium",
+    "desc": "PIZZA - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF.",
+    "id": 113
+  },
+  {
+    "name": "GOLDEN POPS",
+    "tamilName": "கோல்டன் பாப்ஸ்",
+    "category": "kids-special-novelties-fountain-crackers",
+    "categoryName": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS",
+    "categoryDesc": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS ( 85% DISCOUNT)",
+    "pieces": "(1 BOX)",
+    "originalPrice": 666.67,
+    "discountPrice": 100,
+    "discountPercent": 85,
+    "image": "/logo.webp",
+    "isLogo": true,
+    "rating": 4.9,
+    "soundLevel": "Medium",
+    "desc": "GOLDEN POPS - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF.",
+    "id": 114
+  },
+  {
+    "name": "GLITTERING POPS",
+    "tamilName": "கிளிட்டரிங் பாப்ஸ்",
+    "category": "kids-special-novelties-fountain-crackers",
+    "categoryName": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS",
+    "categoryDesc": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS ( 85% DISCOUNT)",
+    "pieces": "(1 BOX)",
+    "originalPrice": 666.67,
+    "discountPrice": 100,
+    "discountPercent": 85,
+    "image": "/logo.webp",
+    "isLogo": true,
+    "rating": 4.9,
+    "soundLevel": "Medium",
+    "desc": "GLITTERING POPS - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF.",
+    "id": 115
+  },
+  {
+    "name": "RED FLARE",
+    "tamilName": "ரெட் பிளேர்",
+    "category": "kids-special-novelties-fountain-crackers",
+    "categoryName": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS",
+    "categoryDesc": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS ( 85% DISCOUNT)",
+    "pieces": "(1 BOX)",
+    "originalPrice": 1100,
+    "discountPrice": 165,
+    "discountPercent": 85,
+    "image": "/logo.webp",
+    "isLogo": true,
+    "rating": 4.9,
+    "soundLevel": "Medium",
+    "desc": "RED FLARE - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF.",
+    "id": 116
+  },
+  {
+    "name": "I-CONE",
+    "tamilName": "ஐ-கோன்",
+    "category": "kids-special-novelties-fountain-crackers",
+    "categoryName": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS",
+    "categoryDesc": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS ( 85% DISCOUNT)",
+    "pieces": "(1 BOX)",
+    "originalPrice": 1200,
+    "discountPrice": 180,
+    "discountPercent": 85,
+    "image": "/logo.webp",
+    "isLogo": true,
+    "rating": 4.9,
+    "soundLevel": "Medium",
+    "desc": "I-CONE - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF.",
+    "id": 117
+  },
+  {
+    "name": "SPINNER DELUXE",
+    "tamilName": "ஸ்பின்னர் டீலக்ஸ்",
+    "category": "kids-special-novelties-fountain-crackers",
+    "categoryName": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS",
+    "categoryDesc": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS ( 85% DISCOUNT)",
+    "pieces": "(1 BOX)",
+    "originalPrice": 1000,
+    "discountPrice": 150,
+    "discountPercent": 85,
+    "image": "/images/Spinner level.jpeg",
+    "isLogo": false,
+    "rating": 4.9,
+    "soundLevel": "Medium",
+    "desc": "SPINNER DELUXE - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF.",
+    "id": 118
+  },
+  {
+    "name": "4X4 WHEEL (5 PCS)",
+    "tamilName": "4x4 சக்கரம்",
+    "category": "kids-special-novelties-fountain-crackers",
+    "categoryName": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS",
+    "categoryDesc": "KIDS SPECIAL NOVELTIES FOUNTAIN CRACKERS ( 85% DISCOUNT)",
+    "pieces": "(1 BOX)",
+    "originalPrice": 900,
+    "discountPrice": 135,
+    "discountPercent": 85,
+    "image": "/images/44 WHEEL.jpeg",
+    "isLogo": false,
+    "rating": 4.9,
+    "soundLevel": "Medium",
+    "desc": "4X4 WHEEL (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF.",
+    "id": 119
+  },
+  {
+    "id": 120,
     "name": "10 CM ELECTRIC SPARKLERS (10 PCS)",
     "tamilName": "மத்தாப்பு",
     "category": "sparklers",
@@ -2013,7 +2217,7 @@ export const PRODUCTS = [
     "desc": "10 CM ELECTRIC SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 109,
+    "id": 121,
     "name": "10 CM COLOR SPARKLERS (10 PCS)",
     "tamilName": "மத்தாப்பு",
     "category": "sparklers",
@@ -2030,7 +2234,7 @@ export const PRODUCTS = [
     "desc": "10 CM COLOR SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 110,
+    "id": 122,
     "name": "10 CM GREEN SPARKLERS (10 PCS)",
     "tamilName": "மத்தாப்பு",
     "category": "sparklers",
@@ -2047,7 +2251,7 @@ export const PRODUCTS = [
     "desc": "10 CM GREEN SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 111,
+    "id": 123,
     "name": "10 CM RED SPARKLERS (10 PCS)",
     "tamilName": "மத்தாப்பு",
     "category": "sparklers",
@@ -2064,7 +2268,7 @@ export const PRODUCTS = [
     "desc": "10 CM RED SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 112,
+    "id": 124,
     "name": "12 CM ELECTRIC SPARKLERS (10 PCS)",
     "tamilName": "மத்தாப்பு",
     "category": "sparklers",
@@ -2081,7 +2285,7 @@ export const PRODUCTS = [
     "desc": "12 CM ELECTRIC SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 113,
+    "id": 125,
     "name": "12 CM COLOR SPARKLERS (10 PCS)",
     "tamilName": "மத்தாப்பு",
     "category": "sparklers",
@@ -2098,7 +2302,7 @@ export const PRODUCTS = [
     "desc": "12 CM COLOR SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 114,
+    "id": 126,
     "name": "12 CM GREEN SPARKLERS (10 PCS)",
     "tamilName": "மத்தாப்பு",
     "category": "sparklers",
@@ -2115,7 +2319,7 @@ export const PRODUCTS = [
     "desc": "12 CM GREEN SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 115,
+    "id": 127,
     "name": "12 CM RED SPARKLERS (10 PCS)",
     "tamilName": "மத்தாப்பு",
     "category": "sparklers",
@@ -2132,7 +2336,7 @@ export const PRODUCTS = [
     "desc": "12 CM RED SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 116,
+    "id": 128,
     "name": "15 CM ELECTRIC SPARKLERS (10 PCS)",
     "tamilName": "மத்தாப்பு",
     "category": "sparklers",
@@ -2149,7 +2353,7 @@ export const PRODUCTS = [
     "desc": "15 CM ELECTRIC SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 117,
+    "id": 129,
     "name": "15 CM COLOR SPARKLERS (10 PCS)",
     "tamilName": "மத்தாப்பு",
     "category": "sparklers",
@@ -2166,7 +2370,7 @@ export const PRODUCTS = [
     "desc": "15 CM COLOR SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 118,
+    "id": 130,
     "name": "15 CM GREEN SPARKLERS (10 PCS)",
     "tamilName": "மத்தாப்பு",
     "category": "sparklers",
@@ -2183,7 +2387,7 @@ export const PRODUCTS = [
     "desc": "15 CM GREEN SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 119,
+    "id": 131,
     "name": "15 CM RED SPARKLERS (10 PCS)",
     "tamilName": "மத்தாப்பு",
     "category": "sparklers",
@@ -2200,7 +2404,7 @@ export const PRODUCTS = [
     "desc": "15 CM RED SPARKLERS (10 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 120,
+    "id": 132,
     "name": "30 CM ELECTRIC SPARKLERS (5 PCS)",
     "tamilName": "மத்தாப்பு",
     "category": "sparklers",
@@ -2217,7 +2421,7 @@ export const PRODUCTS = [
     "desc": "30 CM ELECTRIC SPARKLERS (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 121,
+    "id": 133,
     "name": "30 CM COLOUR SPARKLERS (5 PCS)",
     "tamilName": "மத்தாப்பு",
     "category": "sparklers",
@@ -2234,7 +2438,7 @@ export const PRODUCTS = [
     "desc": "30 CM COLOUR SPARKLERS (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 122,
+    "id": 134,
     "name": "30 CM GREEN SPARKLERS (5 PCS)",
     "tamilName": "மத்தாப்பு",
     "category": "sparklers",
@@ -2251,7 +2455,7 @@ export const PRODUCTS = [
     "desc": "30 CM GREEN SPARKLERS (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 123,
+    "id": 135,
     "name": "30 CM RED SPARKLERS (5 PCS)",
     "tamilName": "மத்தாப்பு",
     "category": "sparklers",
@@ -2268,7 +2472,7 @@ export const PRODUCTS = [
     "desc": "30 CM RED SPARKLERS (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 124,
+    "id": 136,
     "name": "50 CM ELECTRIC SPARKLERS (5 PCS)",
     "tamilName": "மத்தாப்பு",
     "category": "sparklers",
@@ -2285,7 +2489,7 @@ export const PRODUCTS = [
     "desc": "50 CM ELECTRIC SPARKLERS (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 125,
+    "id": 137,
     "name": "50CM COLOR SPARKLERS (5PCS)",
     "tamilName": "மத்தாப்பு",
     "category": "sparklers",
@@ -2302,7 +2506,7 @@ export const PRODUCTS = [
     "desc": "50CM COLOR SPARKLERS (5PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 126,
+    "id": 138,
     "name": "LOVELY HEART SPARKLING (5 PCS)",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "fancy-sparklers",
@@ -2319,7 +2523,7 @@ export const PRODUCTS = [
     "desc": "LOVELY HEART SPARKLING (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 127,
+    "id": 139,
     "name": "CELEBRATION 4 IN 1 SPARKLING (5 PCS)",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "fancy-sparklers",
@@ -2336,7 +2540,7 @@ export const PRODUCTS = [
     "desc": "CELEBRATION 4 IN 1 SPARKLING (5 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 128,
+    "id": 140,
     "name": "SPINNING SPARKLING (1 BOX)",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "fancy-sparklers",
@@ -2353,7 +2557,41 @@ export const PRODUCTS = [
     "desc": "SPINNING SPARKLING (1 BOX) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 129,
+    "name": "3\" FANCY 3 STEP",
+    "tamilName": "3\" பேன்சி 3 ஸ்டெப்",
+    "category": "fancy-sparklers",
+    "categoryName": "FANCY SPARKLERS",
+    "categoryDesc": "FANCY SPARKLERS (85% DISCOUNT)",
+    "pieces": "(1 BOX)",
+    "originalPrice": 1500,
+    "discountPrice": 225,
+    "discountPercent": 85,
+    "image": "/logo.webp",
+    "isLogo": true,
+    "rating": 4.9,
+    "soundLevel": "Medium",
+    "desc": "3\" FANCY 3 STEP - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF.",
+    "id": 141
+  },
+  {
+    "name": "3 1/2\" NAYAGARA FALLS (2 PCS)",
+    "tamilName": "3 1/2\" நயாகரா பால்ஸ் (2 PCS)",
+    "category": "fancy-sparklers",
+    "categoryName": "FANCY SPARKLERS",
+    "categoryDesc": "FANCY SPARKLERS (85% DISCOUNT)",
+    "pieces": "(1 BOX)",
+    "originalPrice": 4000,
+    "discountPrice": 600,
+    "discountPercent": 85,
+    "image": "/images/3 12 NAYAGRA FALLS 2 PCS.jpeg",
+    "isLogo": false,
+    "rating": 4.9,
+    "soundLevel": "Medium",
+    "desc": "3 1/2\" NAYAGARA FALLS (2 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF.",
+    "id": 142
+  },
+  {
+    "id": 143,
     "name": "1 inch CHOTTA FANCY",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "night-arrival-attractions",
@@ -2370,7 +2608,7 @@ export const PRODUCTS = [
     "desc": "1 inch CHOTTA FANCY - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 130,
+    "id": 144,
     "name": "2 inch FANCY",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "night-arrival-attractions",
@@ -2387,7 +2625,7 @@ export const PRODUCTS = [
     "desc": "2 inch FANCY - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 131,
+    "id": 145,
     "name": "2 1/4 FANCY (3 PCS)",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "night-arrival-attractions",
@@ -2404,24 +2642,7 @@ export const PRODUCTS = [
     "desc": "2 1/4 FANCY (3 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 132,
-    "name": "3\" FANCY SINGLE (1 PCS)",
-    "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
-    "category": "night-arrival-attractions",
-    "categoryName": "NIGHT ARRIVAL ATTRACTIONS",
-    "categoryDesc": "NIGHT ARRIVAL ATTRACTIONS (85% DISCOUNT)",
-    "pieces": "(1 BOX)",
-    "originalPrice": 1400,
-    "discountPrice": 210,
-    "discountPercent": 85,
-    "image": "/images/3½ FANCY SINGLE (1 PCS).jpeg",
-    "isLogo": false,
-    "rating": 4.9,
-    "soundLevel": "Medium",
-    "desc": "3\" FANCY SINGLE (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
-  },
-  {
-    "id": 133,
+    "id": 146,
     "name": "3 NAYAGARA FALLS (1 PCS)",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "night-arrival-attractions",
@@ -2438,7 +2659,7 @@ export const PRODUCTS = [
     "desc": "3 NAYAGARA FALLS (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 134,
+    "id": 147,
     "name": "3 1/2\" FANCY SINGLE (1 PCS)",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "night-arrival-attractions",
@@ -2455,7 +2676,7 @@ export const PRODUCTS = [
     "desc": "3 1/2\" FANCY SINGLE (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 135,
+    "id": 148,
     "name": "3½ SIZZLING SINGLE (1 PCS)",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "night-arrival-attractions",
@@ -2472,7 +2693,7 @@ export const PRODUCTS = [
     "desc": "3½ SIZZLING SINGLE (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 136,
+    "id": 149,
     "name": "3 1/2 inch FANCY (2PCS)",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "night-arrival-attractions",
@@ -2489,7 +2710,7 @@ export const PRODUCTS = [
     "desc": "3 1/2 inch FANCY (2PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 137,
+    "id": 150,
     "name": "31/2 \"FANCY DOUBLE BALL (2PCS)",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "night-arrival-attractions",
@@ -2506,7 +2727,7 @@ export const PRODUCTS = [
     "desc": "31/2 \"FANCY DOUBLE BALL (2PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 138,
+    "id": 151,
     "name": "4\" FANCY 7STEP (1 PCS)",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "night-arrival-attractions",
@@ -2523,7 +2744,7 @@ export const PRODUCTS = [
     "desc": "4\" FANCY 7STEP (1 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 139,
+    "id": 152,
     "name": "4 \" FANCY SINGLE",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "night-arrival-attractions",
@@ -2540,7 +2761,7 @@ export const PRODUCTS = [
     "desc": "4 \" FANCY SINGLE - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 140,
+    "id": 153,
     "name": "4 inch NAYAGARA FALLS",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "night-arrival-attractions",
@@ -2557,7 +2778,7 @@ export const PRODUCTS = [
     "desc": "4 inch NAYAGARA FALLS - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 141,
+    "id": 154,
     "name": "4 inch FANCY (2PCS)",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "night-arrival-attractions",
@@ -2574,7 +2795,7 @@ export const PRODUCTS = [
     "desc": "4 inch FANCY (2PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 142,
+    "id": 155,
     "name": "4 inch FANCY DOUBLE BALL",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "night-arrival-attractions",
@@ -2591,7 +2812,7 @@ export const PRODUCTS = [
     "desc": "4 inch FANCY DOUBLE BALL - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 143,
+    "id": 156,
     "name": "5 inchFANCY (2 PCS)",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "night-arrival-attractions",
@@ -2608,7 +2829,7 @@ export const PRODUCTS = [
     "desc": "5 inchFANCY (2 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 144,
+    "id": 157,
     "name": "5 inch SINGLE",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "night-arrival-attractions",
@@ -2625,7 +2846,7 @@ export const PRODUCTS = [
     "desc": "5 inch SINGLE - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 145,
+    "id": 158,
     "name": "6 inch SINGLE",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "night-arrival-attractions",
@@ -2642,7 +2863,7 @@ export const PRODUCTS = [
     "desc": "6 inch SINGLE - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 146,
+    "id": 159,
     "name": "6 inch (2 PCS)",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "night-arrival-attractions",
@@ -2659,7 +2880,7 @@ export const PRODUCTS = [
     "desc": "6 inch (2 PCS) - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 147,
+    "id": 160,
     "name": "PURPLE SHOT",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "night-arrival-attractions",
@@ -2676,7 +2897,7 @@ export const PRODUCTS = [
     "desc": "PURPLE SHOT - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 148,
+    "id": 161,
     "name": "12 SHOT CRACKLING",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "multi-shots",
@@ -2693,7 +2914,7 @@ export const PRODUCTS = [
     "desc": "12 SHOT CRACKLING - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 149,
+    "id": 162,
     "name": "12 SHOT MULTICOLOUR",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "multi-shots",
@@ -2710,7 +2931,7 @@ export const PRODUCTS = [
     "desc": "12 SHOT MULTICOLOUR - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 150,
+    "id": 163,
     "name": "12 SHOT WHISTLING",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "multi-shots",
@@ -2727,7 +2948,7 @@ export const PRODUCTS = [
     "desc": "12 SHOT WHISTLING - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 151,
+    "id": 164,
     "name": "25 SHOT WHISTLING",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "multi-shots",
@@ -2744,7 +2965,7 @@ export const PRODUCTS = [
     "desc": "25 SHOT WHISTLING - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 152,
+    "id": 165,
     "name": "50 SHOT WHISTLING",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "multi-shots",
@@ -2761,7 +2982,7 @@ export const PRODUCTS = [
     "desc": "50 SHOT WHISTLING - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 153,
+    "id": 166,
     "name": "30 SHOT MUTICOLOUR",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "multi-shots",
@@ -2778,7 +2999,7 @@ export const PRODUCTS = [
     "desc": "30 SHOT MUTICOLOUR - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 154,
+    "id": 167,
     "name": "60 SHOT MUTICOLOUR",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "multi-shots",
@@ -2795,7 +3016,7 @@ export const PRODUCTS = [
     "desc": "60 SHOT MUTICOLOUR - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 155,
+    "id": 168,
     "name": "120 SHOT MULTICOLOR",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "multi-shots",
@@ -2812,7 +3033,7 @@ export const PRODUCTS = [
     "desc": "120 SHOT MULTICOLOR - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 156,
+    "id": 169,
     "name": "240 SHOT MULTICOLOR",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "multi-shots",
@@ -2829,7 +3050,7 @@ export const PRODUCTS = [
     "desc": "240 SHOT MULTICOLOR - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 157,
+    "id": 170,
     "name": "30 SHOT MULTICOLOR SPL",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "multi-shots",
@@ -2846,7 +3067,7 @@ export const PRODUCTS = [
     "desc": "30 SHOT MULTICOLOR SPL - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 158,
+    "id": 171,
     "name": "60 SHOT MULTICOLOR SPL",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "multi-shots",
@@ -2863,7 +3084,7 @@ export const PRODUCTS = [
     "desc": "60 SHOT MULTICOLOR SPL - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 159,
+    "id": 172,
     "name": "120 SHOT MULTICOLOR SPL",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "multi-shots",
@@ -2880,7 +3101,7 @@ export const PRODUCTS = [
     "desc": "120 SHOT MULTICOLOR SPL - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 160,
+    "id": 173,
     "name": "240 SHOT MULTICOLOR SPL",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "multi-shots",
@@ -2897,7 +3118,7 @@ export const PRODUCTS = [
     "desc": "240 SHOT MULTICOLOR SPL - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 161,
+    "id": 174,
     "name": "2 inch SETOUT",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "day-shots",
@@ -2914,7 +3135,7 @@ export const PRODUCTS = [
     "desc": "2 inch SETOUT - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 162,
+    "id": 175,
     "name": "2 1/2 inch SETOUT",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "day-shots",
@@ -2931,7 +3152,7 @@ export const PRODUCTS = [
     "desc": "2 1/2 inch SETOUT - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 163,
+    "id": 176,
     "name": "3 inch SETOUT",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "day-shots",
@@ -2948,7 +3169,7 @@ export const PRODUCTS = [
     "desc": "3 inch SETOUT - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 164,
+    "id": 177,
     "name": "GUJARAT FESTIVAL 150",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "festival-mega-multi-shots",
@@ -2965,7 +3186,7 @@ export const PRODUCTS = [
     "desc": "GUJARAT FESTIVAL 150 - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 165,
+    "id": 178,
     "name": "GANG BANGERS 32 SHOT",
     "tamilName": "ஸ்கை ஷாட்ஸ் / ஃபேன்சி வெடி",
     "category": "festival-mega-multi-shots",
@@ -2982,7 +3203,7 @@ export const PRODUCTS = [
     "desc": "GANG BANGERS 32 SHOT - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 166,
+    "id": 179,
     "name": "10X10",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "festival-mega-multi-shots",
@@ -2999,7 +3220,7 @@ export const PRODUCTS = [
     "desc": "10X10 - Direct from Sivakasi factory ((1 BOX)) with flat 85% OFF."
   },
   {
-    "id": 167,
+    "id": 180,
     "name": "ROLL CAP",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "cap-crackers",
@@ -3016,41 +3237,58 @@ export const PRODUCTS = [
     "desc": "ROLL CAP - Direct from Sivakasi factory (1Pkt) with flat NET RATE."
   },
   {
-    "id": 168,
-    "name": "RIDER COLOUR MATCHES",
-    "tamilName": "சிவகாசி பட்டாசு",
+    "name": "DELUXE COLOR MATCHES",
+    "tamilName": "டீலக்ஸ் கலர் தீக்குச்சி",
     "category": "colour-matches",
     "categoryName": "COLOUR MATCHES",
     "categoryDesc": "COLOUR MATCHES (NET RATE)",
     "pieces": "1Pkt",
-    "originalPrice": 0,
-    "discountPrice": 0,
-    "discountPercent": 0,
-    "image": "/images/JET RIDER.jpeg",
-    "isLogo": false,
-    "rating": 4.9,
-    "soundLevel": "Medium",
-    "desc": "RIDER COLOUR MATCHES - Direct from Sivakasi factory (1Pkt) with flat NET RATE."
-  },
-  {
-    "id": 169,
-    "name": "LOLLIPOP MATCHES",
-    "tamilName": "சிவகாசி பட்டாசு",
-    "category": "colour-matches",
-    "categoryName": "COLOUR MATCHES",
-    "categoryDesc": "COLOUR MATCHES (NET RATE)",
-    "pieces": "1Pkt",
-    "originalPrice": 0,
-    "discountPrice": 0,
+    "originalPrice": 100,
+    "discountPrice": 100,
     "discountPercent": 0,
     "image": "/logo.webp",
     "isLogo": true,
     "rating": 4.9,
     "soundLevel": "Medium",
-    "desc": "LOLLIPOP MATCHES - Direct from Sivakasi factory (1Pkt) with flat NET RATE."
+    "desc": "DELUXE COLOR MATCHES - Direct from Sivakasi factory (1Pkt) with flat NET RATE.",
+    "id": 181
   },
   {
-    "id": 170,
+    "name": "RIDER MATCHES",
+    "tamilName": "ரைடர் கலர் தீக்குச்சி",
+    "category": "colour-matches",
+    "categoryName": "COLOUR MATCHES",
+    "categoryDesc": "COLOUR MATCHES (NET RATE)",
+    "pieces": "1Pkt",
+    "originalPrice": 200,
+    "discountPrice": 200,
+    "discountPercent": 0,
+    "image": "/logo.webp",
+    "isLogo": true,
+    "rating": 4.9,
+    "soundLevel": "Medium",
+    "desc": "RIDER MATCHES - Direct from Sivakasi factory (1Pkt) with flat NET RATE.",
+    "id": 182
+  },
+  {
+    "name": "TWISTER MATCHES",
+    "tamilName": "ட்விஸ்டர் தீக்குச்சி",
+    "category": "colour-matches",
+    "categoryName": "COLOUR MATCHES",
+    "categoryDesc": "COLOUR MATCHES (NET RATE)",
+    "pieces": "1Pkt",
+    "originalPrice": 250,
+    "discountPrice": 250,
+    "discountPercent": 0,
+    "image": "/logo.webp",
+    "isLogo": true,
+    "rating": 4.9,
+    "soundLevel": "Medium",
+    "desc": "TWISTER MATCHES - Direct from Sivakasi factory (1Pkt) with flat NET RATE.",
+    "id": 183
+  },
+  {
+    "id": 184,
     "name": "ANACONDA BIG SIZE",
     "tamilName": "சிவகாசி பட்டாசு",
     "category": "serpent-cracker",
@@ -3067,38 +3305,94 @@ export const PRODUCTS = [
     "desc": "ANACONDA BIG SIZE - Direct from Sivakasi factory (1Pkt) with flat NET RATE."
   },
   {
-    "id": 171,
-    "name": "GIFT BOX",
-    "tamilName": "கிஃப்ட் பாக்ஸ்",
+    "name": "GIFT BOX 25 ITEM",
+    "tamilName": "கிஃப்ட் பாக்ஸ் (25 பொருட்கள்)",
     "category": "gift-boxes",
     "categoryName": "GIFT BOXES",
     "categoryDesc": "GIFT BOXES (NET RATE)",
     "pieces": "(1 BOX)",
-    "originalPrice": 0,
-    "discountPrice": 0,
+    "originalPrice": 450,
+    "discountPrice": 450,
     "discountPercent": 0,
-    "image": "/logo.webp",
-    "isLogo": true,
+    "image": "/images/gift-box.jpg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
-    "desc": "GIFT BOX - Direct from Sivakasi factory ((1 BOX)) with flat NET RATE."
+    "badge": "25 Items Combo",
+    "desc": "GIFT BOX 25 ITEM - Assorted festive hamper with sparklers, flowerpots, ground wheels, and sound crackers.",
+    "id": 185
   },
   {
-    "id": 172,
-    "name": "GIFT BOX (35 ITEM)",
-    "tamilName": "கிஃப்ட் பாக்ஸ்",
+    "name": "GIFT BOX 30 ITEM",
+    "tamilName": "கிஃப்ட் பாக்ஸ் (30 பொருட்கள்)",
     "category": "gift-boxes",
     "categoryName": "GIFT BOXES",
     "categoryDesc": "GIFT BOXES (NET RATE)",
     "pieces": "(1 BOX)",
-    "originalPrice": 0,
-    "discountPrice": 0,
+    "originalPrice": 550,
+    "discountPrice": 550,
     "discountPercent": 0,
-    "image": "/logo.webp",
-    "isLogo": true,
+    "image": "/images/gift-box.jpg",
+    "isLogo": false,
     "rating": 4.9,
     "soundLevel": "Medium",
-    "desc": "GIFT BOX (35 ITEM) - Direct from Sivakasi factory ((1 BOX)) with flat NET RATE."
+    "badge": "30 Items Family Pack",
+    "desc": "GIFT BOX 30 ITEM - Complete family celebration box packed with colorful fountains, sparklers, and crackers.",
+    "id": 186
+  },
+  {
+    "name": "GIFT BOX 40 ITEM",
+    "tamilName": "கிஃப்ட் பாக்ஸ் (40 பொருட்கள்)",
+    "category": "gift-boxes",
+    "categoryName": "GIFT BOXES",
+    "categoryDesc": "GIFT BOXES (NET RATE)",
+    "pieces": "(1 BOX)",
+    "originalPrice": 700,
+    "discountPrice": 700,
+    "discountPercent": 0,
+    "image": "/images/gift-box.jpg",
+    "isLogo": false,
+    "rating": 4.9,
+    "soundLevel": "Medium",
+    "badge": "40 Items Deluxe",
+    "desc": "GIFT BOX 40 ITEM - Deluxe festival hamper loaded with premium sparklers, pots, novelty fountains, and aerial shots.",
+    "id": 187
+  },
+  {
+    "name": "GIFT BOX 50 ITEM",
+    "tamilName": "கிஃப்ட் பாக்ஸ் (50 பொருட்கள்)",
+    "category": "gift-boxes",
+    "categoryName": "GIFT BOXES",
+    "categoryDesc": "GIFT BOXES (NET RATE)",
+    "pieces": "(1 BOX)",
+    "originalPrice": 800,
+    "discountPrice": 800,
+    "discountPercent": 0,
+    "image": "/images/gift-box.jpg",
+    "isLogo": false,
+    "rating": 4.9,
+    "soundLevel": "Medium",
+    "badge": "50 Items Super Special",
+    "desc": "GIFT BOX 50 ITEM - Super deluxe 50-item grand festival hamper with complete variety for endless joy.",
+    "id": 188
+  },
+  {
+    "name": "GIFT BOX 60 ITEM",
+    "tamilName": "கிஃப்ட் பாக்ஸ் (60 பொருட்கள்)",
+    "category": "gift-boxes",
+    "categoryName": "GIFT BOXES",
+    "categoryDesc": "GIFT BOXES (NET RATE)",
+    "pieces": "(1 BOX)",
+    "originalPrice": 900,
+    "discountPrice": 900,
+    "discountPercent": 0,
+    "image": "/images/gift-box.jpg",
+    "isLogo": false,
+    "rating": 4.9,
+    "soundLevel": "Medium",
+    "badge": "60 Items Mega Combo",
+    "desc": "GIFT BOX 60 ITEM - Mega royal 60-item combo gift pack with maximum variety of night aerials, sparklers, pots, and chakkars.",
+    "id": 189
   }
 ];
 

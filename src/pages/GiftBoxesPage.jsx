@@ -63,7 +63,7 @@ export const GiftBoxesPage = () => {
                     position: "absolute",
                     top: "14px",
                     left: "14px",
-                    background: "#d91b5c",
+                    background: box.discountPercent > 0 ? "#d91b5c" : "#b45309",
                     color: "#fff",
                     fontSize: "0.8rem",
                     fontWeight: 800,
@@ -71,7 +71,9 @@ export const GiftBoxesPage = () => {
                     borderRadius: "6px",
                   }}
                 >
-                  {Math.round(((box.originalPrice - box.discountPrice) / box.originalPrice) * 100)}% OFF
+                  {box.discountPercent > 0
+                    ? `${Math.round(((box.originalPrice - box.discountPrice) / box.originalPrice) * 100)}% OFF`
+                    : "NET RATE"}
                 </div>
 
                 {box.badge && (
@@ -136,9 +138,15 @@ export const GiftBoxesPage = () => {
                 {/* Pricing & Add */}
                 <div style={{ marginTop: "auto", display: "flex", justifyContent: "space-between", alignItems: "center", paddingTop: "16px", borderTop: "1px solid #f1f5f9" }}>
                   <div>
-                    <div style={{ fontSize: "0.85rem", color: "#94a3b8", textDecoration: "line-through" }}>
-                      MRP: ₹{box.originalPrice.toLocaleString("en-IN")}
-                    </div>
+                    {box.originalPrice > box.discountPrice ? (
+                      <div style={{ fontSize: "0.85rem", color: "#94a3b8", textDecoration: "line-through" }}>
+                        MRP: ₹{box.originalPrice.toLocaleString("en-IN")}
+                      </div>
+                    ) : (
+                      <div style={{ fontSize: "0.82rem", color: "#b45309", fontWeight: 700 }}>
+                        Factory Net Rate
+                      </div>
+                    )}
                     <div style={{ fontSize: "1.6rem", fontWeight: 900, color: "#d91b5c" }}>
                       ₹{box.discountPrice.toLocaleString("en-IN")}
                     </div>
